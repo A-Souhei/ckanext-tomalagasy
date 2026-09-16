@@ -1204,6 +1204,7 @@ msgstr "Aseho na afeno ny fitetezana"
 #: ckan/templates/snippets/context/group.html
 #: ckan/templates/snippets/context/user.html ckan/templates/user/read.html
 #: ckan/templates/user/read_base.html ckan/templates/user/snippets/info.html
+#: ckanext/nice_ui/templates/home/index.html
 msgid "Datasets"
 msgstr "Jeux de données"
 
@@ -1215,6 +1216,7 @@ msgstr "Jeux de données"
 #: ckan/templates/user/read_organizations.html
 #: ckan/templates/user/snippets/info.html ckan/views/dataset.py
 #: ckan/views/group.py ckan/views/home.py
+#: ckanext/nice_ui/templates/home/index.html
 msgid "Organizations"
 msgstr "Fikambanana"
 
@@ -1226,6 +1228,7 @@ msgstr "Fikambanana"
 #: ckan/templates/user/read_base.html ckan/templates/user/read_groups.html
 #: ckan/templates/user/snippets/info.html ckan/views/dataset.py
 #: ckan/views/group.py ckan/views/home.py
+#: ckanext/nice_ui/templates/home/index.html
 msgid "Groups"
 msgstr "Vondrona"
 
@@ -1244,6 +1247,7 @@ msgstr "Hitady jeux de données..."
 #: ckan/templates/header.html ckan/templates/home/snippets/search.html
 #: ckan/templates/snippets/simple_search.html
 #: ckan/templates/user/snippets/user_search.html
+#: ckanext/nice_ui/templates/home/index.html
 msgid "Search"
 msgstr "Hitady"
 
@@ -1755,6 +1759,7 @@ msgstr "Hitahiry ny vondrona"
 #: ckan/templates/organization/snippets/organization_item.html
 #: ckanext/example_theme_docs/v10_custom_snippet/templates/snippets/example_theme_most_popular_groups.html
 #: ckanext/example_theme_docs/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html
+#: ckanext/nice_ui/templates/home/index.html
 msgid "{num} Dataset"
 msgid_plural "{num} Datasets"
 msgstr[0] "{num} jeu de données"
@@ -1830,6 +1835,7 @@ msgid "This is a featured section"
 msgstr "Ity dia fizarana asongadina"
 
 #: ckan/templates/home/snippets/search.html
+#: ckanext/nice_ui/templates/home/index.html
 msgid "E.g. environment"
 msgstr "Ohatra: tontolo iainana"
 
@@ -1838,10 +1844,12 @@ msgid "Search data"
 msgstr "Hitady angona"
 
 #: ckan/templates/home/snippets/search.html
+#: ckanext/nice_ui/templates/home/index.html
 msgid "Search datasets"
 msgstr "Hitady jeux de données"
 
 #: ckan/templates/home/snippets/search.html
+#: ckanext/nice_ui/templates/home/index.html
 msgid "Popular tags"
 msgstr "Teny fanalahidy malaza"
 
@@ -2773,6 +2781,10 @@ msgstr "Tambajotra sosialy"
 #: ckanext/example_theme_docs/v19_02_error_handling/assets/example_theme_popover.js
 #: ckanext/example_theme_docs/v20_pubsub/assets/example_theme_popover.js
 #: ckanext/example_theme_docs/v21_custom_jquery_plugin/assets/example_theme_popover.js
+#: ckanext/geoview/templates/dataviewer/geojson.html
+#: ckanext/geoview/templates/dataviewer/openlayers.html
+#: ckanext/geoview/templates/dataviewer/shp.html
+#: ckanext/geoview/templates/dataviewer/wmts.html
 #: ckanext/textview/templates/text_view.html
 msgid "Loading..."
 msgstr "Eo am-pakana..."
@@ -4665,6 +4677,7 @@ msgstr "Fanitsiana jeux de données isan-kerinandro"
 msgid "All dataset revisions"
 msgstr "Fanitsiana jeux de données rehetra"
 
+#: ckanext/nice_ui/templates/home/index.html
 #: ckanext/stats/templates/ckanext/stats/index.html
 msgid "New datasets"
 msgstr "Jeux de données vaovao"
@@ -5084,6 +5097,88 @@ msgstr "URL pejy web"
 #: ckanext/webpageview/theme/templates/webpage_form.html
 msgid "eg. http://example.com  (if blank uses resource url)"
 msgstr "ohatra: http://example.com  (raha foana dia ampiasaina ny URL an'ny ressource)"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Madagascar"
+msgstr "Madagasikara"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Find, preview and download open datasets on farming in Madagascar."
+msgstr "Tadiavo, topazo maso ary sintony ireo angona misokatra momba ny fambolena eto Madagasikara."
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Explore data by region"
+msgstr "Hijery angona isam-paritra"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Datasets tagged with the name of a region appear on the map. Select a region to see its datasets."
+msgstr "Miseho eo amin'ny sarintany ireo jeux de données manana ny anaran'ny faritra iray ho teny fanalahidy. Mifidiana faritra iray hijerena ireo jeux de données ao aminy."
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "From the field"
+msgstr "Avy any an-tsaha"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Data rooted in real farms."
+msgstr "Angona miorim-paka amin'ny toeram-pambolena tena izy."
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Open to everyone."
+msgstr "Misokatra ho an'ny rehetra."
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Harvests, rainfall, soil and market prices, collected on agroecological farms and shared openly."
+msgstr "Vokatra, rotsak'orana, tany ary vidin'entana eny an-tsena, nangonina tany amin'ny toeram-pambolena agroécologique ary zaraina malalaka."
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Agroecology"
+msgstr "Agroécologie"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Nothing is lost. Every resource feeds the next."
+msgstr "Tsy misy very. Ny loharanon-karena tsirairay dia mamelona ny manaraka."
+
+#: ckanext/geoview/plugin.py
+msgid "Map viewer"
+msgstr "Mpijery sarintany"
+
+#: ckanext/geoview/plugin.py
+msgid "GeoJSON"
+msgstr "GeoJSON"
+
+#: ckanext/geoview/plugin.py
+msgid "WMTS"
+msgstr "WMTS"
+
+#: ckanext/geoview/plugin.py
+msgid "Shapefile"
+msgstr "Shapefile"
+
+#: ckanext/geoview/public/js/geojson_preview.js
+#: ckanext/geoview/public/js/shp_preview.js
+#, python-format
+msgid "An error occurred: %(text)s %(error)s"
+msgstr "Nisy hadisoana: %(text)s %(error)s"
+
+#: ckanext/geoview/public/js/geojson_preview.js
+msgid "This GeoJSON file is too big to be previewed. Please download it locally."
+msgstr "Lehibe loatra ity rakitra GeoJSON ity ka tsy azo topimasoina. Sintony azafady."
+
+#: ckanext/geoview/templates/dataviewer/base_form.html
+msgid "Map Type"
+msgstr "Karazana sarintany"
+
+#: ckanext/geoview/templates/dataviewer/base_form.html
+msgid "Custom URL"
+msgstr "URL manokana"
+
+#: ckanext/geoview/templates/dataviewer/openlayers_form.html
+msgid "Display Feature Info on Hover"
+msgstr "Aseho ny fampahalalana momba ny singa rehefa atondro"
+
+#: ckanext/geoview/templates/dataviewer/openlayers_form.html
+msgid "Feature style descriptor"
+msgstr "Famaritana ny endriky ny singa"
 
 #: ckanext/xloader/helpers.py
 msgid "Running"
