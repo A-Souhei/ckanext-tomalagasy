@@ -1,0 +1,4 @@
+__pycache__/
+*.egg-info/
+# Compiled by `python -m ckanext.tomalagasy.catalog build`.
+ckanext/tomalagasy/i18n/

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ckanext-tomalagasy"
+version = "0.1.0"
+description = "Malagasy for CKAN and its extensions, with French where Malagasy has no word"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "AGPL-3.0-or-later"}
+keywords = ["CKAN", "i18n", "Malagasy", "mg"]
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.urls]
+Repository = "https://github.com/A-Souhei/ckanext-tomalagasy"
+
+[project.entry-points."ckan.plugins"]
+tomalagasy = "ckanext.tomalagasy.plugin:ToMalagasyPlugin"
+
+[tool.setuptools.packages.find]
+include = ["ckanext*"]
+
+[tool.setuptools.package-data]
+"ckanext.tomalagasy" = ["translations/*.po", "i18n/**/*", "assets/*", "templates/*.html"]

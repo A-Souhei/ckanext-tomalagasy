@@ -1,0 +1,8 @@
+moment-mg:
+  filters: rjsmin
+  output: tomalagasy/%(version)s_moment-mg.js
+  extra:
+    preload:
+      - vendor/vendor
+  contents:
+    - moment-mg.js

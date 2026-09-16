@@ -1,0 +1,5153 @@
+# Malagasy translation of CKAN and its extensions.
+# French is used where Malagasy has no established word;
+# untranslated strings fall back to CKAN's French catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-tomalagasy 0.1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-09-16 10:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: mg\n"
+"Language-Team: Malagasy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ckan/authz.py
+#, python-format
+msgid "Authorization function not found: %s"
+msgstr "Tsy hita ny fonction fanomezan-dalana: %s"
+
+#: ckan/authz.py ckan/templates/header.html
+msgid "Admin"
+msgstr "Mpitantana"
+
+#: ckan/authz.py
+msgid "Editor"
+msgstr "Mpanitsy"
+
+#: ckan/authz.py
+msgid "Member"
+msgstr "Mpikambana"
+
+#: ckan/lib/datapreview.py ckan/templates/group/edit_base.html
+#: ckan/templates/organization/edit_base.html
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/resource_views.html
+msgid "View"
+msgstr "Fijery"
+
+#: ckan/lib/formatters.py
+msgid "Just now"
+msgstr "Vao izao"
+
+#: ckan/lib/formatters.py
+msgid "{bytes} bytes"
+msgstr "{bytes} octets"
+
+#: ckan/lib/formatters.py
+msgid "{kibibytes} KiB"
+msgstr "{kibibytes} KiB"
+
+#: ckan/lib/formatters.py
+msgid "{mebibytes} MiB"
+msgstr "{mebibytes} MiB"
+
+#: ckan/lib/formatters.py
+msgid "{gibibytes} GiB"
+msgstr "{gibibytes} GiB"
+
+#: ckan/lib/formatters.py
+msgid "{tebibytes} TiB"
+msgstr "{tebibytes} TiB"
+
+#: ckan/lib/formatters.py
+msgid "{n}"
+msgstr "{n}"
+
+#: ckan/lib/formatters.py
+msgid "{k}k"
+msgstr "{k}k"
+
+#: ckan/lib/formatters.py
+msgid "{m}M"
+msgstr "{m}M"
+
+#: ckan/lib/formatters.py
+msgid "{g}G"
+msgstr "{g}G"
+
+#: ckan/lib/formatters.py
+msgid "{t}T"
+msgstr "{t}T"
+
+#: ckan/lib/formatters.py
+msgid "{p}P"
+msgstr "{p}P"
+
+#: ckan/lib/formatters.py
+msgid "{e}E"
+msgstr "{e}E"
+
+#: ckan/lib/formatters.py
+msgid "{z}Z"
+msgstr "{z}Z"
+
+#: ckan/lib/formatters.py
+msgid "{y}Y"
+msgstr "{y}Y"
+
+#: ckan/lib/helpers.py
+msgid "Add {object_type}"
+msgstr "Hanampy {object_type}"
+
+#: ckan/lib/helpers.py
+msgid "{object_type}s"
+msgstr "{object_type}"
+
+#: ckan/lib/helpers.py
+msgid "Create {object_type}"
+msgstr "Hamorona {object_type}"
+
+#: ckan/lib/helpers.py
+msgid "Are you sure you want to delete this {object_type}?"
+msgstr "Tena hofafanao ve ity {object_type} ity?"
+
+#: ckan/lib/helpers.py
+msgid "A little information about my {object_type}..."
+msgstr "Fampahalalana fohy momba ny {object_type} ahy..."
+
+#: ckan/lib/helpers.py
+msgid "Edit {object_type}"
+msgstr "Hanova ny {object_type}"
+
+#: ckan/lib/helpers.py
+msgid "{object_type} Form"
+msgstr "Taratasy famenoana {object_type}"
+
+#: ckan/lib/helpers.py
+msgid "My {object_type}s"
+msgstr "Ny {object_type} ahy"
+
+#: ckan/lib/helpers.py
+msgid "View {object_type}"
+msgstr "Hijery ny {object_type}"
+
+#: ckan/lib/helpers.py
+msgid "My {object_type}"
+msgstr "Ny {object_type} ahy"
+
+#: ckan/lib/helpers.py
+msgid "There are currently no {object_type}s for this site"
+msgstr "Mbola tsy misy {object_type} amin'ity tranonkala ity"
+
+#: ckan/lib/helpers.py
+msgid "There are no {object_type}s associated with this dataset"
+msgstr "Tsy misy {object_type} mifandray amin'ity jeu de données ity"
+
+#: ckan/lib/helpers.py
+msgid "There is no description for this {object_type}"
+msgstr "Tsy misy famaritana ho an'ity {object_type} ity"
+
+#: ckan/lib/helpers.py
+msgid "No {object_type}"
+msgstr "Tsy misy {object_type}"
+
+#: ckan/lib/helpers.py
+msgid "Save {object_type}"
+msgstr "Hitahiry ny {object_type}"
+
+#: ckan/lib/helpers.py
+msgid "Search {object_type}s..."
+msgstr "Hitady {object_type}..."
+
+#: ckan/lib/helpers.py
+msgid "You are not a member of any {object_type}s."
+msgstr "Tsy mpikambana amin'ny {object_type} ianao."
+
+#: ckan/lib/helpers.py
+msgid "Update {object_type}"
+msgstr "Hanavao ny {object_type}"
+
+#: ckan/lib/helpers.py ckanext/xloader/helpers.py
+msgid "Unknown"
+msgstr "Tsy fantatra"
+
+#: ckan/lib/helpers.py
+#: ckanext/activity/templates/snippets/changes/new_resource.html
+msgid "Unnamed resource"
+msgstr "Ressource tsy misy anarana"
+
+#: ckan/lib/mailer.py
+msgid "No recipient email address available!"
+msgstr "Tsy misy adiresy mailaky ny mpandray!"
+
+#: ckan/lib/mailer.py
+msgid "organization"
+msgstr "fikambanana"
+
+#: ckan/lib/mailer.py
+msgid "group"
+msgstr "vondrona"
+
+#: ckan/lib/navl/dictization_functions.py ckan/lib/navl/validators.py
+#: ckan/logic/action/get.py ckan/logic/action/update.py
+#: ckan/logic/validators.py
+msgid "Missing value"
+msgstr "Tsy misy sanda"
+
+#: ckan/lib/navl/validators.py
+#, python-format
+msgid "The input field %(name)s was not expected."
+msgstr "Tsy nampoizina ny saha fampidirana %(name)s."
+
+#: ckan/lib/navl/validators.py
+msgid "Please enter an integer value"
+msgstr "Ampidiro isa manontolo azafady"
+
+#: ckan/lib/navl/validators.py
+msgid "Must be a Unicode string value"
+msgstr "Tsy maintsy ho tady Unicode"
+
+#: ckan/logic/__init__.py ckan/logic/action/__init__.py
+#: ckan/templates/package/resources.html
+#: ckan/templates/package/snippets/resources.html
+#: ckan/templates/snippets/context/dataset.html
+#: ckanext/example_theme_docs/v18_snippet_api/templates/ajax_snippets/example_theme_popover.html
+msgid "Resources"
+msgstr "Ressources"
+
+#: ckan/logic/__init__.py ckan/logic/action/__init__.py
+msgid "Package resource(s) invalid"
+msgstr "Tsy mety ny ressource(s) ao amin'ny jeu de données"
+
+#: ckan/logic/__init__.py ckan/logic/action/__init__.py
+msgid "Extras"
+msgstr "Fanampiny"
+
+#: ckan/logic/__init__.py
+#: ckan/templates/package/snippets/package_basic_fields.html
+#: ckan/templates/snippets/context/dataset.html ckan/views/dataset.py
+#: ckan/views/group.py ckan/views/home.py
+msgid "Tags"
+msgstr "Teny fanalahidy"
+
+#: ckan/logic/converters.py
+#, python-format
+msgid "Tag vocabulary \"%s\" does not exist"
+msgstr "Tsy misy ny voambolana teny fanalahidy \"%s\""
+
+#: ckan/logic/converters.py ckan/logic/validators.py ckan/views/api.py
+#: ckanext/activity/logic/validators.py
+msgid "Not found"
+msgstr "Tsy hita"
+
+#: ckan/logic/converters.py ckan/logic/validators.py
+#: ckan/templates/admin/index.html ckan/templates/group/manage_members.html
+#: ckan/templates/group/members.html
+#: ckan/templates/organization/manage_members.html
+#: ckan/templates/organization/members.html
+#: ckan/templates/package/collaborators/collaborators.html
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "User"
+msgstr "Mpampiasa"
+
+#: ckan/logic/converters.py ckan/logic/validators.py
+#: ckan/templates/package/read_base.html ckan/tests/config/test_middleware.py
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Dataset"
+msgstr "Jeu de données"
+
+#: ckan/logic/converters.py ckan/logic/validators.py ckan/views/group.py
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Group"
+msgstr "Vondrona"
+
+#: ckan/logic/converters.py
+msgid "Could not parse as valid JSON"
+msgstr "Tsy afaka namakiana ho JSON mety"
+
+#: ckan/logic/validators.py
+msgid "An organization must be provided"
+msgstr "Tsy maintsy omena fikambanana"
+
+#: ckan/logic/validators.py
+msgid "You cannot move this dataset to another organization"
+msgstr "Tsy afaka manetsika ity jeu de données ity any amin'ny fikambanana hafa ianao"
+
+#: ckan/logic/validators.py
+msgid "Organization does not exist"
+msgstr "Tsy misy ny fikambanana"
+
+#: ckan/logic/validators.py
+msgid "You cannot add a dataset to this organization"
+msgstr "Tsy afaka manampy jeu de données ao amin'ity fikambanana ity ianao"
+
+#: ckan/logic/validators.py
+msgid "Invalid integer"
+msgstr "Isa manontolo tsy mety"
+
+#: ckan/logic/validators.py
+msgid "Must be a natural number"
+msgstr "Tsy maintsy ho isa voajanahary"
+
+#: ckan/logic/validators.py
+msgid "Must be a positive integer"
+msgstr "Tsy maintsy ho isa manontolo ambony noho ny aotra"
+
+#: ckan/logic/validators.py
+msgid "Must be a float timestamp"
+msgstr "Tsy maintsy ho horodatage isa misy faingo"
+
+#: ckan/logic/validators.py
+msgid "Date format incorrect"
+msgstr "Diso ny endriky ny daty"
+
+#: ckan/logic/validators.py
+msgid "Dataset id already exists"
+msgstr "Efa misy ny id an'ny jeu de données"
+
+#: ckan/logic/validators.py
+msgid "Resource id already exists."
+msgstr "Efa misy ny id an'ny ressource."
+
+#: ckan/logic/validators.py
+msgid "Id already exists"
+msgstr "Efa misy ny id"
+
+#: ckan/logic/validators.py
+msgid "ResourceView id already exists"
+msgstr "Efa misy ny id an'ny ResourceView"
+
+#: ckan/logic/validators.py
+msgid "Resource"
+msgstr "Ressource"
+
+#: ckan/logic/validators.py
+msgid "Invalid id provided"
+msgstr "Tsy mety ny id nomena"
+
+#: ckan/logic/validators.py
+msgid "That group name or ID does not exist."
+msgstr "Tsy misy io anarana na ID vondrona io."
+
+#: ckan/logic/validators.py
+msgid "Names must be strings"
+msgstr "Tsy maintsy ho tady ny anarana"
+
+#: ckan/logic/validators.py
+msgid "That name cannot be used"
+msgstr "Tsy azo ampiasaina io anarana io"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Must be at least %s characters long"
+msgstr "Tsy maintsy litera %s farafahakeliny"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Name must be a maximum of %i characters long"
+msgstr "Tsy tokony hihoatra ny litera %i ny anarana"
+
+#: ckan/logic/validators.py
+msgid "Must be purely lowercase alphanumeric (ascii) characters and these symbols: -_"
+msgstr "Tsy maintsy ho litera kely sy tarehimarika (ascii) ihany ary ireto marika ireto: -_"
+
+#: ckan/logic/validators.py
+msgid "That URL is already in use."
+msgstr "Efa ampiasaina io URL io."
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Name \"%s\" length is less than minimum %s"
+msgstr "Ny halavan'ny anarana \"%s\" dia latsaky ny farafahakeliny %s"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Name \"%s\" length is more than maximum %s"
+msgstr "Ny halavan'ny anarana \"%s\" dia mihoatra ny farafahabetsany %s"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Version must be a maximum of %i characters long"
+msgstr "Tsy tokony hihoatra ny litera %i ny dikan-teny"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Duplicate key \"%s\""
+msgstr "Fanalahidy miverina \"%s\""
+
+#: ckan/logic/validators.py
+msgid "Group name already exists in database"
+msgstr "Efa misy ao amin'ny tahiry angona ny anaran'ny vondrona"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Tag \"%s\" length is less than minimum %s"
+msgstr "Ny halavan'ny teny fanalahidy \"%s\" dia latsaky ny farafahakeliny %s"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Tag \"%s\" length is more than maximum %i"
+msgstr "Ny halavan'ny teny fanalahidy \"%s\" dia mihoatra ny farafahabetsany %i"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Tag \"%s\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")"
+msgstr "Ny teny fanalahidy \"%s\" dia tsy afaka misy afa-tsy litera sy tarehimarika, elanelana (\" \"), tsipika fohy (\"-\"), tsipika ambany (\"_\") na teboka (\".\")"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Tag \"%s\" must not be uppercase"
+msgstr "Tsy tokony ho litera renibe ny teny fanalahidy \"%s\""
+
+#: ckan/logic/validators.py
+msgid "User names must be strings"
+msgstr "Tsy maintsy ho tady ny anaran'ny mpampiasa"
+
+#: ckan/logic/validators.py
+msgid "That login name is not available."
+msgstr "Efa ampiasaina io anarana fidirana io."
+
+#: ckan/logic/validators.py
+msgid "That login name can not be modified."
+msgstr "Tsy azo ovaina io anarana fidirana io."
+
+#: ckan/logic/validators.py
+msgid "Please enter both passwords"
+msgstr "Ampidiro ireo tenimiafina roa azafady"
+
+#: ckan/logic/validators.py
+msgid "Passwords must be strings"
+msgstr "Tsy maintsy ho tady ny tenimiafina"
+
+#: ckan/logic/validators.py
+msgid "Your password must be 8 characters or longer"
+msgstr "Tsy maintsy litera 8 na mihoatra ny tenimiafinao"
+
+#: ckan/logic/validators.py
+msgid "The passwords you entered do not match"
+msgstr "Tsy mitovy ireo tenimiafina nampidirinao"
+
+#: ckan/logic/validators.py
+msgid "Edit not allowed as it looks like spam. Please avoid links in your description."
+msgstr "Tsy azo atao ny fanovana satria toa spam. Aza mampiasa rohy ao amin'ny famaritanao azafady."
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Name must be at least %s characters long"
+msgstr "Tsy maintsy litera %s farafahakeliny ny anarana"
+
+#: ckan/logic/validators.py
+msgid "That vocabulary name is already in use."
+msgstr "Efa ampiasaina io anaran'ny voambolana io."
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Cannot change value of key from %s to %s. This key is read-only"
+msgstr "Tsy azo ovaina avy amin'ny %s ho %s ny sandan'ny fanalahidy. Vakiana ihany ity fanalahidy ity"
+
+#: ckan/logic/validators.py
+msgid "Tag vocabulary was not found."
+msgstr "Tsy hita ny voambolana teny fanalahidy."
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Tag %s does not belong to vocabulary %s"
+msgstr "Ny teny fanalahidy %s dia tsy anisan'ny voambolana %s"
+
+#: ckan/logic/validators.py
+msgid "No tag name"
+msgstr "Tsy misy anaran'ny teny fanalahidy"
+
+#: ckan/logic/validators.py
+#, python-format
+msgid "Tag %s already belongs to vocabulary %s"
+msgstr "Ny teny fanalahidy %s dia efa anisan'ny voambolana %s"
+
+#: ckan/logic/validators.py
+msgid "Please provide a valid URL"
+msgstr "Omeo URL mety azafady"
+
+#: ckan/logic/validators.py
+msgid "role does not exist."
+msgstr "tsy misy io andraikitra io."
+
+#: ckan/logic/validators.py
+msgid "Datasets with no organization can't be private."
+msgstr "Tsy afaka ho manokana ny jeux de données tsy misy fikambanana."
+
+#: ckan/logic/validators.py
+msgid "Not a list"
+msgstr "Tsy lisitra"
+
+#: ckan/logic/validators.py
+msgid "Not a string"
+msgstr "Tsy tady"
+
+#: ckan/logic/validators.py
+msgid "This parent would create a loop in the hierarchy"
+msgstr "Hiteraka boribory ao amin'ny ambaratonga ity ray ity"
+
+#: ckan/logic/validators.py
+msgid "\"filter_fields\" and \"filter_values\" should have the same length"
+msgstr "Tokony hitovy halava ny \"filter_fields\" sy ny \"filter_values\""
+
+#: ckan/logic/validators.py
+msgid "\"filter_fields\" is required when \"filter_values\" is filled"
+msgstr "Ilaina ny \"filter_fields\" rehefa feno ny \"filter_values\""
+
+#: ckan/logic/validators.py
+msgid "\"filter_values\" is required when \"filter_fields\" is filled"
+msgstr "Ilaina ny \"filter_values\" rehefa feno ny \"filter_fields\""
+
+#: ckan/logic/validators.py
+msgid "There is a schema field with the same name"
+msgstr "Misy saha schéma manana anarana mitovy"
+
+#: ckan/logic/validators.py
+msgid "Email {email} is not a valid format"
+msgstr "Tsy manana endrika mety ny mailaka {email}"
+
+#: ckan/logic/validators.py
+msgid "Must be a dict"
+msgstr "Tsy maintsy ho dict"
+
+#: ckan/logic/validators.py
+msgid "The email address '{email}' belongs to a registered user."
+msgstr "An'ny mpampiasa efa voasoratra ny adiresy mailaka '{email}'."
+
+#: ckan/logic/validators.py
+msgid "Value must be one of {}"
+msgstr "Tsy maintsy iray amin'ireto ny sanda: {}"
+
+#: ckan/logic/validators.py
+msgid "The value should be a valid JSON object"
+msgstr "Tokony ho objet JSON mety ny sanda"
+
+#: ckan/logic/validators.py
+msgid "Could not parse the value as a valid JSON object"
+msgstr "Tsy afaka namakiana ho objet JSON mety ny sanda"
+
+#: ckan/logic/validators.py
+msgid "Could not parse extra '{name}' as valid JSON"
+msgstr "Tsy afaka namakiana ho JSON mety ny saha fanampiny '{name}'"
+
+#: ckan/logic/action/__init__.py ckan/views/util.py
+msgid "Missing Value"
+msgstr "Tsy misy sanda"
+
+#: ckan/logic/action/create.py
+msgid "Role must be one of \"{}\""
+msgstr "Tsy maintsy iray amin'ireto ny andraikitra: \"{}\""
+
+#: ckan/logic/action/create.py ckan/views/dataset.py ckan/views/resource.py
+#: ckanext/activity/views.py
+msgid "Dataset not found"
+msgstr "Tsy hita ny jeu de données"
+
+#: ckan/logic/action/create.py ckan/logic/action/delete.py
+#: ckan/logic/auth/update.py ckan/views/dataset.py ckan/views/group.py
+#: ckan/views/user.py
+msgid "User not found"
+msgstr "Tsy hita ny mpampiasa"
+
+#: ckan/logic/action/create.py ckan/logic/action/delete.py
+#: ckan/logic/action/get.py
+msgid "Dataset collaborators not enabled"
+msgstr "Tsy mandeha ny mpiara-miasa amin'ny jeu de données"
+
+#: ckan/logic/action/create.py
+msgid "Trying to create an organization as a group"
+msgstr "Manandrana mamorona fikambanana ho vondrona"
+
+#: ckan/logic/action/create.py
+msgid "Error sending the invite email, the user was not created: {0}"
+msgstr "Nisy hadisoana tamin'ny fandefasana ny mailaka fanasana, tsy noforonina ny mpampiasa: {0}"
+
+#: ckan/logic/action/create.py
+msgid "You must be logged in to follow users"
+msgstr "Tsy maintsy miditra ianao vao afaka manaraka mpampiasa"
+
+#: ckan/logic/action/create.py
+msgid "Error validating the schema of the user to follow."
+msgstr "Hadisoana tamin'ny fanamarinana ny schéma an'ny mpampiasa harahina."
+
+#: ckan/logic/action/create.py
+msgid "You cannot follow yourself"
+msgstr "Tsy afaka manaraka ny tenanao ianao"
+
+#: ckan/logic/action/create.py
+msgid "Error validating the schema of the dataset to follow."
+msgstr "Hadisoana tamin'ny fanamarinana ny schéma an'ny jeu de données harahina."
+
+#: ckan/logic/action/create.py ckan/views/feed.py ckan/views/group.py
+msgid "Organization not found"
+msgstr "Tsy hita ny fikambanana"
+
+#: ckan/logic/action/create.py ckan/views/dataset.py ckan/views/feed.py
+#: ckan/views/group.py ckanext/activity/views.py
+msgid "Group not found"
+msgstr "Tsy hita ny vondrona"
+
+#: ckan/logic/action/create.py
+msgid "User {username} does not exist."
+msgstr "Tsy misy ny mpampiasa {username}."
+
+#: ckan/logic/action/create.py
+msgid "Error validating the schema of the group to follow."
+msgstr "Hadisoana tamin'ny fanamarinana ny schéma an'ny vondrona harahina."
+
+#: ckan/logic/action/delete.py ckan/logic/action/get.py
+msgid "Package not found"
+msgstr "Tsy hita ny jeu de données"
+
+#: ckan/logic/action/delete.py
+msgid "Organization cannot be deleted while it still has datasets"
+msgstr "Tsy azo fafana ny fikambanana raha mbola manana jeux de données"
+
+#: ckan/logic/action/delete.py ckan/logic/action/get.py
+#: ckan/logic/action/update.py
+msgid "id not in data"
+msgstr "tsy ao anatin'ny angona ny id"
+
+#: ckan/logic/action/delete.py ckan/logic/action/get.py
+#: ckan/logic/action/update.py
+#, python-format
+msgid "Could not find vocabulary \"%s\""
+msgstr "Tsy hita ny voambolana \"%s\""
+
+#: ckan/logic/action/delete.py
+#, python-format
+msgid "Could not find tag \"%s\""
+msgstr "Tsy hita ny teny fanalahidy \"%s\""
+
+#: ckan/logic/action/delete.py
+msgid "You must be logged in to unfollow something."
+msgstr "Tsy maintsy miditra ianao vao afaka mitsahatra manaraka zavatra iray."
+
+#: ckan/logic/action/delete.py
+msgid "Error validating the schema of the object to unfollow."
+msgstr "Hadisoana tamin'ny fanamarinana ny schéma an'ny zavatra tsy harahina intsony."
+
+#: ckan/logic/action/get.py
+msgid "Capacity must be one of \"{}\""
+msgstr "Tsy maintsy iray amin'ireto ny andraikitra: \"{}\""
+
+#: ckan/logic/action/get.py
+msgid "Not allowed to retrieve collaborators"
+msgstr "Tsy nahazo alalana haka ny mpiara-miasa"
+
+#: ckan/logic/action/get.py ckan/logic/action/update.py
+msgid "Resource was not found."
+msgstr "Tsy hita ny ressource."
+
+#: ckan/logic/action/get.py
+msgid "Parameter is not an bool"
+msgstr "Tsy booléen ny paramètre"
+
+#: ckan/logic/action/get.py
+msgid "Must be <field>:<value> pair(s)"
+msgstr "Tsy maintsy ho mpivady <field>:<value>"
+
+#: ckan/logic/action/get.py
+msgid "Field \"{field}\" not recognised in resource_search."
+msgstr "Tsy fantatra ao amin'ny resource_search ny saha \"{field}\"."
+
+#: ckan/logic/action/update.py
+msgid "Package was not found."
+msgstr "Tsy hita ny jeu de données."
+
+#: ckan/logic/action/update.py
+msgid "TaskStatus was not found."
+msgstr "Tsy hita ny TaskStatus."
+
+#: ckan/logic/action/update.py
+msgid "Organization was not found."
+msgstr "Tsy hita ny fikambanana."
+
+#: ckan/logic/auth/create.py
+#, python-format
+msgid "User %s not authorized to create packages"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamorona jeux de données"
+
+#: ckan/logic/auth/create.py ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to edit these groups"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ireo vondrona ireo"
+
+#: ckan/logic/auth/create.py
+#, python-format
+msgid "User %s not authorized to add dataset to this organization"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanampy jeu de données ao amin'ity fikambanana ity"
+
+#: ckan/logic/auth/create.py
+msgid "No dataset id provided, cannot check auth."
+msgstr "Tsy nisy id jeu de données nomena, tsy afaka manamarina ny alalana."
+
+#: ckan/logic/auth/create.py ckan/logic/auth/delete.py ckan/logic/auth/get.py
+#: ckan/logic/auth/update.py
+msgid "No package found for this resource, cannot check auth."
+msgstr "Tsy nahitana jeu de données ho an'ity ressource ity, tsy afaka manamarina ny alalana."
+
+#: ckan/logic/auth/create.py
+#, python-format
+msgid "User %s not authorized to create resources on dataset %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamorona ressources ao amin'ny jeu de données %s"
+
+#: ckan/logic/auth/create.py
+#, python-format
+msgid "User %s not authorized to edit these packages"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ireo jeux de données ireo"
+
+#: ckan/logic/auth/create.py
+#, python-format
+msgid "User %s not authorized to create groups"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamorona vondrona"
+
+#: ckan/logic/auth/create.py
+#, python-format
+msgid "User %s not authorized to create organizations"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamorona fikambanana"
+
+#: ckan/logic/auth/create.py
+msgid "User {user} not authorized to create users via the API"
+msgstr "Tsy nahazo alalana hamorona mpampiasa amin'ny alalan'ny API ny mpampiasa {user}"
+
+#: ckan/logic/auth/create.py
+msgid "Not authorized to create users"
+msgstr "Tsy nahazo alalana hamorona mpampiasa"
+
+#: ckan/logic/auth/create.py
+msgid "Group was not found."
+msgstr "Tsy hita ny vondrona."
+
+#: ckan/logic/auth/create.py
+#, python-format
+msgid "User %s not authorized to add members"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanampy mpikambana"
+
+#: ckan/logic/auth/create.py ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to edit group %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ny vondrona %s"
+
+#: ckan/logic/auth/create.py
+#, python-format
+msgid "User %s not authorized to add collaborators to this dataset"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanampy mpiara-miasa ao amin'ity jeu de données ity"
+
+#: ckan/logic/auth/delete.py
+#, python-format
+msgid "User %s not authorized to delete resource %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamafa ny ressource %s"
+
+#: ckan/logic/auth/delete.py ckan/logic/auth/get.py
+msgid "Resource view not found, cannot check auth."
+msgstr "Tsy hita ny fijery ressource, tsy afaka manamarina ny alalana."
+
+#: ckan/logic/auth/delete.py
+#, python-format
+msgid "User %s not authorized to delete relationship %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamafa ny fifandraisana %s"
+
+#: ckan/logic/auth/delete.py
+#, python-format
+msgid "User %s not authorized to delete groups"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamafa vondrona"
+
+#: ckan/logic/auth/delete.py
+#, python-format
+msgid "User %s not authorized to delete group %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamafa ny vondrona %s"
+
+#: ckan/logic/auth/delete.py
+#, python-format
+msgid "User %s not authorized to delete organizations"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamafa fikambanana"
+
+#: ckan/logic/auth/delete.py
+#, python-format
+msgid "User %s not authorized to delete organization %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamafa ny fikambanana %s"
+
+#: ckan/logic/auth/delete.py
+#, python-format
+msgid "User %s not authorized to remove collaborators from this dataset"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanala mpiara-miasa ao amin'ity jeu de données ity"
+
+#: ckan/logic/auth/get.py
+msgid "Not authorized"
+msgstr "Tsy nahazo alalana"
+
+#: ckan/logic/auth/get.py
+#, python-format
+msgid "User %s not authorized to read these packages"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamaky ireo jeux de données ireo"
+
+#: ckan/logic/auth/get.py
+#, python-format
+msgid "User %s not authorized to read package %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamaky ny jeu de données %s"
+
+#: ckan/logic/auth/get.py
+#, python-format
+msgid "User %s not authorized to read resource %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamaky ny ressource %s"
+
+#: ckan/logic/auth/get.py
+#, python-format
+msgid "User %s not authorized to read group %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hamaky ny vondrona %s"
+
+#: ckan/logic/auth/get.py
+#, python-format
+msgid "User %s not authorized to list collaborators from this dataset"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanao lisitry ny mpiara-miasa ao amin'ity jeu de données ity"
+
+#: ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to edit package %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ny jeu de données %s"
+
+#: ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to edit resource %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ny ressource %s"
+
+#: ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to change state of package %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ny toe-javatry ny jeu de données %s"
+
+#: ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to edit organization %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ny fikambanana %s"
+
+#: ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to change state of group %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ny toe-javatry ny vondrona %s"
+
+#: ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to edit permissions of group %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ny alalana ao amin'ny vondrona %s"
+
+#: ckan/logic/auth/update.py
+msgid "Have to be logged in to edit user"
+msgstr "Tsy maintsy miditra vao afaka manova mpampiasa"
+
+#: ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to edit user %s"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanova ny mpampiasa %s"
+
+#: ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to update task_status table"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanavao ny tabilao task_status"
+
+#: ckan/logic/auth/update.py
+#, python-format
+msgid "User %s not authorized to update term_translation table"
+msgstr "Ny mpampiasa %s dia tsy nahazo alalana hanavao ny tabilao term_translation"
+
+#: ckan/model/license.py
+msgid "License not specified"
+msgstr "Tsy voafaritra ny fahazoan-dalana"
+
+#: ckan/model/license.py
+msgid "Open Data Commons Public Domain Dedication and License (PDDL)"
+msgstr "Open Data Commons Public Domain Dedication and License (PDDL)"
+
+#: ckan/model/license.py
+msgid "Open Data Commons Open Database License (ODbL)"
+msgstr "Open Data Commons Open Database License (ODbL)"
+
+#: ckan/model/license.py
+msgid "Open Data Commons Attribution License"
+msgstr "Open Data Commons Attribution License"
+
+#: ckan/model/license.py
+msgid "Creative Commons CCZero"
+msgstr "Creative Commons CCZero"
+
+#: ckan/model/license.py
+msgid "Creative Commons Attribution"
+msgstr "Creative Commons Attribution"
+
+#: ckan/model/license.py
+msgid "Creative Commons Attribution Share-Alike"
+msgstr "Creative Commons Attribution Share-Alike"
+
+#: ckan/model/license.py
+msgid "GNU Free Documentation License"
+msgstr "GNU Free Documentation License"
+
+#: ckan/model/license.py
+msgid "Other (Open)"
+msgstr "Hafa (Misokatra)"
+
+#: ckan/model/license.py
+msgid "Other (Public Domain)"
+msgstr "Hafa (Fananan'ny besinimaro)"
+
+#: ckan/model/license.py
+msgid "Other (Attribution)"
+msgstr "Hafa (Attribution)"
+
+#: ckan/model/license.py
+msgid "UK Open Government Licence (OGL)"
+msgstr "UK Open Government Licence (OGL)"
+
+#: ckan/model/license.py
+msgid "Creative Commons Non-Commercial (Any)"
+msgstr "Creative Commons Non-Commercial (Any)"
+
+#: ckan/model/license.py
+msgid "Other (Non-Commercial)"
+msgstr "Hafa (Tsy ara-barotra)"
+
+#: ckan/model/license.py
+msgid "Other (Not Open)"
+msgstr "Hafa (Tsy misokatra)"
+
+#: ckan/model/package_relationship.py
+#, python-format
+msgid "depends on %s"
+msgstr "miankina amin'ny %s"
+
+#: ckan/model/package_relationship.py
+#, python-format
+msgid "is a dependency of %s"
+msgstr "iankinan'ny %s"
+
+#: ckan/model/package_relationship.py
+#, python-format
+msgid "derives from %s"
+msgstr "avy amin'ny %s"
+
+#: ckan/model/package_relationship.py
+#, python-format
+msgid "has derivation %s"
+msgstr "iavian'ny %s"
+
+#: ckan/model/package_relationship.py
+#, python-format
+msgid "links to %s"
+msgstr "mifandray amin'ny %s"
+
+#: ckan/model/package_relationship.py
+#, python-format
+msgid "is linked from %s"
+msgstr "ifandraisan'ny %s"
+
+#: ckan/model/package_relationship.py
+#, python-format
+msgid "is a child of %s"
+msgstr "zanaky ny %s"
+
+#: ckan/model/package_relationship.py
+#, python-format
+msgid "is a parent of %s"
+msgstr "ray aman-drenin'ny %s"
+
+#: ckan/model/package_relationship.py
+#, python-format
+msgid "has sibling %s"
+msgstr "iray tampo amin'ny %s"
+
+#: ckan/public/base/javascript/modules/confirm-action.js
+#: ckan/public/base/javascript/notify.js
+#: ckan/templates/package/snippets/resource_view.html
+#: ckanext/datastore/assets/js/api-info.js
+msgid "Close"
+msgstr "Hanidy"
+
+#: ckan/public/base/javascript/modules/autocomplete.js
+msgid "Start typing…"
+msgstr "Manomboha manoratra…"
+
+#: ckan/public/base/javascript/modules/autocomplete.js
+msgid "No matches found"
+msgstr "Tsy nahitana mifanaraka"
+
+#: ckan/public/base/javascript/modules/autocomplete.js
+#, python-format
+msgid "Input is too short, must be at least one character"
+msgid_plural "Input is too short, must be at least %(num)d characters"
+msgstr[0] "Fohy loatra ny fampidirana, tsy maintsy litera iray farafahakeliny"
+msgstr[1] "Fohy loatra ny fampidirana, tsy maintsy litera %(num)d farafahakeliny"
+
+#: ckan/public/base/javascript/modules/basic-form.js
+msgid "There are unsaved modifications to this form"
+msgstr "Misy fanovana tsy voatahiry ao amin'ity taratasy ity"
+
+#: ckan/public/base/javascript/modules/confirm-action.js
+msgid "Please Confirm Action"
+msgstr "Hamafiso ny asa azafady"
+
+#: ckan/public/base/javascript/modules/confirm-action.js
+msgid "Are you sure you want to perform this action?"
+msgstr "Tena hanao izany asa izany ve ianao?"
+
+#: ckan/public/base/javascript/modules/confirm-action.js
+#: ckan/templates/user/new_user_form.html
+#: ckan/templates/user/perform_reset.html
+msgid "Confirm"
+msgstr "Hamafisina"
+
+#: ckan/public/base/javascript/modules/confirm-action.js
+#: ckan/public/base/javascript/modules/resource-reorder.js
+#: ckan/public/base/javascript/modules/resource-view-reorder.js
+#: ckan/templates/admin/confirm_reset.html
+#: ckan/templates/group/confirm_delete.html
+#: ckan/templates/group/confirm_delete_member.html
+#: ckan/templates/organization/confirm_delete.html
+#: ckan/templates/organization/confirm_delete_member.html
+#: ckan/templates/package/collaborators/confirm_delete.html
+#: ckan/templates/package/confirm_delete.html
+#: ckan/templates/package/confirm_delete_resource.html
+#: ckan/templates/user/confirm_delete.html
+#: ckanext/xloader/templates/xloader/confirm_datastore_delete.html
+msgid "Cancel"
+msgstr "Hanafoana"
+
+#: ckan/public/base/javascript/modules/image-upload.js
+#: ckan/templates/package/snippets/resource_upload_field.html
+msgid "Link"
+msgstr "Rohy"
+
+#: ckan/public/base/javascript/modules/image-upload.js
+#: ckan/templates/package/snippets/resource_upload_field.html
+msgid "Link to a URL on the internet (you can also link to an API)"
+msgstr "Rohy mankany amin'ny URL eo amin'ny internet (azonao atao koa ny mampifandray amin'ny API)"
+
+#: ckan/public/base/javascript/modules/image-upload.js
+#: ckan/templates/package/snippets/resource_upload_field.html
+msgid "Upload"
+msgstr "Handefa"
+
+#: ckan/public/base/javascript/modules/image-upload.js
+msgid "Please select the file to upload again"
+msgstr "Mifidiana indray ny rakitra halefa azafady"
+
+#: ckan/public/base/javascript/modules/image-upload.js
+#: ckan/templates/group/snippets/group_item.html
+#: ckan/templates/macros/form/custom.html
+#: ckan/templates/package/snippets/resource_upload_field.html
+#: ckan/templates/snippets/search_form.html
+msgid "Remove"
+msgstr "Hanala"
+
+#: ckan/public/base/javascript/modules/image-upload.js
+#: ckan/templates/macros/form/image_upload.html ckanext/imageview/plugin.py
+msgid "Image"
+msgstr "Sary"
+
+#: ckan/public/base/javascript/modules/image-upload.js
+#: ckan/templates/package/snippets/resource_upload_field.html
+msgid "Upload a file on your computer"
+msgstr "Handefa rakitra avy amin'ny solosainao"
+
+#: ckan/public/base/javascript/modules/image-upload.js
+#: ckan/public/base/javascript/modules/slug-preview.js
+#: ckan/templates/group/snippets/group_form.html
+#: ckan/templates/organization/snippets/organization_form.html
+#: ckan/templates/package/snippets/package_basic_fields.html
+#: ckan/templates/package/snippets/resource_form.html
+#: ckan/templates/package/snippets/resource_upload_field.html
+msgid "URL"
+msgstr "URL"
+
+#: ckan/public/base/javascript/modules/image-upload.js
+#: ckan/templates/package/snippets/resource_form.html
+#: ckan/templates/package/snippets/resource_upload_field.html
+msgid "File"
+msgstr "Rakitra"
+
+#: ckan/public/base/javascript/modules/resource-reorder.js
+#: ckan/templates/package/edit_base.html
+msgid "Reorder resources"
+msgstr "Handamina indray ny ressources"
+
+#: ckan/public/base/javascript/modules/resource-reorder.js
+msgid "You can rearrange the resources by dragging them using the arrow icon. Drag the resource to the right and place it to the desired location on the list. When you are done, click the \"Save order\" -button."
+msgstr "Azonao alamina indray ny ressources amin'ny fisintonana azy amin'ny alalan'ny kisary zana-tsipika. Sintony miankavanana ny ressource ary apetraho amin'ny toerana tianao ao amin'ny lisitra. Rehefa vita, tsindrio ny bokotra \"Hitahiry ny filaharana\"."
+
+#: ckan/public/base/javascript/modules/resource-reorder.js
+#: ckan/public/base/javascript/modules/resource-view-reorder.js
+msgid "Save order"
+msgstr "Hitahiry ny filaharana"
+
+#: ckan/public/base/javascript/modules/resource-reorder.js
+#: ckan/public/base/javascript/modules/resource-view-reorder.js
+msgid "Saving..."
+msgstr "Eo am-pitehirizana..."
+
+#: ckan/public/base/javascript/modules/resource-view-filters.js
+#: ckan/templates/package/snippets/view_form_filters.html
+msgid "Add Filter"
+msgstr "Hanampy sivana"
+
+#: ckan/public/base/javascript/modules/resource-view-filters.js
+msgid "Select a field"
+msgstr "Mifidiana saha"
+
+#: ckan/public/base/javascript/modules/resource-view-reorder.js
+msgid "Reorder resource view"
+msgstr "Handamina indray ny fijery ressource"
+
+#: ckan/public/base/javascript/modules/slug-preview.js
+#: ckan/templates/group/edit_base.html ckan/templates/group/manage_members.html
+#: ckan/templates/organization/bulk_process.html
+#: ckan/templates/organization/edit.html
+#: ckan/templates/organization/edit_base.html
+#: ckan/templates/organization/manage_members.html
+#: ckan/templates/package/collaborators/collaborators.html
+#: ckan/templates/package/edit_base.html
+#: ckan/templates/package/resource_edit.html
+#: ckan/templates/package/resource_edit_base.html
+msgid "Edit"
+msgstr "Hanova"
+
+#: ckan/public/base/javascript/modules/table-toggle-more.js
+msgid "Show more"
+msgstr "Aseho bebe kokoa"
+
+#: ckan/public/base/javascript/modules/table-toggle-more.js
+msgid "Hide"
+msgstr "Afeno"
+
+#: ckan/templates/error_document_template.html
+#, python-format
+msgid "Error %(error_code)s"
+msgstr "Hadisoana %(error_code)s"
+
+#: ckan/templates/error_document_template.html
+msgid "You might need to login to access this page."
+msgstr "Mety mila miditra ianao vao afaka mahazo ity pejy ity."
+
+#: ckan/templates/error_document_template.html
+msgid "Click here to login"
+msgstr "Tsindrio eto raha hiditra"
+
+#: ckan/templates/footer.html
+msgid "About {0}"
+msgstr "Mombamomba {0}"
+
+#: ckan/templates/footer.html
+msgid "CKAN API"
+msgstr "API CKAN"
+
+#: ckan/templates/footer.html
+msgid "CKAN Association"
+msgstr "Fikambanana CKAN"
+
+#: ckan/templates/footer.html
+msgid "<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" href=\"http://ckan.org\">CKAN</a>"
+msgstr "<strong>Ampandehanin'ny</strong> <a class=\"hide-text ckan-footer-logo\" href=\"http://ckan.org\">CKAN</a>"
+
+#: ckan/templates/header.html
+msgid "Sysadmin settings"
+msgstr "Fikirana mpitantana ny rafitra"
+
+#: ckan/templates/header.html
+msgid "View profile"
+msgstr "Hijery ny mombamomba"
+
+#: ckan/templates/header.html
+msgid "View dashboard"
+msgstr "Hijery ny tableau de bord"
+
+#: ckan/templates/header.html ckan/templates/user/dashboard.html
+#: ckanext/activity/templates/header.html
+#: ckanext/activity/templates/user/dashboard.html
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: ckan/templates/header.html ckan/templates/user/dashboard.html
+msgid "Profile settings"
+msgstr "Fikirana mombamomba"
+
+#: ckan/templates/header.html
+msgid "Log out"
+msgstr "Hivoaka"
+
+#: ckan/templates/header.html
+msgid "Account"
+msgstr "Kaonty"
+
+#: ckan/templates/header.html ckan/templates/user/logout_first.html
+msgid "Log in"
+msgstr "Hiditra"
+
+#: ckan/templates/header.html ckan/templates/user/new.html
+msgid "Register"
+msgstr "Hisoratra anarana"
+
+#: ckan/templates/header.html
+msgid "Toggle navigation"
+msgstr "Aseho na afeno ny fitetezana"
+
+#: ckan/templates/group/read_base.html ckan/templates/group/snippets/info.html
+#: ckan/templates/header.html ckan/templates/organization/bulk_process.html
+#: ckan/templates/organization/edit_base.html
+#: ckan/templates/organization/read_base.html
+#: ckan/templates/organization/snippets/info.html
+#: ckan/templates/package/snippets/new_package_breadcrumb.html
+#: ckan/templates/snippets/context/group.html
+#: ckan/templates/snippets/context/user.html ckan/templates/user/read.html
+#: ckan/templates/user/read_base.html ckan/templates/user/snippets/info.html
+msgid "Datasets"
+msgstr "Jeux de données"
+
+#: ckan/templates/header.html ckan/templates/organization/edit.html
+#: ckan/templates/organization/edit_base.html
+#: ckan/templates/organization/index.html ckan/templates/organization/new.html
+#: ckan/templates/organization/read_base.html ckan/templates/package/base.html
+#: ckan/templates/user/read_base.html
+#: ckan/templates/user/read_organizations.html
+#: ckan/templates/user/snippets/info.html ckan/views/dataset.py
+#: ckan/views/group.py ckan/views/home.py
+msgid "Organizations"
+msgstr "Fikambanana"
+
+#: ckan/templates/group/edit.html ckan/templates/group/edit_base.html
+#: ckan/templates/group/index.html ckan/templates/group/manage_members.html
+#: ckan/templates/group/members.html ckan/templates/group/new.html
+#: ckan/templates/group/read_base.html ckan/templates/header.html
+#: ckan/templates/package/group_list.html ckan/templates/package/read_base.html
+#: ckan/templates/user/read_base.html ckan/templates/user/read_groups.html
+#: ckan/templates/user/snippets/info.html ckan/views/dataset.py
+#: ckan/views/group.py ckan/views/home.py
+msgid "Groups"
+msgstr "Vondrona"
+
+#: ckan/templates/admin/config.html ckan/templates/group/about.html
+#: ckan/templates/group/read_base.html ckan/templates/header.html
+#: ckan/templates/home/about.html ckan/templates/organization/about.html
+#: ckan/templates/organization/read_base.html
+#: ckan/templates/user/edit_user_form.html
+msgid "About"
+msgstr "Mombamomba"
+
+#: ckan/templates/header.html
+msgid "Search Datasets..."
+msgstr "Hitady jeux de données..."
+
+#: ckan/templates/header.html ckan/templates/home/snippets/search.html
+#: ckan/templates/snippets/simple_search.html
+#: ckan/templates/user/snippets/user_search.html
+msgid "Search"
+msgstr "Hitady"
+
+#: ckan/templates/group/read.html ckan/templates/header.html
+#: ckan/templates/organization/read.html ckan/templates/package/search.html
+#: ckan/templates/snippets/search_form.html
+#: ckanext/tracking/templates/group/read.html
+#: ckanext/tracking/templates/organization/read.html
+#: ckanext/tracking/templates/package/search.html
+msgid "Search datasets..."
+msgstr "Hitady jeux de données..."
+
+#: ckan/templates/header.html ckan/templates/snippets/search_form.html
+msgid "Submit"
+msgstr "Handefa"
+
+#: ckan/templates/page.html
+msgid "Skip to main content"
+msgstr "Mankany amin'ny votoatiny fototra"
+
+#: ckan/templates/page.html
+msgid "Breadcrumb"
+msgstr "Lalam-pitetezana"
+
+#: ckan/templates/admin/base.html
+msgid "Administration"
+msgstr "Fitantanana"
+
+#: ckan/templates/admin/base.html
+msgid "Sysadmins"
+msgstr "Mpitantana ny rafitra"
+
+#: ckan/templates/admin/base.html
+msgid "Config"
+msgstr "Fikirana"
+
+#: ckan/templates/admin/base.html ckan/templates/admin/trash.html
+msgid "Trash"
+msgstr "Fako"
+
+#: ckan/templates/admin/config.html
+msgid "Site Title"
+msgstr "Lohatenin'ny tranonkala"
+
+#: ckan/templates/admin/config.html
+msgid "Custom Stylesheet"
+msgstr "Feuille de style manokana"
+
+#: ckan/templates/admin/config.html
+msgid "Site Tag Line"
+msgstr "Teny filamatry ny tranonkala"
+
+#: ckan/templates/admin/config.html ckan/templates/macros/autoform.html
+msgid "Site logo"
+msgstr "Logon'ny tranonkala"
+
+#: ckan/templates/admin/config.html
+msgid "About page text"
+msgstr "Lahatsoratry ny pejy mombamomba"
+
+#: ckan/templates/admin/config.html
+msgid "Intro Text"
+msgstr "Lahatsoratra fampidirana"
+
+#: ckan/templates/admin/config.html
+msgid "Text on home page"
+msgstr "Lahatsoratra eo amin'ny pejy fandraisana"
+
+#: ckan/templates/admin/config.html
+msgid "Custom CSS"
+msgstr "CSS manokana"
+
+#: ckan/templates/admin/config.html
+msgid "Customisable css inserted into the page header"
+msgstr "CSS azo amboarina ampidirina ao amin'ny lohan'ny pejy"
+
+#: ckan/templates/admin/config.html ckan/templates/admin/confirm_reset.html
+msgid "Are you sure you want to reset the config?"
+msgstr "Tena haverinao amin'ny tany am-boalohany ve ny fikirana?"
+
+#: ckan/templates/admin/config.html
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Reset"
+msgstr "Haverina"
+
+#: ckan/templates/admin/config.html
+msgid "Update Config"
+msgstr "Hanavao ny fikirana"
+
+#: ckan/templates/admin/config.html
+msgid "CKAN config options"
+msgstr "Safidy fikirana CKAN"
+
+#: ckan/templates/admin/config.html
+#, python-format
+msgid "<p><strong>Site Title:</strong> This is the title of this CKAN instance It appears in various places throughout CKAN.</p> <p><strong>Custom Stylesheet:</strong> Define an alternative main CSS file.</p> <p><strong>Site Tag Logo:</strong> This is the logo that appears in the header of all the CKAN instance templates.</p> <p><strong>About:</strong> This text will appear on this CKAN instances <a href=\"%(about_url)s\">about page</a>.</p> <p><strong>Intro Text:</strong> This text will appear on this CKAN instances <a href=\"%(home_url)s\">home page</a> as a welcome to visitors.</p> <p><strong>Custom CSS:</strong> This is a block of CSS that appears in <code>&lt;head&gt;</code> tag of every page. If you wish to customize the templates more fully we recommend <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">reading the documentation</a>.</p>"
+msgstr "<p><strong>Lohatenin'ny tranonkala:</strong> Io no lohatenin'ity CKAN ity. Miseho amin'ny toerana maro ao amin'ny CKAN izy.</p> <p><strong>Feuille de style manokana:</strong> Mamaritra rakitra CSS fototra hafa.</p> <p><strong>Logon'ny tranonkala:</strong> Io no logo miseho eo amin'ny lohan'ny pejy rehetra ao amin'ity CKAN ity.</p> <p><strong>Mombamomba:</strong> Hiseho eo amin'ny <a href=\"%(about_url)s\">pejy mombamomba</a> an'ity CKAN ity ity lahatsoratra ity.</p> <p><strong>Lahatsoratra fampidirana:</strong> Hiseho eo amin'ny <a href=\"%(home_url)s\">pejy fandraisana</a> an'ity CKAN ity ho fandraisana ireo mpitsidika ity lahatsoratra ity.</p> <p><strong>CSS manokana:</strong> Sakana CSS miseho ao amin'ny tag <code>&lt;head&gt;</code> amin'ny pejy tsirairay. Raha te hanamboatra bebe kokoa ny templates ianao dia manoro hevitra anao izahay <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">hamaky ny torolalana</a>.</p>"
+
+#: ckan/templates/admin/confirm_reset.html
+msgid "Confirm Reset"
+msgstr "Hamafiso ny famerenana"
+
+#: ckan/templates/admin/index.html
+msgid "Current Sysadmins"
+msgstr "Mpitantana ny rafitra ankehitriny"
+
+#: ckan/templates/admin/index.html
+msgid "Revoke Sysadmin permission"
+msgstr "Hanaisotra ny alalan'ny mpitantana ny rafitra"
+
+#: ckan/templates/admin/index.html
+msgid "Promote user to Sysadmin"
+msgstr "Hanandratra mpampiasa ho mpitantana ny rafitra"
+
+#: ckan/templates/admin/index.html
+msgid "Promote"
+msgstr "Hanandratra"
+
+#: ckan/templates/admin/index.html
+msgid "Administer CKAN"
+msgstr "Hitantana ny CKAN"
+
+#: ckan/templates/admin/index.html
+#, python-format
+msgid "<p>As a sysadmin user you have full control over this CKAN instance. Proceed with care!</p> <p>For guidance on using sysadmin features, see the CKAN  <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">sysadmin guide</a></p>"
+msgstr "<p>Amin'ny maha mpitantana ny rafitra anao dia manana fahefana feno amin'ity CKAN ity ianao. Mitandrema!</p> <p>Raha mila torolalana momba ny fampiasana ireo fitaovan'ny mpitantana ny rafitra, jereo ny <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">torolalana ho an'ny mpitantana ny rafitra</a> CKAN</p>"
+
+#: ckan/templates/admin/trash.html ckan/views/admin.py
+msgid "Are you sure you want to purge everything?"
+msgstr "Tena hofafanao tanteraka ve ny zava-drehetra?"
+
+#: ckan/templates/admin/trash.html
+msgid "Purge all"
+msgstr "Hamafa tanteraka ny rehetra"
+
+#: ckan/templates/admin/trash.html
+msgid "Purge deleted datasets, organizations or groups forever and irreversibly."
+msgstr "Hamafa mandrakizay sy tsy azo averina ireo jeux de données, fikambanana na vondrona voafafa."
+
+#: ckan/templates/admin/snippets/confirm_delete.html
+#: ckan/templates/group/confirm_delete.html
+#: ckan/templates/group/confirm_delete_member.html
+#: ckan/templates/organization/confirm_delete.html
+#: ckan/templates/organization/confirm_delete_member.html
+#: ckan/templates/package/collaborators/confirm_delete.html
+#: ckan/templates/package/confirm_delete.html
+#: ckan/templates/package/confirm_delete_resource.html
+#: ckan/templates/user/confirm_delete.html
+#: ckanext/xloader/templates/xloader/confirm_datastore_delete.html
+msgid "Confirm Delete"
+msgstr "Hamafiso ny famafana"
+
+#: ckan/templates/admin/snippets/data_type.html
+msgid "Deleted datasets"
+msgstr "Jeux de données voafafa"
+
+#: ckan/templates/admin/snippets/data_type.html
+msgid "Deleted organizations"
+msgstr "Fikambanana voafafa"
+
+#: ckan/templates/admin/snippets/data_type.html
+msgid "Deleted groups"
+msgstr "Vondrona voafafa"
+
+#: ckan/templates/admin/snippets/data_type.html
+msgid "Purge"
+msgstr "Hamafa tanteraka"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Standard"
+msgstr "Mahazatra"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Standard Input"
+msgstr "Saha mahazatra"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Medium"
+msgstr "Antonony"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Medium Width Input"
+msgstr "Saha antonony sakany"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Full"
+msgstr "Feno"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Full Width Input"
+msgstr "Saha feno sakany"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Large"
+msgstr "Lehibe"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Large Input"
+msgstr "Saha lehibe"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Prepend"
+msgstr "Mialoha"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Prepend Input"
+msgstr "Saha misy mialoha"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Custom Field (empty)"
+msgstr "Saha manokana (foana)"
+
+#: ckan/templates/development/snippets/form.html
+#: ckan/templates/snippets/custom_form_fields.html
+msgid "Custom Field"
+msgstr "Saha manokana"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Markdown"
+msgstr "Markdown"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Textarea"
+msgstr "Faritra lahatsoratra"
+
+#: ckan/templates/development/snippets/form.html
+msgid "Select"
+msgstr "Safidy"
+
+#: ckan/templates/emails/invite_user.txt
+#, python-format
+msgid "Dear %(user_name)s, You have been invited to %(site_title)s. A user has already been created for you with the username %(user_name)s. You can change it later. You have been added to the %(group_type)s %(group_title)s with the following role: %(role_name)s. To accept this invite, please reset your password at: %(reset_link)s Have a nice day. -- Message sent by %(site_title)s (%(site_url)s)"
+msgstr "Ry %(user_name)s, Nasaina hiditra ao amin'ny %(site_title)s ianao. Efa namoronana mpampiasa ho anao miaraka amin'ny anaran'ny mpampiasa %(user_name)s. Azonao ovaina any aoriana izany. Nampidirina tao amin'ny %(group_type)s %(group_title)s ianao miaraka amin'ity andraikitra ity: %(role_name)s. Raha hanaiky ity fanasana ity, ovay ny tenimiafinao ao amin'ny: %(reset_link)s Mirary tontolo andro mahafinaritra. -- Hafatra nalefan'ny %(site_title)s (%(site_url)s)"
+
+#: ckan/templates/emails/invite_user_subject.txt
+#, python-format
+msgid "Invite for %(site_title)s"
+msgstr "Fanasana ho an'ny %(site_title)s"
+
+#: ckan/templates/emails/reset_password.txt
+#, python-format
+msgid "Dear %(user_name)s, You have requested your password on %(site_title)s to be reset. Please click the following link to confirm this request: %(reset_link)s Have a nice day. -- Message sent by %(site_title)s (%(site_url)s)"
+msgstr "Ry %(user_name)s, Nangataka ny hanovana ny tenimiafinao ao amin'ny %(site_title)s ianao. Tsindrio ity rohy manaraka ity hanamafisana izany fangatahana izany: %(reset_link)s Mirary tontolo andro mahafinaritra. -- Hafatra nalefan'ny %(site_title)s (%(site_url)s)"
+
+#: ckan/templates/emails/reset_password_subject.txt
+#, python-format
+msgid "Reset your password - %(site_title)s"
+msgstr "Hanova ny tenimiafinao - %(site_title)s"
+
+#: ckan/templates/group/admins.html ckan/templates/organization/admins.html
+msgid "Administrators"
+msgstr "Mpitantana"
+
+#: ckan/templates/group/base_form_page.html
+msgid "Group Form"
+msgstr "Taratasy famenoana vondrona"
+
+#: ckan/templates/group/confirm_delete.html
+msgid "Are you sure you want to delete group - {name}?"
+msgstr "Tena hofafanao ve ny vondrona - {name}?"
+
+#: ckan/templates/group/confirm_delete_member.html
+#: ckan/templates/organization/confirm_delete_member.html
+msgid "Are you sure you want to delete member - {name}?"
+msgstr "Tena hofafanao ve ny mpikambana - {name}?"
+
+#: ckan/templates/group/edit.html ckan/templates/group/edit_base.html
+#: ckan/templates/group/read_base.html ckan/templates/organization/edit.html
+#: ckan/templates/organization/read_base.html
+#: ckan/templates/package/read_base.html ckan/templates/user/edit.html
+#: ckan/templates/user/edit_base.html ckan/templates/user/read_base.html
+msgid "Manage"
+msgstr "Hitantana"
+
+#: ckan/templates/group/edit.html
+msgid "Edit Group"
+msgstr "Hanova ny vondrona"
+
+#: ckan/templates/group/edit_base.html ckan/templates/group/manage_members.html
+#: ckan/templates/group/members.html ckan/templates/group/read_base.html
+#: ckan/templates/group/snippets/info.html
+#: ckan/templates/organization/edit_base.html
+#: ckan/templates/organization/manage_members.html
+#: ckan/templates/organization/members.html
+#: ckan/templates/organization/read_base.html
+#: ckan/templates/organization/snippets/info.html
+msgid "Members"
+msgstr "Mpikambana"
+
+#: ckan/templates/group/followers.html ckan/templates/group/snippets/info.html
+#: ckan/templates/organization/snippets/info.html
+#: ckan/templates/package/followers.html
+#: ckan/templates/package/snippets/info.html
+#: ckan/templates/snippets/context/group.html
+#: ckan/templates/snippets/context/user.html ckan/templates/user/followers.html
+#: ckan/templates/user/snippets/info.html
+#: ckanext/example_theme_docs/v18_snippet_api/templates/ajax_snippets/example_theme_popover.html
+msgid "Followers"
+msgstr "Mpanaraka"
+
+#: ckan/templates/group/index.html ckan/templates/user/dashboard_groups.html
+msgid "Add Group"
+msgstr "Hanampy vondrona"
+
+#: ckan/templates/group/index.html
+msgid "Search groups..."
+msgstr "Hitady vondrona..."
+
+#: ckan/templates/group/index.html ckan/templates/group/read.html
+#: ckan/templates/organization/bulk_process.html
+#: ckan/templates/organization/index.html ckan/templates/organization/read.html
+#: ckan/templates/package/search.html ckan/templates/snippets/search_form.html
+#: ckan/templates/snippets/simple_search.html
+#: ckanext/example_idatasetform/templates/package/search.html
+#: ckanext/tracking/templates/group/read.html
+#: ckanext/tracking/templates/organization/read.html
+#: ckanext/tracking/templates/package/search.html
+msgid "Name Ascending"
+msgstr "Anarana (A-Z)"
+
+#: ckan/templates/group/index.html ckan/templates/group/read.html
+#: ckan/templates/organization/bulk_process.html
+#: ckan/templates/organization/index.html ckan/templates/organization/read.html
+#: ckan/templates/package/search.html ckan/templates/snippets/search_form.html
+#: ckan/templates/snippets/simple_search.html
+#: ckanext/example_idatasetform/templates/package/search.html
+#: ckanext/tracking/templates/group/read.html
+#: ckanext/tracking/templates/organization/read.html
+#: ckanext/tracking/templates/package/search.html
+msgid "Name Descending"
+msgstr "Anarana (Z-A)"
+
+#: ckan/templates/group/index.html
+msgid "There are currently no groups for this site"
+msgstr "Mbola tsy misy vondrona amin'ity tranonkala ity"
+
+#: ckan/templates/group/index.html ckan/templates/organization/index.html
+msgid "How about creating one?"
+msgstr "Hamorona iray ve?"
+
+#: ckan/templates/group/manage_members.html
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/manage_members.html
+#: ckan/templates/organization/member_new.html
+msgid "Add Member"
+msgstr "Hanampy mpikambana"
+
+#: ckan/templates/group/manage_members.html
+#: ckan/templates/organization/manage_members.html
+msgid "CSV"
+msgstr "CSV"
+
+#: ckan/templates/group/manage_members.html
+#: ckan/templates/group/member_new.html ckan/templates/group/members.html
+#: ckan/templates/organization/manage_members.html
+#: ckan/templates/organization/member_new.html
+#: ckan/templates/organization/members.html
+#: ckan/templates/package/collaborators/collaborator_new.html
+#: ckan/templates/package/collaborators/collaborators.html ckan/views/group.py
+msgid "Role"
+msgstr "Andraikitra"
+
+#: ckan/templates/group/manage_members.html
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/manage_members.html
+#: ckan/templates/organization/member_new.html
+msgid "Are you sure you want to delete this member?"
+msgstr "Tena hofafanao ve ity mpikambana ity?"
+
+#: ckan/templates/group/manage_members.html
+#: ckan/templates/group/member_new.html
+#: ckan/templates/group/snippets/group_form.html
+#: ckan/templates/organization/bulk_process.html
+#: ckan/templates/organization/manage_members.html
+#: ckan/templates/organization/member_new.html
+#: ckan/templates/organization/snippets/organization_form.html
+#: ckan/templates/package/collaborators/collaborator_new.html
+#: ckan/templates/package/collaborators/collaborators.html
+#: ckan/templates/package/edit_view.html
+#: ckan/templates/package/snippets/package_form.html
+#: ckan/templates/package/snippets/resource_form.html
+#: ckan/templates/user/edit_user_form.html
+#: ckanext/tabledesigner/templates/tabledesigner/delete_rows.html
+msgid "Delete"
+msgstr "Hamafa"
+
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/member_new.html
+msgid "Back to all members"
+msgstr "Hiverina amin'ny mpikambana rehetra"
+
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/member_new.html
+msgid "Edit Member"
+msgstr "Hanova ny mpikambana"
+
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/member_new.html
+#: ckan/templates/package/collaborators/collaborator_new.html
+msgid "Existing User"
+msgstr "Mpampiasa efa misy"
+
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/member_new.html
+#: ckan/templates/package/collaborators/collaborator_new.html
+msgid "If you wish to add an existing user, search for their username below."
+msgstr "Raha hanampy mpampiasa efa misy ianao, tadiavo eto ambany ny anaran'ny mpampiasa azy."
+
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/member_new.html
+msgid "or"
+msgstr "na"
+
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/member_new.html
+msgid "New User"
+msgstr "Mpampiasa vaovao"
+
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/member_new.html
+msgid "If you wish to invite a new user, enter their email address."
+msgstr "Raha hanasa mpampiasa vaovao ianao, ampidiro ny adiresy mailaka azy."
+
+#: ckan/templates/group/member_new.html
+#: ckanext/datastore/templates/datastore/dictionary.html
+#: ckanext/tabledesigner/templates/tabledesigner/add_row.html
+#: ckanext/tabledesigner/templates/tabledesigner/edit_row.html
+msgid "Save"
+msgstr "Hitahiry"
+
+#: ckan/templates/group/member_new.html
+#: ckan/templates/organization/member_new.html
+msgid "What are roles?"
+msgstr "Inona avy ireo andraikitra?"
+
+#: ckan/templates/group/member_new.html
+msgid "<p><strong>Admin:</strong> Can edit group information, as well as manage organization members.</p> <p><strong>Member:</strong> Can add/remove datasets from groups</p>"
+msgstr "<p><strong>Mpitantana:</strong> Afaka manova ny mombamomba ny vondrona sy mitantana ny mpikambana.</p> <p><strong>Mpikambana:</strong> Afaka manampy na manala jeux de données ao amin'ny vondrona</p>"
+
+#: ckan/templates/group/new.html
+msgid "Create a Group"
+msgstr "Hamorona vondrona"
+
+#: ckan/templates/group/new_group_form.html
+msgid "Update Group"
+msgstr "Hanavao ny vondrona"
+
+#: ckan/templates/group/new_group_form.html
+msgid "Create Group"
+msgstr "Hamorona vondrona"
+
+#: ckan/templates/group/read.html ckan/templates/organization/read.html
+#: ckan/templates/package/search.html
+#: ckanext/example_idatasetform/templates/package/search.html
+#: ckanext/tracking/templates/group/read.html
+#: ckanext/tracking/templates/organization/read.html
+#: ckanext/tracking/templates/package/search.html
+msgid "Relevance"
+msgstr "Mifanaraka indrindra"
+
+#: ckan/templates/group/read.html ckan/templates/organization/bulk_process.html
+#: ckan/templates/organization/read.html ckan/templates/package/search.html
+#: ckan/templates/package/snippets/resource_form.html
+#: ckanext/example_idatasetform/templates/package/search.html
+#: ckanext/tracking/templates/group/read.html
+#: ckanext/tracking/templates/organization/read.html
+#: ckanext/tracking/templates/package/search.html
+msgid "Last Modified"
+msgstr "Novaina farany"
+
+#: ckan/templates/group/snippets/feeds.html
+msgid "Datasets in group: {group}"
+msgstr "Jeux de données ao amin'ny vondrona: {group}"
+
+#: ckan/templates/group/snippets/group_form.html
+#: ckan/templates/organization/snippets/organization_form.html
+#: ckan/templates/package/snippets/resource_form.html ckan/views/group.py
+msgid "Name"
+msgstr "Anarana"
+
+#: ckan/templates/group/snippets/group_form.html
+msgid "My Group"
+msgstr "Ny vondrona ahy"
+
+#: ckan/templates/group/snippets/group_form.html
+#: ckan/templates/organization/snippets/organization_form.html
+#: ckan/templates/package/snippets/package_basic_fields.html
+#: ckan/templates/package/snippets/resource_form.html
+#: ckan/templates/package/snippets/view_form.html
+#: ckanext/datastore/templates/datastore/snippets/dictionary_form.html
+#: ckanext/datastore/templates/datastore/snippets/dictionary_view.html
+#: ckanext/tabledesigner/templates/tabledesigner/view_snippets/choice.html
+msgid "Description"
+msgstr "Famaritana"
+
+#: ckan/templates/group/snippets/group_form.html
+msgid "A little information about my group..."
+msgstr "Fampahalalana fohy momba ny vondrona ahy..."
+
+#: ckan/templates/group/snippets/group_form.html
+msgid "Are you sure you want to delete this Group?"
+msgstr "Tena hofafanao ve ity vondrona ity?"
+
+#: ckan/templates/group/snippets/group_form.html
+msgid "Save Group"
+msgstr "Hitahiry ny vondrona"
+
+#: ckan/templates/group/snippets/group_item.html
+#: ckan/templates/organization/snippets/organization_item.html
+#: ckanext/example_theme_docs/v10_custom_snippet/templates/snippets/example_theme_most_popular_groups.html
+#: ckanext/example_theme_docs/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html
+msgid "{num} Dataset"
+msgid_plural "{num} Datasets"
+msgstr[0] "{num} jeu de données"
+msgstr[1] "{num} jeux de données"
+
+#: ckan/templates/group/snippets/group_item.html
+#: ckan/templates/organization/snippets/organization_item.html
+#: ckanext/example_theme_docs/v10_custom_snippet/templates/snippets/example_theme_most_popular_groups.html
+#: ckanext/example_theme_docs/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html
+msgid "0 Datasets"
+msgstr "Tsy misy jeu de données"
+
+#: ckan/templates/group/snippets/group_item.html
+#: ckan/templates/organization/snippets/organization_item.html
+msgid "{num} Member"
+msgid_plural "{num} Members"
+msgstr[0] "Mpikambana {num}"
+msgstr[1] "Mpikambana {num}"
+
+#: ckan/templates/group/snippets/group_item.html
+#: ckan/templates/organization/snippets/organization_item.html
+msgid "0 Members"
+msgstr "Tsy misy mpikambana"
+
+#: ckan/templates/group/snippets/group_item.html
+msgid "View {name}"
+msgstr "Hijery {name}"
+
+#: ckan/templates/group/snippets/group_item.html
+msgid "Remove dataset from this group"
+msgstr "Esory ao amin'ity vondrona ity ny jeu de données"
+
+#: ckan/templates/group/snippets/helper.html
+msgid "What are Groups?"
+msgstr "Inona no atao hoe vondrona?"
+
+#: ckan/templates/group/snippets/helper.html
+msgid "You can use CKAN Groups to create and manage collections of datasets. This could be to catalogue datasets for a particular project or team, or on a particular theme, or as a very simple way to help people find and search your own published datasets."
+msgstr "Azonao ampiasaina ny vondrona CKAN hamoronana sy hitantanana fitambaran'ny jeux de données. Mety ho fanangonana jeux de données ho an'ny tetikasa na ekipa iray, na momba lohahevitra iray, na fomba tsotra indrindra hanampiana ny olona hahita sy hitady ireo jeux de données navoakanao."
+
+#: ckan/templates/group/snippets/info.html
+#: ckan/templates/organization/bulk_process.html
+#: ckan/templates/organization/snippets/info.html
+#: ckan/templates/package/read.html
+#: ckan/templates/package/snippets/package_basic_fields.html
+#: ckan/templates/snippets/package_item.html
+msgid "Deleted"
+msgstr "Voafafa"
+
+#: ckan/templates/group/snippets/info.html
+#: ckan/templates/organization/snippets/info.html
+msgid "read more"
+msgstr "hamaky bebe kokoa"
+
+#: ckan/templates/home/index.html
+msgid "Welcome"
+msgstr "Tongasoa"
+
+#: ckan/templates/home/snippets/about_text.html
+msgid "<p>CKAN is the world’s leading open-source data portal platform.</p> <p>CKAN is a complete out-of-the-box software solution that makes data accessible and usable – by providing tools to streamline publishing, sharing, finding and using data (including storage of data and provision of robust data APIs). CKAN is aimed at data publishers (national and regional governments, companies and organizations) wanting to make their data open and available.</p> <p>CKAN is used by governments and user groups worldwide and powers a variety of official and community data portals including portals for local, national and international government, such as the UK’s <a href=\"https://data.gov.uk\">data.gov.uk</a> and the United States <a href=\"https://catalog.data.gov/\">catalog.data.gov</a>, the Brazilian <a href=\"https://dados.gov.br/\">dados.gov.br</a>, Dutch and Netherland government portals, as well as city and municipal sites in the US, UK, Argentina, Finland and elsewhere.</p> <p>CKAN: <a href=\"https://ckan.org/\">https://ckan.org/</a><br /> CKAN Showcases: <a href=\"https://ckan.org/showcase\">https://ckan.org/showcase</a><br /> Features overview: <a href=\"https://ckan.org/features/\">https://ckan.org/features/</a></p>"
+msgstr "<p>CKAN no sehatra portail angona open source voalohany eran-tany.</p> <p>CKAN dia rindrambaiko feno vonona hampiasaina izay mahatonga ny angona ho azo idirana sy ampiasaina – amin'ny alalan'ny fitaovana manamora ny famoahana, ny fizarana, ny fitadiavana ary ny fampiasana angona (anisan'izany ny fitehirizana angona sy ny API angona matanjaka). Natao ho an'ireo mpamoaka angona (governemanta nasionaly sy isam-paritra, orinasa ary fikambanana) te hanokatra sy hanome ny angon'izy ireo ny CKAN.</p> <p>Ampiasain'ny governemanta sy vondron'olona maro eran-tany ny CKAN ary izy no mampandeha portail angona ofisialy sy iombonana maro, anisan'izany ny portail an'ny governemanta eo an-toerana, nasionaly ary iraisam-pirenena, toy ny <a href=\"https://data.gov.uk\">data.gov.uk</a> any Angletera sy <a href=\"https://catalog.data.gov/\">catalog.data.gov</a> any Etazonia, <a href=\"https://dados.gov.br/\">dados.gov.br</a> any Brezila, ireo portail an'ny governemanta holandey, ary koa tranonkalan'ny tanàna sy kaominina any Etazonia, Angletera, Arzantina, Finlandy ary any an-kafa.</p> <p>CKAN: <a href=\"https://ckan.org/\">https://ckan.org/</a><br /> Ohatra fampiasana CKAN: <a href=\"https://ckan.org/showcase\">https://ckan.org/showcase</a><br /> Topimaso ireo fahafahana: <a href=\"https://ckan.org/features/\">https://ckan.org/features/</a></p>"
+
+#: ckan/templates/home/snippets/promoted.html
+msgid "Welcome to CKAN"
+msgstr "Tongasoa eto amin'ny CKAN"
+
+#: ckan/templates/home/snippets/promoted.html
+msgid "This is a nice introductory paragraph about CKAN or the site in general. We don't have any copy to go here yet but soon we will"
+msgstr "Ity dia andalana fampidirana momba ny CKAN na ny tranonkala amin'ny ankapobeny. Mbola tsy misy lahatsoratra eto, fa ho avy tsy ho ela."
+
+#: ckan/templates/home/snippets/promoted.html
+msgid "This is a featured section"
+msgstr "Ity dia fizarana asongadina"
+
+#: ckan/templates/home/snippets/search.html
+msgid "E.g. environment"
+msgstr "Ohatra: tontolo iainana"
+
+#: ckan/templates/home/snippets/search.html
+msgid "Search data"
+msgstr "Hitady angona"
+
+#: ckan/templates/home/snippets/search.html
+msgid "Search datasets"
+msgstr "Hitady jeux de données"
+
+#: ckan/templates/home/snippets/search.html
+msgid "Popular tags"
+msgstr "Teny fanalahidy malaza"
+
+#: ckan/templates/macros/form/checkbox.html
+#: ckan/templates/macros/form/input_block.html
+msgid "This field is required"
+msgstr "Tsy maintsy fenoina ity saha ity"
+
+#: ckan/templates/macros/form/custom.html
+msgid "Key"
+msgstr "Fanalahidy"
+
+#: ckan/templates/macros/form/custom.html
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/additional_info.html
+#: ckan/templates/snippets/additional_info.html
+msgid "Value"
+msgstr "Sanda"
+
+#: ckan/templates/macros/form/errors.html
+msgid "The form contains invalid entries:"
+msgstr "Misy fampidirana diso ao amin'ny taratasy:"
+
+#: ckan/templates/macros/form/image_upload.html
+msgid "http://example.com/my-image.jpg"
+msgstr "http://example.com/my-image.jpg"
+
+#: ckan/templates/macros/form/image_upload.html
+msgid "Image URL"
+msgstr "URL sary"
+
+#: ckan/templates/macros/form/image_upload.html
+#: ckan/templates/package/snippets/resource_upload_field.html
+msgid "Clear Upload"
+msgstr "Hanafoana ny rakitra nalefa"
+
+#: ckan/templates/macros/form/input_block.html
+msgid "Custom"
+msgstr "Manokana"
+
+#: ckan/templates/macros/form/markdown.html
+#, python-format
+msgid "You can use <a href=\"#markdown\" title=\"Markdown quick reference\" data-bs-toggle=\"popover\" data-bs-content=\"%(markdown_tooltip)s\" data-bs-html=\"true\">Markdown formatting</a> here"
+msgstr "Azonao ampiasaina eto ny <a href=\"#markdown\" title=\"Torolalana fohy Markdown\" data-bs-toggle=\"popover\" data-bs-content=\"%(markdown_tooltip)s\" data-bs-html=\"true\">fandrafetana Markdown</a>"
+
+#: ckan/templates/macros/form/required_message.html
+msgid "Required field"
+msgstr "Saha tsy maintsy fenoina"
+
+#: ckan/templates/organization/base_form_page.html
+msgid "Organization Form"
+msgstr "Taratasy famenoana fikambanana"
+
+#: ckan/templates/organization/bulk_process.html
+msgid "Edit datasets"
+msgstr "Hanova jeux de données"
+
+#: ckan/templates/organization/bulk_process.html
+msgid " found for \"{query}\""
+msgstr " hita ho an'ny \"{query}\""
+
+#: ckan/templates/organization/bulk_process.html
+msgid "Sorry no datasets found for \"{query}\""
+msgstr "Miala tsiny, tsy nahitana jeu de données ho an'ny \"{query}\""
+
+#: ckan/templates/organization/bulk_process.html
+msgid "Make public"
+msgstr "Atao ho an'ny rehetra"
+
+#: ckan/templates/organization/bulk_process.html
+msgid "Make private"
+msgstr "Atao manokana"
+
+#: ckan/templates/organization/bulk_process.html
+#: ckan/templates/package/read.html ckan/templates/snippets/package_item.html
+msgid "Draft"
+msgstr "Drafitra"
+
+#: ckan/templates/organization/bulk_process.html
+#: ckan/templates/package/read.html
+#: ckan/templates/package/snippets/package_basic_fields.html
+#: ckan/templates/snippets/package_item.html
+#: ckan/templates/snippets/private.html ckan/templates/user/snippets/info.html
+msgid "Private"
+msgstr "Manokana"
+
+#: ckan/templates/organization/bulk_process.html
+msgid "This organization has no datasets associated to it"
+msgstr "Tsy manana jeu de données mifandray aminy ity fikambanana ity"
+
+#: ckan/templates/organization/confirm_delete.html
+msgid "Are you sure you want to delete organization - {name}?"
+msgstr "Tena hofafanao ve ny fikambanana - {name}?"
+
+#: ckan/templates/organization/edit.html
+msgid "Edit Organization"
+msgstr "Hanova ny fikambanana"
+
+#: ckan/templates/organization/index.html
+#: ckan/templates/user/dashboard_organizations.html
+msgid "Add Organization"
+msgstr "Hanampy fikambanana"
+
+#: ckan/templates/organization/index.html
+msgid "Search organizations..."
+msgstr "Hitady fikambanana..."
+
+#: ckan/templates/organization/index.html
+msgid "There are currently no organizations for this site"
+msgstr "Mbola tsy misy fikambanana amin'ity tranonkala ity"
+
+#: ckan/templates/organization/manage_members.html
+#: ckan/templates/organization/members.html
+msgid "{count} member"
+msgid_plural "{count} members"
+msgstr[0] "mpikambana {count}"
+msgstr[1] "mpikambana {count}"
+
+#: ckan/templates/organization/member_new.html
+#: ckan/templates/package/collaborators/collaborator_new.html
+#: ckan/templates/user/edit_user_form.html
+#: ckan/templates/user/logout_first.html ckan/templates/user/new_user_form.html
+#: ckan/templates/user/perform_reset.html
+#: ckan/templates/user/snippets/info.html ckan/views/group.py
+msgid "Username"
+msgstr "Anaran'ny mpampiasa"
+
+#: ckan/templates/organization/member_new.html
+msgid "Email address"
+msgstr "Adiresy mailaka"
+
+#: ckan/templates/organization/member_new.html
+msgid "Update Member"
+msgstr "Hanavao ny mpikambana"
+
+#: ckan/templates/organization/member_new.html
+msgid "<p><strong>Admin:</strong> Can add/edit and delete datasets, as well as manage organization members.</p> <p><strong>Editor:</strong> Can add and edit datasets, but not manage organization members.</p> <p><strong>Member:</strong> Can view the organization's private datasets, but not add new datasets.</p>"
+msgstr "<p><strong>Mpitantana:</strong> Afaka manampy, manova ary mamafa jeux de données, sy mitantana ny mpikambana ao amin'ny fikambanana.</p> <p><strong>Mpanitsy:</strong> Afaka manampy sy manova jeux de données, saingy tsy afaka mitantana ny mpikambana ao amin'ny fikambanana.</p> <p><strong>Mpikambana:</strong> Afaka mijery ireo jeux de données manokan'ny fikambanana, saingy tsy afaka manampy jeux de données vaovao.</p>"
+
+#: ckan/templates/organization/new.html
+msgid "Create an Organization"
+msgstr "Hamorona fikambanana"
+
+#: ckan/templates/organization/new_organization_form.html
+msgid "Update Organization"
+msgstr "Hanavao ny fikambanana"
+
+#: ckan/templates/organization/new_organization_form.html
+msgid "Create Organization"
+msgstr "Hamorona fikambanana"
+
+#: ckan/templates/organization/snippets/feeds.html
+msgid "Datasets in organization: {group}"
+msgstr "Jeux de données ao amin'ny fikambanana: {group}"
+
+#: ckan/templates/organization/snippets/helper.html
+msgid "What are Organizations?"
+msgstr "Inona no atao hoe fikambanana?"
+
+#: ckan/templates/organization/snippets/helper.html
+msgid "CKAN Organizations are used to create, manage and publish collections of datasets. Users can have different roles within an Organization, depending on their level of authorisation to create, edit and publish."
+msgstr "Ampiasaina hamoronana, hitantanana ary hamoahana fitambaran'ny jeux de données ny fikambanana CKAN. Mety hanana andraikitra samihafa ao anatin'ny fikambanana ny mpampiasa, arakaraka ny haavon'ny alalana ananany hamorona, hanova ary hamoaka."
+
+#: ckan/templates/organization/snippets/info.html
+msgid "There is no description for this organization"
+msgstr "Tsy misy famaritana ho an'ity fikambanana ity"
+
+#: ckan/templates/organization/snippets/organization_form.html
+msgid "My Organization"
+msgstr "Ny fikambanana ahy"
+
+#: ckan/templates/organization/snippets/organization_form.html
+msgid "A little information about my organization..."
+msgstr "Fampahalalana fohy momba ny fikambanana ahy..."
+
+#: ckan/templates/organization/snippets/organization_form.html
+msgid "Are you sure you want to delete this Organization? Note*: Deleting cannot be performed while public or private datasets belong to this organization."
+msgstr "Tena hofafanao ve ity fikambanana ity? Fanamarihana*: Tsy azo fafana izy raha mbola misy jeux de données ho an'ny rehetra na manokana an'ity fikambanana ity."
+
+#: ckan/templates/organization/snippets/organization_form.html
+msgid "Save Organization"
+msgstr "Hitahiry ny fikambanana"
+
+#: ckan/templates/organization/snippets/organization_item.html
+msgid "View {organization_name}"
+msgstr "Hijery {organization_name}"
+
+#: ckan/templates/package/base.html ckan/templates/package/new.html
+#: ckan/templates/package/snippets/new_package_breadcrumb.html
+#: ckan/templates/package/snippets/stages.html
+msgid "Create Dataset"
+msgstr "Hamorona jeu de données"
+
+#: ckan/templates/package/base_form_page.html
+msgid "What are datasets?"
+msgstr "Inona no atao hoe jeu de données?"
+
+#: ckan/templates/package/base_form_page.html
+msgid "A CKAN Dataset is a collection of data resources (such as files), together with a description and other information, at a fixed URL. Datasets are what users see when searching for data."
+msgstr "Ny jeu de données CKAN dia fitambaran'ny ressources angona (toy ny rakitra), miaraka amin'ny famaritana sy fampahalalana hafa, amin'ny URL raikitra. Ny jeux de données no hitan'ny mpampiasa rehefa mitady angona izy."
+
+#: ckan/templates/package/confirm_delete.html
+msgid "Are you sure you want to delete dataset - {name}?"
+msgstr "Tena hofafanao ve ny jeu de données - {name}?"
+
+#: ckan/templates/package/confirm_delete_resource.html
+msgid "Are you sure you want to delete resource - {name}?"
+msgstr "Tena hofafanao ve ny ressource - {name}?"
+
+#: ckan/templates/package/edit_base.html
+msgid "View dataset"
+msgstr "Hijery ny jeu de données"
+
+#: ckan/templates/package/edit_base.html
+msgid "Edit metadata"
+msgstr "Hanova ny métadonnées"
+
+#: ckan/templates/package/collaborators/collaborators.html
+#: ckan/templates/package/edit_base.html
+msgid "Collaborators"
+msgstr "Mpiara-miasa"
+
+#: ckan/templates/package/edit_view.html
+msgid "Edit view"
+msgstr "Hanova ny fijery"
+
+#: ckan/templates/package/edit_view.html ckan/templates/package/new_view.html
+#: ckan/templates/package/snippets/resource_item.html
+msgid "Preview"
+msgstr "Topimaso"
+
+#: ckan/templates/package/edit_view.html
+msgid "Update"
+msgstr "Hanavao"
+
+#: ckan/templates/package/group_list.html
+msgid "Associate this group with this dataset"
+msgstr "Ampifandraisina amin'ity jeu de données ity ity vondrona ity"
+
+#: ckan/templates/package/group_list.html
+msgid "Add to group"
+msgstr "Hampiditra ao amin'ny vondrona"
+
+#: ckan/templates/package/group_list.html
+msgid "There are no groups associated with this dataset"
+msgstr "Tsy misy vondrona mifandray amin'ity jeu de données ity"
+
+#: ckan/templates/package/new_package_form.html
+msgid "Update Dataset"
+msgstr "Hanavao ny jeu de données"
+
+#: ckan/templates/package/new_resource.html
+msgid "Add data to the dataset"
+msgstr "Hanampy angona ao amin'ny jeu de données"
+
+#: ckan/templates/package/new_resource.html
+#: ckan/templates/package/new_resource_not_draft.html
+msgid "Add New Resource"
+msgstr "Hanampy ressource vaovao"
+
+#: ckan/templates/package/new_resource_not_draft.html
+msgid "Add resource"
+msgstr "Hanampy ressource"
+
+#: ckan/templates/package/new_resource_not_draft.html
+msgid "New resource"
+msgstr "Ressource vaovao"
+
+#: ckan/templates/package/new_view.html
+msgid "Add view"
+msgstr "Hanampy fijery"
+
+#: ckan/templates/package/new_view.html
+#: ckan/templates/package/snippets/resource_form.html
+msgid "Add"
+msgstr "Hanampy"
+
+#: ckan/templates/package/resource_edit_base.html
+msgid "View resource"
+msgstr "Hijery ny ressource"
+
+#: ckan/templates/package/resource_edit_base.html
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/resource_item.html
+#: ckan/templates/package/snippets/resources.html
+msgid "Edit resource"
+msgstr "Hanova ny ressource"
+
+#: ckan/templates/package/resource_edit_base.html
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/resource_item.html
+#: ckan/templates/package/snippets/resources.html
+msgid "Views"
+msgstr "Fijery"
+
+#: ckan/templates/package/resource_read.html
+msgid "API Endpoint"
+msgstr "Point d'accès API"
+
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/resource_item.html
+msgid "Go to resource"
+msgstr "Handeha any amin'ny ressource"
+
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/resource_item.html
+msgid "Download"
+msgstr "Hisintona"
+
+#: ckan/templates/package/resource_read.html
+msgid "URL:"
+msgstr "URL:"
+
+#: ckan/templates/package/resource_read.html
+msgid "Dataset description:"
+msgstr "Famaritana ny jeu de données:"
+
+#: ckan/templates/package/resource_read.html
+#, python-format
+msgid "Source: <a href=\"%(url)s\">%(dataset)s</a>"
+msgstr "Loharano: <a href=\"%(url)s\">%(dataset)s</a>"
+
+#: ckan/templates/package/resource_read.html
+msgid "There are no views created for this resource yet."
+msgstr "Mbola tsy misy fijery noforonina ho an'ity ressource ity."
+
+#: ckan/templates/package/resource_read.html
+msgid "Not seeing the views you were expecting?"
+msgstr "Tsy hitanao ve ireo fijery nantenainao?"
+
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/resource_view.html
+msgid "Click here for more information."
+msgstr "Tsindrio eto raha mila fanazavana fanampiny."
+
+#: ckan/templates/package/resource_read.html
+msgid "Here are some reasons you may not be seeing expected views:"
+msgstr "Ireto misy antony mety tsy ahitanao ireo fijery nantenaina:"
+
+#: ckan/templates/package/resource_read.html
+msgid "No view has been created that is suitable for this resource"
+msgstr "Tsy mbola nisy fijery mety amin'ity ressource ity noforonina"
+
+#: ckan/templates/package/resource_read.html
+msgid "The site administrators may not have enabled the relevant view plugins"
+msgstr "Mety tsy mbola nampandeha ireo plugins fijery ilaina ny mpitantana ny tranonkala"
+
+#: ckan/templates/package/resource_read.html
+msgid "If a view requires the DataStore, the DataStore plugin may not be enabled, or the data may not have been pushed to the DataStore, or the DataStore hasn't finished processing the data yet"
+msgstr "Raha mila ny DataStore ny fijery iray, mety tsy mandeha ny plugin DataStore, na mbola tsy nalefa tany amin'ny DataStore ny angona, na mbola tsy vita ny fikirakirana ny angona ao amin'ny DataStore"
+
+#: ckan/templates/package/resource_read.html
+msgid "Additional Information"
+msgstr "Fampahalalana fanampiny"
+
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/additional_info.html
+#: ckan/templates/snippets/additional_info.html
+msgid "Field"
+msgstr "Saha"
+
+#: ckan/templates/package/resource_read.html
+#: ckanext/datatablesview/templates/datatables/datatables_view.html
+msgid "Data last updated"
+msgstr "Fanavaozana farany ny angona"
+
+#: ckan/templates/package/resource_read.html
+#: ckanext/activity/templates/snippets/stream.html
+#: ckanext/datatablesview/templates/datatables/datatables_view.html
+msgid "unknown"
+msgstr "tsy fantatra"
+
+#: ckan/templates/package/resource_read.html
+#: ckanext/datatablesview/templates/datatables/datatables_view.html
+msgid "Metadata last updated"
+msgstr "Fanavaozana farany ny métadonnées"
+
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/additional_info.html
+#: ckanext/datatablesview/templates/datatables/datatables_view.html
+msgid "Created"
+msgstr "Noforonina"
+
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/resource_form.html
+#: ckan/templates/package/snippets/resource_info.html
+msgid "Format"
+msgstr "Endrika"
+
+#: ckan/templates/package/resource_read.html
+#: ckan/templates/package/snippets/package_basic_fields.html
+#: ckan/templates/snippets/license.html
+msgid "License"
+msgstr "Fahazoan-dalana"
+
+#: ckan/templates/package/resource_views.html
+msgid "New view"
+msgstr "Fijery vaovao"
+
+#: ckan/templates/package/resource_views.html
+msgid "This resource has no views"
+msgstr "Tsy manana fijery ity ressource ity"
+
+#: ckan/templates/package/resources.html
+#: ckan/templates/package/snippets/resources_list.html
+#, python-format
+msgid "<p class=\"empty\">This dataset has no data, <a href=\"%(url)s\">why not add some?</a></p>"
+msgstr "<p class=\"empty\">Tsy misy angona ity jeu de données ity, <a href=\"%(url)s\">maninona raha manampy?</a></p>"
+
+#: ckan/templates/package/search.html
+msgid "API"
+msgstr "API"
+
+#: ckan/templates/package/search.html
+msgid "API Docs"
+msgstr "Torolalana API"
+
+#: ckan/templates/package/search.html
+#, python-format
+msgid "You can also access this registry using the %(api_link)s (see %(api_doc_link)s)."
+msgstr "Azonao idirana koa ity rejisitra ity amin'ny alalan'ny %(api_link)s (jereo ny %(api_doc_link)s)."
+
+#: ckan/templates/package/view_edit_base.html
+msgid "All views"
+msgstr "Fijery rehetra"
+
+#: ckan/templates/package/view_edit_base.html
+msgid "View view"
+msgstr "Hijery ny fijery"
+
+#: ckan/templates/package/view_edit_base.html
+msgid "View preview"
+msgstr "Topimason'ny fijery"
+
+#: ckan/templates/package/collaborators/collaborator_new.html
+msgid "Edit Collaborator"
+msgstr "Hanova ny mpiara-miasa"
+
+#: ckan/templates/package/collaborators/collaborator_new.html
+msgid "Add Collaborator"
+msgstr "Hanampy mpiara-miasa"
+
+#: ckan/templates/package/collaborators/collaborator_new.html
+msgid "Back to all collaborators"
+msgstr "Hiverina amin'ny mpiara-miasa rehetra"
+
+#: ckan/templates/package/collaborators/collaborator_new.html
+#: ckan/templates/package/collaborators/collaborators.html
+msgid "Are you sure you want to delete this collaborator?"
+msgstr "Tena hofafanao ve ity mpiara-miasa ity?"
+
+#: ckan/templates/package/collaborators/collaborator_new.html
+msgid "Update Collaborator"
+msgstr "Hanavao ny mpiara-miasa"
+
+#: ckan/templates/package/collaborators/collaborator_new.html
+msgid "What are the available roles?"
+msgstr "Inona avy ireo andraikitra misy?"
+
+#: ckan/templates/package/collaborators/collaborator_new.html
+msgid "<p><strong>Admin:</strong> In addition to managing the dataset, admins can add and remove collaborators from a dataset.</p>"
+msgstr "<p><strong>Mpitantana:</strong> Ankoatra ny fitantanana ny jeu de données, afaka manampy sy manala mpiara-miasa ao amin'ny jeu de données ny mpitantana.</p>"
+
+#: ckan/templates/package/collaborators/collaborator_new.html
+msgid "<p><strong>Editor:</strong> Editors can edit the dataset and its resources, as well accessing the dataset if private.</p> <p><strong>Member:</strong> Members can access the dataset if private, but not edit it.</p>"
+msgstr "<p><strong>Mpanitsy:</strong> Afaka manova ny jeu de données sy ireo ressources ao aminy ny mpanitsy, ary afaka miditra ao amin'ny jeu de données na dia manokana aza izy.</p> <p><strong>Mpikambana:</strong> Afaka miditra ao amin'ny jeu de données manokana ny mpikambana, saingy tsy afaka manova azy.</p>"
+
+#: ckan/templates/package/collaborators/collaborators.html
+msgid "Add Collaborators"
+msgstr "Hanampy mpiara-miasa"
+
+#: ckan/templates/package/collaborators/collaborators.html
+msgid "{count} collaborator"
+msgid_plural "{count} collaborators"
+msgstr[0] "mpiara-miasa {count}"
+msgstr[1] "mpiara-miasa {count}"
+
+#: ckan/templates/package/collaborators/confirm_delete.html
+msgid "Are you sure you want to delete collaborator - {name}?"
+msgstr "Tena hofafanao ve ny mpiara-miasa - {name}?"
+
+#: ckan/templates/package/snippets/additional_info.html
+#: ckan/templates/snippets/additional_info.html
+msgid "Additional Info"
+msgstr "Fampahalalana fanampiny"
+
+#: ckan/templates/package/snippets/additional_info.html
+#: ckan/templates/package/snippets/package_metadata_fields.html
+msgid "Source"
+msgstr "Loharano"
+
+#: ckan/templates/package/snippets/additional_info.html
+#: ckan/templates/package/snippets/package_metadata_fields.html
+msgid "Author"
+msgstr "Mpanoratra"
+
+#: ckan/templates/package/snippets/additional_info.html
+#: ckan/templates/package/snippets/package_metadata_fields.html
+msgid "Maintainer"
+msgstr "Mpikarakara"
+
+#: ckan/templates/package/snippets/additional_info.html
+#: ckan/templates/package/snippets/package_metadata_fields.html
+msgid "Version"
+msgstr "Dikan-teny"
+
+#: ckan/templates/package/snippets/additional_info.html
+#: ckan/templates/package/snippets/package_basic_fields.html
+#: ckan/templates/user/snippets/info.html
+msgid "State"
+msgstr "Toe-javatra"
+
+#: ckan/templates/package/snippets/additional_info.html
+msgid "Last Updated"
+msgstr "Nohavaozina farany"
+
+#: ckan/templates/package/snippets/cannot_create_package.html
+msgid "Before you can create a dataset you need to create an organization."
+msgstr "Alohan'ny hamoronanao jeu de données dia tsy maintsy mamorona fikambanana ianao."
+
+#: ckan/templates/package/snippets/cannot_create_package.html
+msgid "Create a new organization"
+msgstr "Hamorona fikambanana vaovao"
+
+#: ckan/templates/package/snippets/cannot_create_package.html
+msgid "There are no organizations to which you can assign this dataset."
+msgstr "Tsy misy fikambanana ahafahanao manome ity jeu de données ity."
+
+#: ckan/templates/package/snippets/cannot_create_package.html
+msgid "Ask a system administrator to create an organization before you can continue."
+msgstr "Angataho ny mpitantana ny rafitra hamorona fikambanana alohan'ny hanohizanao."
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+#: ckan/templates/package/snippets/view_form.html
+msgid "Title"
+msgstr "Lohateny"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "eg. A descriptive title"
+msgstr "ohatra: Lohateny mamaritra"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "eg. my-dataset"
+msgstr "ohatra: angona-ahy"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "eg. Some useful notes about the data"
+msgstr "ohatra: Fanamarihana ilaina momba ny angona"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "eg. economy, mental health, government"
+msgstr "ohatra: toe-karena, fahasalamana ara-tsaina, governemanta"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "Please select the license"
+msgstr "Mifidiana fahazoan-dalana azafady"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "License definitions and additional information can be found at <a href=\"http://opendefinition.org/licenses/\">opendefinition.org</a>"
+msgstr "Ny famaritana ireo fahazoan-dalana sy fampahalalana fanampiny dia hita ao amin'ny <a href=\"http://opendefinition.org/licenses/\">opendefinition.org</a>"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "Organization"
+msgstr "Fikambanana"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "No Organization"
+msgstr "Tsy misy fikambanana"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "Visibility"
+msgstr "Fahitana"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+msgid "Public"
+msgstr "Ho an'ny rehetra"
+
+#: ckan/templates/package/snippets/package_basic_fields.html
+#: ckanext/xloader/helpers.py
+msgid "Active"
+msgstr "Mavitrika"
+
+#: ckan/templates/package/snippets/package_form.html
+msgid "The <i>data license</i> you select above only applies to the contents of any resource files that you add to this dataset. By submitting this form, you agree to release the <i>metadata</i> values that you enter into the form under the <a href=\"http://opendatacommons.org/licenses/odbl/1-0/\">Open Database License</a>."
+msgstr "Ny <i>fahazoan-dalana amin'ny angona</i> nofidinao etsy ambony dia mihatra amin'ny votoatin'ireo rakitra ressource ampidirinao ao amin'ity jeu de données ity ihany. Amin'ny fandefasana ity taratasy ity, dia manaiky ianao ny hamoaka ireo <i>métadonnées</i> ampidirinao ao anaty taratasy araka ny <a href=\"http://opendatacommons.org/licenses/odbl/1-0/\">Open Database License</a>."
+
+#: ckan/templates/package/snippets/package_form.html
+msgid "Are you sure you want to delete this dataset?"
+msgstr "Tena hofafanao ve ity jeu de données ity?"
+
+#: ckan/templates/package/snippets/package_form.html
+msgid "Next: Add Data"
+msgstr "Manaraka: Hanampy angona"
+
+#: ckan/templates/package/snippets/package_metadata_fields.html
+msgid "http://example.com/dataset.json"
+msgstr "http://example.com/dataset.json"
+
+#: ckan/templates/package/snippets/package_metadata_fields.html
+msgid "1.0"
+msgstr "1.0"
+
+#: ckan/templates/package/snippets/package_metadata_fields.html
+#: ckan/templates/user/new_user_form.html
+msgid "Joe Bloggs"
+msgstr "Rakoto Jean"
+
+#: ckan/templates/package/snippets/package_metadata_fields.html
+msgid "Author Email"
+msgstr "Mailaky ny mpanoratra"
+
+#: ckan/templates/package/snippets/package_metadata_fields.html
+#: ckan/templates/user/new_user_form.html
+msgid "joe@example.com"
+msgstr "rakoto@example.com"
+
+#: ckan/templates/package/snippets/package_metadata_fields.html
+msgid "Maintainer Email"
+msgstr "Mailaky ny mpikarakara"
+
+#: ckan/templates/package/snippets/resource_edit_form.html
+msgid "Update Resource"
+msgstr "Hanavao ny ressource"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "http://example.com/external-data.csv"
+msgstr "http://example.com/external-data.csv"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "eg. January 2011 Gold Prices"
+msgstr "ohatra: Vidin'ny volamena Janoary 2011"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "Some useful notes about the data"
+msgstr "Fanamarihana ilaina momba ny angona"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "eg. CSV, XML or JSON"
+msgstr "ohatra: CSV, XML na JSON"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "This will be guessed automatically. Leave blank if you wish"
+msgstr "Ho fantarina ho azy izany. Avelao ho foana raha tianao"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "eg. 2012-06-05"
+msgstr "ohatra: 2012-06-05"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "File Size"
+msgstr "Haben'ny rakitra"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "eg. 1024"
+msgstr "ohatra: 1024"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "MIME Type"
+msgstr "Karazana MIME"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "eg. application/json"
+msgstr "ohatra: application/json"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "Are you sure you want to delete this resource?"
+msgstr "Tena hofafanao ve ity ressource ity?"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "Previous"
+msgstr "Teo aloha"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "Save & add another"
+msgstr "Hitahiry & hanampy hafa"
+
+#: ckan/templates/package/snippets/resource_form.html
+msgid "Finish"
+msgstr "Vita"
+
+#: ckan/templates/package/snippets/resource_help.html
+msgid "What's a resource?"
+msgstr "Inona no atao hoe ressource?"
+
+#: ckan/templates/package/snippets/resource_help.html
+msgid "A resource can be any file or link to a file containing useful data."
+msgstr "Ny ressource dia mety ho rakitra na rohy mankany amin'ny rakitra misy angona ilaina."
+
+#: ckan/templates/package/snippets/resource_item.html
+msgid "Explore"
+msgstr "Hijery"
+
+#: ckan/templates/package/snippets/resource_item.html
+#: ckanext/activity/templates/package/snippets/resource_item.html
+msgid "More information"
+msgstr "Fanazavana fanampiny"
+
+#: ckan/templates/package/snippets/resource_upload_field.html
+msgid "Data"
+msgstr "Angona"
+
+#: ckan/templates/package/snippets/resource_view.html
+msgid "Fullscreen"
+msgstr "Efijery feno"
+
+#: ckan/templates/package/snippets/resource_view.html
+msgid "Embed"
+msgstr "Hampiditra"
+
+#: ckan/templates/package/snippets/resource_view.html
+msgid "This resource view is not available at the moment."
+msgstr "Tsy misy amin'izao fotoana izao ity fijery ressource ity."
+
+#: ckan/templates/package/snippets/resource_view.html
+msgid "Download resource"
+msgstr "Hisintona ny ressource"
+
+#: ckan/templates/package/snippets/resource_view.html
+#: ckanext/webpageview/theme/templates/webpage_view.html
+msgid "Your browser does not support iframes."
+msgstr "Tsy mahazaka iframes ny mpitety tranonkala anao."
+
+#: ckan/templates/package/snippets/resource_view.html
+msgid "Embed resource view"
+msgstr "Hampiditra ny fijery ressource"
+
+#: ckan/templates/package/snippets/resource_view.html
+msgid "You can copy and paste the embed code into a CMS or blog software that supports raw HTML"
+msgstr "Azonao adika sy apetaka ao amin'ny CMS na rindrambaiko bilaogy mahazaka HTML tsotra ny kaody fampidirana"
+
+#: ckan/templates/package/snippets/resource_view.html
+msgid "Width"
+msgstr "Sakany"
+
+#: ckan/templates/package/snippets/resource_view.html
+msgid "Height"
+msgstr "Haavony"
+
+#: ckan/templates/package/snippets/resource_view.html
+#: ckanext/tabledesigner/templates/tabledesigner/view_snippets/choice.html
+msgid "Code"
+msgstr "Kaody"
+
+#: ckan/templates/package/snippets/resources.html
+msgid "Add new resource"
+msgstr "Hanampy ressource vaovao"
+
+#: ckan/templates/package/snippets/resources_list.html
+msgid "Data and Resources"
+msgstr "Angona sy ressources"
+
+#: ckan/templates/package/snippets/resources_list.html
+#: ckanext/activity/templates/package/snippets/resources_list.html
+msgid "This dataset has no data"
+msgstr "Tsy misy angona ity jeu de données ity"
+
+#: ckan/templates/package/snippets/stages.html
+msgid "Add data"
+msgstr "Hanampy angona"
+
+#: ckan/templates/package/snippets/view_form.html
+msgid "eg. My View"
+msgstr "ohatra: Ny fijery ahy"
+
+#: ckan/templates/package/snippets/view_form.html
+msgid "eg. Information about my view"
+msgstr "ohatra: Fampahalalana momba ny fijery ahy"
+
+#: ckan/templates/package/snippets/view_form_filters.html
+msgid "Remove Filter"
+msgstr "Hanala ny sivana"
+
+#: ckan/templates/package/snippets/view_form_filters.html
+msgid "Filters"
+msgstr "Sivana"
+
+#: ckan/templates/package/snippets/view_help.html
+msgid "What's a view?"
+msgstr "Inona no atao hoe fijery?"
+
+#: ckan/templates/package/snippets/view_help.html
+msgid "A view is a representation of the data held against a resource"
+msgstr "Ny fijery dia fanehoana ny angona ao amin'ny ressource iray"
+
+#: ckan/templates/snippets/add_dataset.html
+msgid "Add Dataset"
+msgstr "Hanampy jeu de données"
+
+#: ckan/templates/snippets/datapusher_status.html
+msgid "Datapusher status: {status}."
+msgstr "Toe-javatry ny Datapusher: {status}."
+
+#: ckan/templates/snippets/disqus_trackback.html
+msgid "Trackback URL"
+msgstr "URL trackback"
+
+#: ckan/templates/snippets/facet_list.html
+msgid "Show More {facet_type}"
+msgstr "Aseho bebe kokoa: {facet_type}"
+
+#: ckan/templates/snippets/facet_list.html
+msgid "Show Only Popular {facet_type}"
+msgstr "Aseho ny malaza ihany: {facet_type}"
+
+#: ckan/templates/snippets/facet_list.html
+msgid "There are no {facet_type} that match this search"
+msgstr "Tsy misy {facet_type} mifanaraka amin'ity fikarohana ity"
+
+#: ckan/templates/snippets/follow_button.html
+msgid "Unfollow"
+msgstr "Tsy hanaraka intsony"
+
+#: ckan/templates/snippets/follow_button.html
+msgid "Follow"
+msgstr "Hanaraka"
+
+#: ckan/templates/snippets/home_breadcrumb_item.html
+msgid "Home"
+msgstr "Fandraisana"
+
+#: ckan/templates/snippets/language_selector.html
+msgid "Language"
+msgstr "Fiteny"
+
+#: ckan/templates/snippets/language_selector.html
+#: ckan/templates/snippets/search_form.html
+#: ckan/templates/snippets/simple_search.html
+msgid "Go"
+msgstr "Andao"
+
+#: ckan/templates/snippets/license.html
+msgid "No License Provided"
+msgstr "Tsy nisy fahazoan-dalana nomena"
+
+#: ckan/templates/snippets/license.html
+msgid "This dataset satisfies the Open Definition."
+msgstr "Mifanaraka amin'ny Open Definition ity jeu de données ity."
+
+#: ckan/templates/snippets/package_item.html
+msgid "There is no description for this dataset"
+msgstr "Tsy misy famaritana ho an'ity jeu de données ity"
+
+#: ckan/templates/snippets/search_form.html
+#: ckan/templates/snippets/simple_search.html
+msgid "Order by"
+msgstr "Alaharo araka"
+
+#: ckan/templates/snippets/search_form.html
+msgid "Filter Results"
+msgstr "Sivanina ny valiny"
+
+#: ckan/templates/snippets/search_form.html
+msgid "<p class=\"extra\">Please try another search.</p>"
+msgstr "<p class=\"extra\">Andramo fikarohana hafa azafady.</p>"
+
+#: ckan/templates/snippets/search_form.html
+msgid "<p id=\"search-error\"><strong>There was an error while searching.</strong> Please try again.</p>"
+msgstr "<p id=\"search-error\"><strong>Nisy hadisoana nandritra ny fikarohana.</strong> Andramo indray azafady.</p>"
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "{number} dataset found for \"{query}\""
+msgid_plural "{number} datasets found for \"{query}\""
+msgstr[0] "{number} jeu de données hita ho an'ny \"{query}\""
+msgstr[1] "{number} jeux de données hita ho an'ny \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "No datasets found for \"{query}\""
+msgstr "Tsy nahitana jeu de données ho an'ny \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "{number} dataset found"
+msgid_plural "{number} datasets found"
+msgstr[0] "{number} jeu de données hita"
+msgstr[1] "{number} jeux de données hita"
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "No datasets found"
+msgstr "Tsy nahitana jeu de données"
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "{number} group found for \"{query}\""
+msgid_plural "{number} groups found for \"{query}\""
+msgstr[0] "Vondrona {number} hita ho an'ny \"{query}\""
+msgstr[1] "Vondrona {number} hita ho an'ny \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "No groups found for \"{query}\""
+msgstr "Tsy nahitana vondrona ho an'ny \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "{number} group found"
+msgid_plural "{number} groups found"
+msgstr[0] "Vondrona {number} hita"
+msgstr[1] "Vondrona {number} hita"
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "No groups found"
+msgstr "Tsy nahitana vondrona"
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "{number} organization found for \"{query}\""
+msgid_plural "{number} organizations found for \"{query}\""
+msgstr[0] "Fikambanana {number} hita ho an'ny \"{query}\""
+msgstr[1] "Fikambanana {number} hita ho an'ny \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "No organizations found for \"{query}\""
+msgstr "Tsy nahitana fikambanana ho an'ny \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "{number} organization found"
+msgid_plural "{number} organizations found"
+msgstr[0] "Fikambanana {number} hita"
+msgstr[1] "Fikambanana {number} hita"
+
+#: ckan/templates/snippets/search_result_text.html
+msgid "No organizations found"
+msgstr "Tsy nahitana fikambanana"
+
+#: ckan/templates/snippets/social.html
+msgid "Social"
+msgstr "Tambajotra sosialy"
+
+#: ckan/templates/tests/mock_json_resource_preview_template.html
+#: ckan/templates/tests/mock_resource_preview_template.html
+#: ckanext/datastore/templates/package/snippets/data_api_button.html
+#: ckanext/example_theme_docs/v18_snippet_api/assets/example_theme_popover.js
+#: ckanext/example_theme_docs/v19_01_error/assets/example_theme_popover.js
+#: ckanext/example_theme_docs/v19_02_error_handling/assets/example_theme_popover.js
+#: ckanext/example_theme_docs/v20_pubsub/assets/example_theme_popover.js
+#: ckanext/example_theme_docs/v21_custom_jquery_plugin/assets/example_theme_popover.js
+#: ckanext/textview/templates/text_view.html
+msgid "Loading..."
+msgstr "Eo am-pakana..."
+
+#: ckan/templates/user/api_tokens.html
+msgid "Create API Token"
+msgstr "Hamorona jeton API"
+
+#: ckan/templates/user/api_tokens.html ckan/templates/user/read_base.html
+msgid "API Tokens"
+msgstr "Jetons API"
+
+#: ckan/templates/user/api_tokens.html
+msgid "You haven't created any API Tokens."
+msgstr "Mbola tsy namorona jeton API ianao."
+
+#: ckan/templates/user/confirm_delete.html
+msgid "Are you sure you want to delete user - {name}?"
+msgstr "Tena hofafanao ve ny mpampiasa - {name}?"
+
+#: ckan/templates/user/dashboard.html
+#: ckan/templates/user/dashboard_datasets.html
+msgid "My Datasets"
+msgstr "Ny jeux de données ahy"
+
+#: ckan/templates/user/dashboard.html
+#: ckan/templates/user/dashboard_organizations.html
+msgid "My Organizations"
+msgstr "Ny fikambanana misy ahy"
+
+#: ckan/templates/user/dashboard.html ckan/templates/user/dashboard_groups.html
+msgid "My Groups"
+msgstr "Ny vondrona misy ahy"
+
+#: ckan/templates/user/dashboard_datasets.html ckan/templates/user/read.html
+msgid "You haven't created any datasets."
+msgstr "Mbola tsy namorona jeu de données ianao."
+
+#: ckan/templates/user/dashboard_datasets.html
+#: ckan/templates/user/dashboard_groups.html
+#: ckan/templates/user/dashboard_organizations.html
+#: ckan/templates/user/read.html
+msgid "Create one now?"
+msgstr "Hamorona iray izao ve?"
+
+#: ckan/templates/user/dashboard_groups.html
+#: ckan/templates/user/read_groups.html
+msgid "You are not a member of any groups."
+msgstr "Tsy mpikambana amin'ny vondrona ianao."
+
+#: ckan/templates/user/dashboard_organizations.html
+#: ckan/templates/user/read_organizations.html
+msgid "You are not a member of any organizations."
+msgstr "Tsy mpikambana amin'ny fikambanana ianao."
+
+#: ckan/templates/user/edit.html ckan/templates/user/edit_base.html
+#: ckan/templates/user/list.html ckan/templates/user/read_base.html
+#: ckan/templates/user/snippets/user_search.html
+msgid "Users"
+msgstr "Mpampiasa"
+
+#: ckan/templates/user/edit.html
+msgid "Account Info"
+msgstr "Mombamomba ny kaonty"
+
+#: ckan/templates/user/edit.html
+msgid "Your profile lets other CKAN users know about who you are and what you do."
+msgstr "Ny mombamomba anao dia mampahafantatra ireo mpampiasa CKAN hafa hoe iza ianao ary inona no ataonao."
+
+#: ckan/templates/user/edit_user_form.html
+msgid "Change details"
+msgstr "Hanova ny antsipiriany"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "Full name"
+msgstr "Anarana feno"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "eg. Joe Bloggs"
+msgstr "ohatra: Rakoto Jean"
+
+#: ckan/templates/user/edit_user_form.html
+#: ckan/templates/user/new_user_form.html
+#: ckan/templates/user/snippets/info.html ckan/views/group.py
+msgid "Email"
+msgstr "Mailaka"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "eg. joe@example.com"
+msgstr "ohatra: rakoto@example.com"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "A little information about yourself"
+msgstr "Fampahalalana fohy momba anao"
+
+#: ckan/templates/user/edit_user_form.html
+#: ckan/templates/user/new_user_form.html
+msgid "Profile picture"
+msgstr "Sary famantarana"
+
+#: ckan/templates/user/edit_user_form.html
+#: ckan/templates/user/new_user_form.html
+msgid "Profile picture URL"
+msgstr "URL sary famantarana"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "Reactivate User"
+msgstr "Hamerina hampandeha ny mpampiasa"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "This account is deactivated, if you want to reactivate it, please click on checkbox."
+msgstr "Najanona ity kaonty ity; raha te hampandeha azy indray ianao, tsindrio ny boaty fanamarinana."
+
+#: ckan/templates/user/edit_user_form.html
+#: ckan/templates/user/logout_first.html ckan/templates/user/new_user_form.html
+#: ckan/templates/user/perform_reset.html
+#: ckan/templates/user/snippets/login_form.html
+msgid "Password"
+msgstr "Tenimiafina"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "Confirm Password"
+msgstr "Hamafiso ny tenimiafina"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "Sysadmin password"
+msgstr "Tenimiafin'ny mpitantana ny rafitra"
+
+#: ckan/templates/user/edit_user_form.html ckan/views/user.py
+msgid "Sysadmin Password"
+msgstr "Tenimiafin'ny mpitantana ny rafitra"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "Change password"
+msgstr "Hanova ny tenimiafina"
+
+#: ckan/templates/user/edit_user_form.html ckan/views/user.py
+msgid "Old Password"
+msgstr "Tenimiafina taloha"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "Are you sure you want to delete this User?"
+msgstr "Tena hofafanao ve ity mpampiasa ity?"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "Reactivate Profile"
+msgstr "Hamerina hampandeha ny mombamomba"
+
+#: ckan/templates/user/edit_user_form.html
+msgid "Update Profile"
+msgstr "Hanavao ny mombamomba"
+
+#: ckan/templates/user/list.html ckan/templates/user/snippets/user_search.html
+msgid "All Users"
+msgstr "Mpampiasa rehetra"
+
+#: ckan/templates/user/login.html ckan/templates/user/snippets/login_form.html
+msgid "Login"
+msgstr "Fidirana"
+
+#: ckan/templates/user/login.html
+msgid "Need an Account?"
+msgstr "Mila kaonty ve ianao?"
+
+#: ckan/templates/user/login.html
+msgid "Then sign right up, it only takes a minute."
+msgstr "Misoratra anarana àry, iray minitra monja izany."
+
+#: ckan/templates/user/login.html
+msgid "Create an Account"
+msgstr "Hamorona kaonty"
+
+#: ckan/templates/user/login.html
+msgid "Forgotten your password?"
+msgstr "Adinonao ve ny tenimiafinao?"
+
+#: ckan/templates/user/login.html
+msgid "No problem, use our password recovery form to reset it."
+msgstr "Tsy olana izany, ampiasao ny taratasy famerenana tenimiafina hanovana azy."
+
+#: ckan/templates/user/login.html
+msgid "Forgot your password?"
+msgstr "Adinonao ve ny tenimiafinao?"
+
+#: ckan/templates/user/logout.html
+msgid "Logged Out"
+msgstr "Nivoaka"
+
+#: ckan/templates/user/logout.html
+msgid "You are now logged out."
+msgstr "Efa nivoaka ianao izao."
+
+#: ckan/templates/user/logout_first.html
+msgid "You're already logged in as {user}."
+msgstr "Efa niditra amin'ny anarana {user} ianao."
+
+#: ckan/templates/user/logout_first.html
+msgid "Logout"
+msgstr "Hivoaka"
+
+#: ckan/templates/user/logout_first.html
+#: ckan/templates/user/snippets/login_form.html
+msgid "Remember me"
+msgstr "Tadidio aho"
+
+#: ckan/templates/user/logout_first.html
+msgid "You're already logged in"
+msgstr "Efa niditra ianao"
+
+#: ckan/templates/user/logout_first.html
+msgid "You need to log out before you can log in with another account."
+msgstr "Tsy maintsy mivoaka ianao vao afaka miditra amin'ny kaonty hafa."
+
+#: ckan/templates/user/logout_first.html
+msgid "Log out now"
+msgstr "Hivoaka izao"
+
+#: ckan/templates/user/new.html
+msgid "Registration"
+msgstr "Fisoratana anarana"
+
+#: ckan/templates/user/new.html
+msgid "Register for an Account"
+msgstr "Hisoratra anarana hahazo kaonty"
+
+#: ckan/templates/user/new.html
+msgid "Why Sign Up?"
+msgstr "Nahoana no hisoratra anarana?"
+
+#: ckan/templates/user/new.html
+msgid "Create datasets, groups and other exciting things"
+msgstr "Hamorona jeux de données, vondrona ary zavatra mahaliana hafa"
+
+#: ckan/templates/user/new_user_form.html
+msgid "username"
+msgstr "anaran'ny mpampiasa"
+
+#: ckan/templates/user/new_user_form.html
+msgid "Full Name"
+msgstr "Anarana feno"
+
+#: ckan/templates/user/new_user_form.html
+msgid "Create Account"
+msgstr "Hamorona kaonty"
+
+#: ckan/templates/user/perform_reset.html
+msgid "Reset Your Password"
+msgstr "Hanova ny tenimiafinao"
+
+#: ckan/templates/user/perform_reset.html
+#: ckan/templates/user/request_reset.html
+msgid "Password Reset"
+msgstr "Fanovana tenimiafina"
+
+#: ckan/templates/user/perform_reset.html
+msgid "You can also change username. It can not be modified later."
+msgstr "Azonao ovaina koa ny anaran'ny mpampiasa. Tsy azo ovaina intsony izany any aoriana."
+
+#: ckan/templates/user/perform_reset.html
+msgid "Update Password"
+msgstr "Hanavao ny tenimiafina"
+
+#: ckan/templates/user/perform_reset.html
+#: ckan/templates/user/request_reset.html
+msgid "How does this work?"
+msgstr "Ahoana no fiasan'izany?"
+
+#: ckan/templates/user/perform_reset.html
+msgid "Simply enter a new password and we'll update your account"
+msgstr "Ampidiro fotsiny ny tenimiafina vaovao dia hohavaozinay ny kaontinao"
+
+#: ckan/templates/user/read.html
+msgid "User hasn't created any datasets."
+msgstr "Tsy mbola namorona jeu de données ity mpampiasa ity."
+
+#: ckan/templates/user/read_groups.html
+msgid "User isn't a member of any groups."
+msgstr "Tsy mpikambana amin'ny vondrona ity mpampiasa ity."
+
+#: ckan/templates/user/read_organizations.html
+msgid "User isn't a member of any organizations."
+msgstr "Tsy mpikambana amin'ny fikambanana ity mpampiasa ity."
+
+#: ckan/templates/user/request_reset.html
+msgid "Reset your password"
+msgstr "Hanova ny tenimiafinao"
+
+#: ckan/templates/user/request_reset.html
+msgid "Email or username"
+msgstr "Mailaka na anaran'ny mpampiasa"
+
+#: ckan/templates/user/request_reset.html
+msgid "Request Reset"
+msgstr "Hangataka fanovana"
+
+#: ckan/templates/user/request_reset.html
+msgid "Enter your email address or username into the box and we will send you an email with a link to enter a new password."
+msgstr "Ampidiro ao anaty boaty ny adiresy mailakao na ny anaran'ny mpampiasa anao dia handefasanay mailaka misy rohy ahafahanao mampiditra tenimiafina vaovao ianao."
+
+#: ckan/templates/user/snippets/api_token_list.html
+msgid "Token"
+msgstr "Jeton"
+
+#: ckan/templates/user/snippets/api_token_list.html
+msgid "Last access"
+msgstr "Fidirana farany"
+
+#: ckan/templates/user/snippets/api_token_list.html
+msgid "Actions"
+msgstr "Asa"
+
+#: ckan/templates/user/snippets/api_token_list.html
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Never"
+msgstr "Tsy mbola nisy"
+
+#: ckan/templates/user/snippets/api_token_list.html
+msgid "Revoke"
+msgstr "Hanafoana"
+
+#: ckan/templates/user/snippets/followers.html
+msgid "No followers"
+msgstr "Tsy misy mpanaraka"
+
+#: ckan/templates/user/snippets/info.html
+msgid "You have not provided a biography."
+msgstr "Mbola tsy nanome tantaram-piainana ianao."
+
+#: ckan/templates/user/snippets/info.html
+msgid "This user has no biography."
+msgstr "Tsy manana tantaram-piainana ity mpampiasa ity."
+
+#: ckan/templates/user/snippets/info.html
+msgid "Open ID"
+msgstr "Open ID"
+
+#: ckan/templates/user/snippets/info.html
+msgid "This means only you can see this"
+msgstr "Midika izany fa ianao irery ihany no mahita izany"
+
+#: ckan/templates/user/snippets/info.html
+msgid "Member Since"
+msgstr "Mpikambana hatramin'ny"
+
+#: ckan/templates/user/snippets/info.html
+msgid "Last Active"
+msgstr "Nihetsika farany"
+
+#: ckan/templates/user/snippets/login_form.html
+msgid "Username or Email"
+msgstr "Anaran'ny mpampiasa na mailaka"
+
+#: ckan/templates/user/snippets/user_search.html
+msgid "Search Users"
+msgstr "Hitady mpampiasa"
+
+#: ckan/views/admin.py
+msgid "Need to be system administrator to administer"
+msgstr "Tsy maintsy mpitantana ny rafitra vao afaka mitantana"
+
+#: ckan/views/admin.py
+msgid "Are you sure you want to purge datasets?"
+msgstr "Tena hofafanao tanteraka ve ireo jeux de données?"
+
+#: ckan/views/admin.py
+msgid "Are you sure you want to purge organizations?"
+msgstr "Tena hofafanao tanteraka ve ireo fikambanana?"
+
+#: ckan/views/admin.py
+msgid "Are you sure you want to purge groups?"
+msgstr "Tena hofafanao tanteraka ve ireo vondrona?"
+
+#: ckan/views/admin.py
+msgid "{number} datasets have been purged"
+msgstr "Voafafa tanteraka ny jeux de données {number}"
+
+#: ckan/views/admin.py
+msgid "{number} organizations have been purged"
+msgstr "Voafafa tanteraka ny fikambanana {number}"
+
+#: ckan/views/admin.py
+msgid "{number} groups have been purged"
+msgstr "Voafafa tanteraka ny vondrona {number}"
+
+#: ckan/views/admin.py
+msgid "There are no datasets to purge"
+msgstr "Tsy misy jeu de données hofafana tanteraka"
+
+#: ckan/views/admin.py
+msgid "There are no organizations to purge"
+msgstr "Tsy misy fikambanana hofafana tanteraka"
+
+#: ckan/views/admin.py
+msgid "There are no groups to purge"
+msgstr "Tsy misy vondrona hofafana tanteraka"
+
+#: ckan/views/admin.py
+msgid "Action not implemented."
+msgstr "Tsy mbola voaomana ity asa ity."
+
+#: ckan/views/admin.py
+msgid "Massive purge complete"
+msgstr "Vita ny famafana tanteraka faobe"
+
+#: ckan/views/api.py
+msgid "Bad request"
+msgstr "Fangatahana diso"
+
+#: ckan/views/api.py
+#, python-format
+msgid "JSON Error: %s"
+msgstr "Hadisoana JSON: %s"
+
+#: ckan/views/api.py
+msgid "Access denied"
+msgstr "Tsy nahazo alalana"
+
+#: ckan/views/dashboard.py ckan/views/feed.py ckan/views/group.py
+#: ckan/views/user.py ckanext/activity/views.py ckanext/datapusher/views.py
+#: ckanext/tabledesigner/views.py ckanext/xloader/utils.py
+msgid "Not authorized to see this page"
+msgstr "Tsy nahazo alalana hijery ity pejy ity"
+
+#: ckan/views/dataset.py ckan/views/group.py ckan/views/home.py
+msgid "Formats"
+msgstr "Endrika"
+
+#: ckan/views/dataset.py ckan/views/group.py ckan/views/home.py
+msgid "Licenses"
+msgstr "Fahazoan-dalana"
+
+#: ckan/views/dataset.py
+msgid "Invalid search query: {error_message}"
+msgstr "Fikarohana tsy mety: {error_message}"
+
+#: ckan/views/dataset.py
+msgid "Parameter u\"{parameter_name}\" is not an integer"
+msgstr "Tsy isa manontolo ny paramètre u\"{parameter_name}\""
+
+#: ckan/views/dataset.py ckan/views/group.py ckan/views/resource.py
+#, python-format
+msgid "User %r not authorized to edit %s"
+msgstr "Ny mpampiasa %r dia tsy nahazo alalana hanova %s"
+
+#: ckan/views/dataset.py
+msgid "Dataset not found or you have no permission to view it"
+msgstr "Tsy hita ny jeu de données na tsy manana alalana hijery azy ianao"
+
+#: ckan/views/dataset.py
+#, python-format
+msgid "Unauthorized to read package %s"
+msgstr "Tsy nahazo alalana hamaky ny jeu de données %s"
+
+#: ckan/views/dataset.py
+msgid "Viewing datasets of type \"{package_type}\" is not supported ({file_!r})."
+msgstr "Tsy tohanana ny fijerena jeux de données karazana \"{package_type}\" ({file_!r})."
+
+#: ckan/views/dataset.py
+msgid "Unauthorized to create a package"
+msgstr "Tsy nahazo alalana hamorona jeu de données"
+
+#: ckan/views/dataset.py ckan/views/group.py ckan/views/user.py
+msgid "Integrity Error"
+msgstr "Erreur d'intégrité"
+
+#: ckan/views/dataset.py
+msgid "Unauthorized to read package"
+msgstr "Tsy nahazo alalana hamaky ny jeu de données"
+
+#: ckan/views/dataset.py
+msgid "Unable to add package to search index."
+msgstr "Tsy afaka nampiditra ny jeu de données tao amin'ny index fikarohana."
+
+#: ckan/views/dataset.py
+msgid "Unable to update search index."
+msgstr "Tsy afaka nanavao ny index fikarohana."
+
+#: ckan/views/dataset.py
+#, python-format
+msgid "Unauthorized to delete package %s"
+msgstr "Tsy nahazo alalana hamafa ny jeu de données %s"
+
+#: ckan/views/dataset.py
+msgid "Dataset has been deleted."
+msgstr "Voafafa ny jeu de données."
+
+#: ckan/views/dataset.py
+msgid "Unauthorized to read collaborators {}"
+msgstr "Tsy nahazo alalana hamaky ny mpiara-miasa {}"
+
+#: ckan/views/dataset.py
+msgid "Unauthorized to delete collaborators {}"
+msgstr "Tsy nahazo alalana hamafa ny mpiara-miasa {}"
+
+#: ckan/views/dataset.py
+msgid "User removed from collaborators"
+msgstr "Nesorina tamin'ny mpiara-miasa ny mpampiasa"
+
+#: ckan/views/dataset.py
+msgid "Unauthorized to edit collaborators {}"
+msgstr "Tsy nahazo alalana hanova ny mpiara-miasa {}"
+
+#: ckan/views/dataset.py
+msgid "User added to collaborators"
+msgstr "Nampidirina ho mpiara-miasa ny mpampiasa"
+
+#: ckan/views/dataset.py ckan/views/resource.py ckanext/activity/views.py
+#: ckanext/datapusher/views.py ckanext/datastore/blueprint.py
+#: ckanext/resourceproxy/blueprint.py ckanext/xloader/utils.py
+#: ckanext/xloader/views.py
+msgid "Resource not found"
+msgstr "Tsy hita ny ressource"
+
+#: ckan/views/group.py
+#, python-format
+msgid "User %r not authorized to edit members of %s"
+msgstr "Ny mpampiasa %r dia tsy nahazo alalana hanova ny mpikambana ao amin'ny %s"
+
+#: ckan/views/group.py
+msgid "Not authorized to access {group} members download"
+msgstr "Tsy nahazo alalana hisintona ny lisitry ny mpikambana ao amin'ny {group}"
+
+#: ckan/views/group.py
+msgid "Members not found"
+msgstr "Tsy hita ny mpikambana"
+
+#: ckan/views/group.py
+msgid "N/A"
+msgstr "Tsy misy"
+
+#: ckan/views/group.py
+msgid "members"
+msgstr "mpikambana"
+
+#: ckan/views/group.py
+#, python-format
+msgid "Unauthorized to delete group %s members"
+msgstr "Tsy nahazo alalana hamafa ny mpikambana ao amin'ny vondrona %s"
+
+#: ckan/views/group.py
+msgid "Group member has been deleted."
+msgstr "Voafafa ny mpikambana ao amin'ny vondrona."
+
+#: ckan/views/group.py ckan/views/user.py
+#, python-format
+msgid "Unauthorized to view followers %s"
+msgstr "Tsy nahazo alalana hijery ny mpanaraka %s"
+
+#: ckan/views/group.py
+msgid "Unauthorized to access"
+msgstr "Tsy nahazo alalana hiditra"
+
+#: ckan/views/group.py
+msgid "OrganizationGroup"
+msgstr "Fikambanana/Vondrona"
+
+#: ckan/views/group.py
+msgid "{} not found"
+msgstr "Tsy hita ny {}"
+
+#: ckan/views/group.py
+msgid "Not authorized to perform bulk update"
+msgstr "Tsy nahazo alalana hanao fanavaozana faobe"
+
+#: ckan/views/group.py
+msgid "Unauthorized to create a group"
+msgstr "Tsy nahazo alalana hamorona vondrona"
+
+#: ckan/views/group.py
+#, python-format
+msgid "Unauthorized to delete group %s"
+msgstr "Tsy nahazo alalana hamafa ny vondrona %s"
+
+#: ckan/views/group.py
+#, python-format
+msgid "%s has been deleted."
+msgstr "Voafafa ny %s."
+
+#: ckan/views/group.py
+msgid "message"
+msgstr "hafatra"
+
+#: ckan/views/group.py
+#, python-format
+msgid "Unauthorized to create group %s members"
+msgstr "Tsy nahazo alalana hamorona mpikambana ao amin'ny vondrona %s"
+
+#: ckan/views/group.py
+#, python-format
+msgid "Unauthorized to add member to group %s"
+msgstr "Tsy nahazo alalana hanampy mpikambana ao amin'ny vondrona %s"
+
+#: ckan/views/home.py
+#, python-format
+msgid "Please <a href=\"%s\">update your profile</a> and add your email address. "
+msgstr "<a href=\"%s\">Havaozy ny mombamomba anao</a> ary ampidiro ny adiresy mailakao azafady. "
+
+#: ckan/views/home.py
+#, python-format
+msgid "%s uses your email address if you need to reset your password."
+msgstr "Mampiasa ny adiresy mailakao ny %s raha mila manova ny tenimiafinao ianao."
+
+#: ckan/views/resource.py
+#, python-format
+msgid "Unauthorized to read resource %s"
+msgstr "Tsy nahazo alalana hamaky ny ressource %s"
+
+#: ckan/views/resource.py ckanext/activity/views.py
+msgid "Resource view not found"
+msgstr "Tsy hita ny fijery ressource"
+
+#: ckan/views/resource.py
+msgid "Not authorized to download resource"
+msgstr "Tsy nahazo alalana hisintona ny ressource"
+
+#: ckan/views/resource.py
+msgid "No download is available"
+msgstr "Tsy misy azo sintonina"
+
+#: ckan/views/resource.py
+msgid "Unauthorized to update dataset"
+msgstr "Tsy nahazo alalana hanavao ny jeu de données"
+
+#: ckan/views/resource.py
+msgid "The dataset {id} could not be found."
+msgstr "Tsy hita ny jeu de données {id}."
+
+#: ckan/views/resource.py
+msgid "You must add at least one data resource"
+msgstr "Tsy maintsy manampy ressource angona iray farafahakeliny ianao"
+
+#: ckan/views/resource.py ckanext/datapusher/helpers.py
+#: ckanext/xloader/helpers.py
+msgid "Error"
+msgstr "Hadisoana"
+
+#: ckan/views/resource.py
+msgid "Unauthorized to create a resource"
+msgstr "Tsy nahazo alalana hamorona ressource"
+
+#: ckan/views/resource.py
+msgid "Unauthorized to create a resource for this package"
+msgstr "Tsy nahazo alalana hamorona ressource ho an'ity jeu de données ity"
+
+#: ckan/views/resource.py
+msgid "Unauthorized to edit this resource"
+msgstr "Tsy nahazo alalana hanova ity ressource ity"
+
+#: ckan/views/resource.py ckanext/xloader/views.py
+#, python-format
+msgid "Unauthorized to delete resource %s"
+msgstr "Tsy nahazo alalana hamafa ny ressource %s"
+
+#: ckan/views/resource.py
+msgid "Resource has been deleted."
+msgstr "Voafafa ny ressource."
+
+#: ckan/views/resource.py
+msgid "Bad resource view data"
+msgstr "Angona diso ho an'ny fijery ressource"
+
+#: ckan/views/resource.py
+msgid "Resource view not supplied"
+msgstr "Tsy nomena ny fijery ressource"
+
+#: ckan/views/resource.py
+msgid "Unauthorized to edit resource"
+msgstr "Tsy nahazo alalana hanova ny ressource"
+
+#: ckan/views/resource.py
+msgid "View not found"
+msgstr "Tsy hita ny fijery"
+
+#: ckan/views/resource.py
+msgid "View Type Not found"
+msgstr "Tsy hita ny karazana fijery"
+
+#: ckan/views/user.py
+msgid "Unauthorized to view API tokens."
+msgstr "Tsy nahazo alalana hijery ny jetons API."
+
+#: ckan/views/user.py
+msgid "Unauthorized to create API tokens."
+msgstr "Tsy nahazo alalana hamorona jetons API."
+
+#: ckan/views/user.py
+msgid "API Token created: <code style=\"word-break:break-all;\">{token}</code> {copy}<br>Make sure to copy it now, you won't be able to see it again!"
+msgstr "Noforonina ny jeton API: <code style=\"word-break:break-all;\">{token}</code> {copy}<br>Adikao dieny izao, satria tsy ho hitanao intsony izy!"
+
+#: ckan/views/user.py
+msgid "Unauthorized to revoke API tokens."
+msgstr "Tsy nahazo alalana hanafoana jetons API."
+
+#: ckan/views/user.py
+msgid "No user specified"
+msgstr "Tsy nisy mpampiasa voatondro"
+
+#: ckan/views/user.py
+msgid "Unauthorized to edit a user."
+msgstr "Tsy nahazo alalana hanova mpampiasa."
+
+#: ckan/views/user.py
+msgid "Password entered was incorrect"
+msgstr "Diso ny tenimiafina nampidirina"
+
+#: ckan/views/user.py
+msgid "incorrect password"
+msgstr "tenimiafina diso"
+
+#: ckan/views/user.py
+#, python-format
+msgid "Unauthorized to edit user %s"
+msgstr "Tsy nahazo alalana hanova ny mpampiasa %s"
+
+#: ckan/views/user.py
+msgid "Profile updated"
+msgstr "Nohavaozina ny mombamomba"
+
+#: ckan/views/user.py
+msgid "Unauthorized to register as a user."
+msgstr "Tsy nahazo alalana hisoratra anarana ho mpampiasa."
+
+#: ckan/views/user.py
+msgid "Bad Captcha. Please try again."
+msgstr "Diso ny Captcha. Andramo indray azafady."
+
+#: ckan/views/user.py
+#, python-format
+msgid "Unauthorized to create user %s"
+msgstr "Tsy nahazo alalana hamorona ny mpampiasa %s"
+
+#: ckan/views/user.py
+#, python-format
+msgid "User \"%s\" is now registered but you are still logged in as \"%s\" from before"
+msgstr "Efa voasoratra ny mpampiasa \"%s\" saingy mbola miditra amin'ny anarana \"%s\" teo aloha ianao"
+
+#: ckan/views/user.py
+msgid "Login failed. Bad username or password."
+msgstr "Tsy nahomby ny fidirana. Diso ny anaran'ny mpampiasa na ny tenimiafina."
+
+#: ckan/views/user.py
+msgid "Unauthorized to delete user with id \"{user_id}\"."
+msgstr "Tsy nahazo alalana hamafa ny mpampiasa manana id \"{user_id}\"."
+
+#: ckan/views/user.py
+msgid "Unauthorized to request reset password."
+msgstr "Tsy nahazo alalana hangataka fanovana tenimiafina."
+
+#: ckan/views/user.py
+msgid "Email is required"
+msgstr "Tsy maintsy ampidirina ny mailaka"
+
+#: ckan/views/user.py
+msgid "Error sending the email. Try again later or contact an administrator for help"
+msgstr "Nisy hadisoana tamin'ny fandefasana ny mailaka. Andramo indray any aoriana na mifandraisa amin'ny mpitantana mba hanampy anao"
+
+#: ckan/views/user.py
+msgid "A reset link has been emailed to you (unless the account specified does not exist)"
+msgstr "Nalefa tamin'ny mailakao ny rohy fanovana (raha tsy hoe tsy misy ilay kaonty voatondro)"
+
+#: ckan/views/user.py
+msgid "Unauthorized to reset password."
+msgstr "Tsy nahazo alalana hanova tenimiafina."
+
+#: ckan/views/user.py
+msgid "Invalid reset key. Please try again."
+msgstr "Diso ny fanalahidy fanovana. Andramo indray azafady."
+
+#: ckan/views/user.py
+msgid "Your password must be 8 characters or longer."
+msgstr "Tsy maintsy litera 8 na mihoatra ny tenimiafinao."
+
+#: ckan/views/user.py
+msgid "The passwords you entered do not match."
+msgstr "Tsy mitovy ireo tenimiafina nampidirinao."
+
+#: ckan/views/user.py
+msgid "You must provide a password"
+msgstr "Tsy maintsy manome tenimiafina ianao"
+
+#: ckan/views/user.py
+msgid "Your password has been reset."
+msgstr "Voaova ny tenimiafinao."
+
+#: ckan/views/user.py
+msgid "Not authorized to promote user to sysadmin"
+msgstr "Tsy nahazo alalana hanandratra mpampiasa ho mpitantana ny rafitra"
+
+#: ckan/views/user.py
+msgid "Promoted {} to sysadmin"
+msgstr "Natsangana ho mpitantana ny rafitra i {}"
+
+#: ckan/views/user.py
+msgid "Revoked sysadmin permission from {}"
+msgstr "Nesorina tamin'i {} ny alalan'ny mpitantana ny rafitra"
+
+#: ckan/views/util.py
+msgid "Redirecting to external site is not allowed."
+msgstr "Tsy azo atao ny mitodika any amin'ny tranonkala ivelany."
+
+#: ckanext/activity/email_notifications.py
+msgid "{n} new activity from {site_title}"
+msgid_plural "{n} new activities from {site_title}"
+msgstr[0] "Hetsika vaovao {n} avy amin'ny {site_title}"
+msgstr[1] "Hetsika vaovao {n} avy amin'ny {site_title}"
+
+#: ckanext/activity/views.py
+msgid "Activity not found"
+msgstr "Tsy hita ny hetsika"
+
+#: ckanext/activity/logic/auth.py ckanext/activity/views.py
+msgid "Unauthorized to view activity data"
+msgstr "Tsy nahazo alalana hijery ny angona momba ny hetsika"
+
+#: ckanext/activity/views.py
+msgid "The detail of this dataset activity is not available"
+msgstr "Tsy misy ny antsipirian'ity hetsika amin'ny jeu de données ity"
+
+#: ckanext/activity/views.py
+#, python-format
+msgid "Unauthorized to read dataset %s"
+msgstr "Tsy nahazo alalana hamaky ny jeu de données %s"
+
+#: ckanext/activity/views.py
+msgid "Invalid parameters"
+msgstr "Paramètres tsy mety"
+
+#: ckanext/activity/views.py
+msgid "Follow item not found"
+msgstr "Tsy hita ilay zavatra arahina"
+
+#: ckanext/activity/views.py
+msgid "{0} not found"
+msgstr "Tsy hita ny {0}"
+
+#: ckanext/activity/views.py
+msgid "Everything"
+msgstr "Ny zava-drehetra"
+
+#: ckanext/activity/logic/auth.py
+msgid "You must be logged in to access your dashboard."
+msgstr "Tsy maintsy miditra ianao vao afaka mahazo ny tableau de bord anao."
+
+#: ckanext/activity/logic/validators.py
+#: ckanext/activity/templates/snippets/activity_type_selector.html
+msgid "Activity type"
+msgstr "Karazana hetsika"
+
+#: ckanext/activity/templates/header.html
+#, python-format
+msgid "Dashboard (%(num)d new item)"
+msgid_plural "Dashboard (%(num)d new items)"
+msgstr[0] "Tableau de bord (%(num)d vaovao)"
+msgstr[1] "Tableau de bord (%(num)d vaovao)"
+
+#: ckanext/activity/templates/group/activity_stream.html
+#: ckanext/activity/templates/group/read_base.html
+#: ckanext/activity/templates/organization/activity_stream.html
+#: ckanext/activity/templates/organization/read_base.html
+#: ckanext/activity/templates/package/activity_stream.html
+#: ckanext/activity/templates/package/read_base.html
+#: ckanext/activity/templates/user/activity_stream.html
+#: ckanext/activity/templates/user/read_base.html
+msgid "Activity Stream"
+msgstr "Tantaran'ny hetsika"
+
+#: ckanext/activity/templates/group/changes.html
+#: ckanext/activity/templates/organization/changes.html
+#: ckanext/activity/templates/package/changes.html
+#: ckanext/activity/templates/snippets/activities/changed_group.html
+#: ckanext/activity/templates/snippets/activities/changed_organization.html
+#: ckanext/activity/templates/snippets/activities/changed_package.html
+msgid "Changes"
+msgstr "Fiovana"
+
+#: ckanext/activity/templates/group/snippets/item_group.html
+#: ckanext/activity/templates/organization/snippets/item_organization.html
+#: ckanext/activity/templates/package/snippets/change_item.html
+#, python-format
+msgid "On %(timestamp)s, %(username)s:"
+msgstr "Tamin'ny %(timestamp)s, %(username)s:"
+
+#: ckanext/activity/templates/package/activity_stream.html
+#: ckanext/activity/templates/snippets/stream.html
+msgid "No activity found for this type"
+msgstr "Tsy nahitana hetsika ho an'ity karazana ity"
+
+#: ckanext/activity/templates/package/activity_stream.html
+msgid "No activity found"
+msgstr "Tsy nahitana hetsika"
+
+#: ckanext/activity/templates/package/history.html
+#: ckanext/activity/templates/package/resource_history.html
+#, python-format
+msgid "You're currently viewing an old version of this dataset. Data files may not match the old version of the metadata. <a href=\"%(url)s\">View the current version</a>."
+msgstr "Dikan-teny taloha amin'ity jeu de données ity no jerenao amin'izao fotoana izao. Mety tsy hifanaraka amin'ny dikan-teny taloha amin'ny métadonnées ireo rakitra angona. <a href=\"%(url)s\">Hijery ny dikan-teny ankehitriny</a>."
+
+#: ckanext/activity/templates/snippets/activity_type_selector.html
+msgid "All activity types"
+msgstr "Karazana hetsika rehetra"
+
+#: ckanext/activity/templates/snippets/pagination.html
+msgid "Newer activities"
+msgstr "Hetsika vaovao kokoa"
+
+#: ckanext/activity/templates/snippets/pagination.html
+msgid "Older activities"
+msgstr "Hetsika taloha kokoa"
+
+#: ckanext/activity/templates/snippets/activities/added_tag.html
+msgid "{actor} added the tag {tag} to the dataset {dataset}"
+msgstr "Nanampy ny teny fanalahidy {tag} tao amin'ny jeu de données {dataset} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/changed_group.html
+msgid "{actor} updated the group {group}"
+msgstr "Nanavao ny vondrona {group} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/changed_organization.html
+msgid "{actor} updated the organization {organization}"
+msgstr "Nanavao ny fikambanana {organization} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/changed_package.html
+msgid "{actor} updated the {dataset_type} {dataset}"
+msgstr "Nanavao ny {dataset_type} {dataset} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/changed_package.html
+#: ckanext/activity/templates/snippets/activities/deleted_package.html
+#: ckanext/activity/templates/snippets/activities/new_package.html
+msgid "dataset"
+msgstr "jeu de données"
+
+#: ckanext/activity/templates/snippets/activities/changed_package.html
+#: ckanext/activity/templates/snippets/activities/new_package.html
+msgid "View this version"
+msgstr "Hijery ity dikan-teny ity"
+
+#: ckanext/activity/templates/snippets/activities/changed_resource.html
+msgid "{actor} updated the resource {resource} in the dataset {dataset}"
+msgstr "Nanavao ny ressource {resource} ao amin'ny jeu de données {dataset} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/changed_user.html
+msgid "{actor} updated their profile"
+msgstr "Nanavao ny mombamomba azy i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/deleted_group.html
+msgid "{actor} deleted the group {group}"
+msgstr "Namafa ny vondrona {group} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/deleted_organization.html
+msgid "{actor} deleted the organization {organization}"
+msgstr "Namafa ny fikambanana {organization} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/deleted_package.html
+msgid "{actor} deleted the {dataset_type} {dataset}"
+msgstr "Namafa ny {dataset_type} {dataset} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/deleted_resource.html
+msgid "{actor} deleted the resource {resource} from the dataset {dataset}"
+msgstr "Namafa ny ressource {resource} tao amin'ny jeu de données {dataset} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/fallback.html
+msgid "{actor} {activity_type}"
+msgstr "{actor} {activity_type}"
+
+#: ckanext/activity/templates/snippets/activities/follow_dataset.html
+msgid "{actor} started following {dataset}"
+msgstr "Nanomboka nanaraka ny {dataset} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/follow_group.html
+msgid "{actor} started following {group}"
+msgstr "Nanomboka nanaraka ny {group} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/follow_user.html
+msgid "{actor} started following {user}"
+msgstr "Nanomboka nanaraka an'i {user} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/new_group.html
+msgid "{actor} created the group {group}"
+msgstr "Namorona ny vondrona {group} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/new_organization.html
+msgid "{actor} created the organization {organization}"
+msgstr "Namorona ny fikambanana {organization} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/new_package.html
+msgid "{actor} created the {dataset_type} {dataset}"
+msgstr "Namorona ny {dataset_type} {dataset} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/new_resource.html
+msgid "{actor} added the resource {resource} to the dataset {dataset}"
+msgstr "Nanampy ny ressource {resource} tao amin'ny jeu de données {dataset} i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/new_user.html
+msgid "{actor} signed up"
+msgstr "Nisoratra anarana i {actor}"
+
+#: ckanext/activity/templates/snippets/activities/removed_tag.html
+msgid "{actor} removed the tag {tag} from the dataset {dataset}"
+msgstr "Nanala ny teny fanalahidy {tag} tao amin'ny jeu de données {dataset} i {actor}"
+
+#: ckanext/activity/templates/snippets/changes/author.html
+msgid "Set author of {pkg_link} to {new_author} (previously {old_author})"
+msgstr "Nametraka ho {new_author} ny mpanoratra ny {pkg_link} (teo aloha: {old_author})"
+
+#: ckanext/activity/templates/snippets/changes/author.html
+msgid "Set author of {pkg_link} to {new_author}"
+msgstr "Nametraka ho {new_author} ny mpanoratra ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/author.html
+msgid "Removed author from {pkg_link}"
+msgstr "Nanala ny mpanoratra tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/author.html
+#: ckanext/activity/templates/snippets/changes/author_email.html
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+#: ckanext/activity/templates/snippets/changes/maintainer.html
+#: ckanext/activity/templates/snippets/changes/maintainer_email.html
+#: ckanext/activity/templates/snippets/changes/no_change.html
+#: ckanext/activity/templates/snippets/changes/notes.html
+#: ckanext/activity/templates/snippets/changes/org.html
+#: ckanext/activity/templates/snippets/changes/resource_desc.html
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+#: ckanext/activity/templates/snippets/changes/resource_format.html
+#: ckanext/activity/templates/snippets/changes/tags.html
+#: ckanext/activity/templates/snippets/changes/url.html
+#: ckanext/activity/templates/snippets/changes/version.html
+#: ckanext/activity/templates/snippets/group_changes/description.html
+#: ckanext/activity/templates/snippets/group_changes/image_url.html
+#: ckanext/activity/templates/snippets/group_changes/no_change.html
+#: ckanext/activity/templates/snippets/organization_changes/description.html
+#: ckanext/activity/templates/snippets/organization_changes/image_url.html
+#: ckanext/activity/templates/snippets/organization_changes/no_change.html
+msgid "No fields were updated. See the metadata diff for more details."
+msgstr "Tsy nisy saha nohavaozina. Jereo ny fahasamihafan'ny métadonnées raha mila antsipiriany fanampiny."
+
+#: ckanext/activity/templates/snippets/changes/author_email.html
+msgid "Set author email of "
+msgstr "Nametraka ny mailaky ny mpanoratra ny "
+
+#: ckanext/activity/templates/snippets/changes/author_email.html
+#: ckanext/activity/templates/snippets/changes/license.html
+#: ckanext/activity/templates/snippets/changes/maintainer_email.html
+#: ckanext/activity/templates/snippets/changes/name.html
+#: ckanext/activity/templates/snippets/changes/resource_format.html
+#: ckanext/activity/templates/snippets/changes/url.html
+#: ckanext/activity/templates/snippets/group_changes/image_url.html
+#: ckanext/activity/templates/snippets/organization_changes/image_url.html
+msgid "to"
+msgstr "ho"
+
+#: ckanext/activity/templates/snippets/changes/author_email.html
+msgid "( previously "
+msgstr "( teo aloha: "
+
+#: ckanext/activity/templates/snippets/changes/author_email.html
+#: ckanext/activity/templates/snippets/changes/license.html
+#: ckanext/activity/templates/snippets/changes/maintainer_email.html
+#: ckanext/activity/templates/snippets/changes/resource_format.html
+msgid ")"
+msgstr ")"
+
+#: ckanext/activity/templates/snippets/changes/author_email.html
+msgid "Set author email of"
+msgstr "Nametraka ny mailaky ny mpanoratra ny"
+
+#: ckanext/activity/templates/snippets/changes/author_email.html
+msgid "Removed author email from"
+msgstr "Nanala ny mailaky ny mpanoratra tao amin'ny"
+
+#: ckanext/activity/templates/snippets/changes/delete_resource.html
+msgid "Deleted resource {resource_link} from {pkg_link}"
+msgstr "Namafa ny ressource {resource_link} tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/extension_fields.html
+msgid "Changed value of field <q>{key}</q> to <q>{value}</q> in {pkg_link}"
+msgstr "Nanova ho <q>{value}</q> ny sandan'ny saha <q>{key}</q> ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+msgid "Added field <q>{key}</q> with value <q>{value}</q> to {pkg_link}"
+msgstr "Nanampy ny saha <q>{key}</q> misy sanda <q>{value}</q> tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+msgid "Added field <q>{key}</q> to {pkg_link}"
+msgstr "Nanampy ny saha <q>{key}</q> tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+msgid "Added the following fields to {pkg_link}"
+msgstr "Nanampy ireto saha manaraka ireto tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "{key} with value {value}"
+msgstr "{key} misy sanda {value}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "{key}"
+msgstr "{key}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+msgid "Changed value of field <q>{key}</q> to <q>{new_val}</q> (previously <q>{old_val}</q>) in {pkg_link}"
+msgstr "Nanova ho <q>{new_val}</q> ny sandan'ny saha <q>{key}</q> (teo aloha: <q>{old_val}</q>) ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+msgid "Changed value of field <q>{key}</q> to <q>{new_val}</q> in {pkg_link}"
+msgstr "Nanova ho <q>{new_val}</q> ny sandan'ny saha <q>{key}</q> ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+msgid "Removed field <q>{key}</q> from {pkg_link}"
+msgstr "Nanala ny saha <q>{key}</q> tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+msgid "Removed the following fields from {pkg_link}"
+msgstr "Nanala ireto saha manaraka ireto tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/extra_fields.html
+msgid "<q>{key}</q>"
+msgstr "<q>{key}</q>"
+
+#: ckanext/activity/templates/snippets/changes/license.html
+msgid "Changed the license of "
+msgstr "Nanova ny fahazoan-dalana amin'ny "
+
+#: ckanext/activity/templates/snippets/changes/license.html
+msgid "( previously"
+msgstr "( teo aloha:"
+
+#: ckanext/activity/templates/snippets/changes/license.html
+msgid "Changed the license of"
+msgstr "Nanova ny fahazoan-dalana amin'ny"
+
+#: ckanext/activity/templates/snippets/changes/license.html
+#: ckanext/activity/templates/snippets/changes/maintainer_email.html
+#: ckanext/activity/templates/snippets/changes/resource_format.html
+msgid "(previously"
+msgstr "(teo aloha:"
+
+#: ckanext/activity/templates/snippets/changes/maintainer.html
+msgid "Set maintainer of {pkg_link} to {new_maintainer} (previously {old_maintainer})"
+msgstr "Nametraka ho {new_maintainer} ny mpikarakara ny {pkg_link} (teo aloha: {old_maintainer})"
+
+#: ckanext/activity/templates/snippets/changes/maintainer.html
+msgid "Set maintainer of {pkg_link} to {new_maintainer}"
+msgstr "Nametraka ho {new_maintainer} ny mpikarakara ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/maintainer.html
+msgid "Removed maintainer from {pkg_link}"
+msgstr "Nanala ny mpikarakara tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/maintainer_email.html
+msgid "Set maintainer email of"
+msgstr "Nametraka ny mailaky ny mpikarakara ny"
+
+#: ckanext/activity/templates/snippets/changes/maintainer_email.html
+msgid "Removed maintainer email from"
+msgstr "Nanala ny mailaky ny mpikarakara tao amin'ny"
+
+#: ckanext/activity/templates/snippets/changes/name.html
+msgid "Moved"
+msgstr "Nafindra"
+
+#: ckanext/activity/templates/snippets/changes/name.html
+#: ckanext/activity/templates/snippets/changes/url.html
+#: ckanext/activity/templates/snippets/group_changes/image_url.html
+#: ckanext/activity/templates/snippets/organization_changes/image_url.html
+msgid "from"
+msgstr "avy amin'ny"
+
+#: ckanext/activity/templates/snippets/changes/new_file.html
+msgid "Uploaded a new file to resource {resource_link} in {pkg_link}"
+msgstr "Nandefa rakitra vaovao tao amin'ny ressource {resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/new_resource.html
+msgid "Added resource {resource_link} to {pkg_link}"
+msgstr "Nanampy ny ressource {resource_link} tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/notes.html
+msgid "Updated description of {pkg_link} from <br class=\"line-height2\"><blockquote>{old_notes}</blockquote> to <br class=\"line-height2\"><blockquote>{new_notes}</blockquote>"
+msgstr "Nanavao ny famaritana ny {pkg_link} avy amin'ny <br class=\"line-height2\"><blockquote>{old_notes}</blockquote> ho <br class=\"line-height2\"><blockquote>{new_notes}</blockquote>"
+
+#: ckanext/activity/templates/snippets/changes/notes.html
+msgid "Updated description of {pkg_link} to <br class=\"line-height2\"><blockquote>{new_notes}</blockquote>"
+msgstr "Nanavao ny famaritana ny {pkg_link} ho <br class=\"line-height2\"><blockquote>{new_notes}</blockquote>"
+
+#: ckanext/activity/templates/snippets/changes/notes.html
+msgid "Removed description from {pkg_link}"
+msgstr "Nanala ny famaritana tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/org.html
+msgid "Moved {pkg_link} from organization {old_org_link} to organization {new_org_link}"
+msgstr "Nanetsika ny {pkg_link} avy amin'ny fikambanana {old_org_link} ho any amin'ny fikambanana {new_org_link}"
+
+#: ckanext/activity/templates/snippets/changes/org.html
+msgid "Removed {pkg_link} from organization {old_org_link}"
+msgstr "Nanala ny {pkg_link} tao amin'ny fikambanana {old_org_link}"
+
+#: ckanext/activity/templates/snippets/changes/org.html
+msgid "Added {pkg_link} to organization {new_org_link}"
+msgstr "Nampiditra ny {pkg_link} tao amin'ny fikambanana {new_org_link}"
+
+#: ckanext/activity/templates/snippets/changes/private.html
+msgid "Set visibility of {pkg_link} to {visibility}"
+msgstr "Nametraka ho {visibility} ny fahitana ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_desc.html
+msgid "Updated description of resource {resource_link} in {pkg_link} to <br class=\"line-height2\"><blockquote>{new_desc}</blockquote>"
+msgstr "Nanavao ny famaritana ny ressource {resource_link} ao amin'ny {pkg_link} ho <br class=\"line-height2\"><blockquote>{new_desc}</blockquote>"
+
+#: ckanext/activity/templates/snippets/changes/resource_desc.html
+msgid "Removed description from resource {resource_link} in {pkg_link}"
+msgstr "Nanala ny famaritana ny ressource {resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_desc.html
+msgid "Updated description of resource {resource_link} in {pkg_link} from <br class=\"line-height2\"><blockquote>{old_desc}</blockquote> to <br class=\"line-height2\"><blockquote>{new_desc}</blockquote>"
+msgstr "Nanavao ny famaritana ny ressource {resource_link} ao amin'ny {pkg_link} avy amin'ny <br class=\"line-height2\"><blockquote>{old_desc}</blockquote> ho <br class=\"line-height2\"><blockquote>{new_desc}</blockquote>"
+
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "Added field <q>{key}</q> with value <q>{value}</q> to resource {resource_link} in {pkg_link}"
+msgstr "Nanampy ny saha <q>{key}</q> misy sanda <q>{value}</q> tao amin'ny ressource {resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "Added field <q>{key}</q> to resource {resource_link} in {pkg_link}"
+msgstr "Nanampy ny saha <q>{key}</q> tao amin'ny ressource {resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "Added the following fields to resource {resource_link} in {pkg_link}"
+msgstr "Nanampy ireto saha manaraka ireto tao amin'ny ressource {resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "Removed field <q>{key}</q> from resource {resource_link} in {pkg_link}"
+msgstr "Nanala ny saha <q>{key}</q> tao amin'ny ressource {resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "Removed the following fields from resource {resource_link} in {pkg_link}"
+msgstr "Nanala ireto saha manaraka ireto tao amin'ny ressource {resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "Changed value of field <q>{key}</q> of resource {resource_link} to <q>{new_val}</q> (previously <q>{old_val}</q>) in {pkg_link}"
+msgstr "Nanova ho <q>{new_val}</q> ny sandan'ny saha <q>{key}</q> amin'ny ressource {resource_link} (teo aloha: <q>{old_val}</q>) ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "Changed value of field <q>{key}</q> to <q>{new_val}</q> in resource {resource_link} in {pkg_link}"
+msgstr "Nanova ho <q>{new_val}</q> ny sandan'ny saha <q>{key}</q> ao amin'ny ressource {resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_extras.html
+msgid "Removed the value of field <q>{key}</q> in resource {resource_link} in {pkg_link}"
+msgstr "Nanala ny sandan'ny saha <q>{key}</q> ao amin'ny ressource {resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/resource_format.html
+msgid "Set format of resource"
+msgstr "Nametraka ny endriky ny ressource"
+
+#: ckanext/activity/templates/snippets/changes/resource_format.html
+msgid "in"
+msgstr "ao amin'ny"
+
+#: ckanext/activity/templates/snippets/changes/resource_name.html
+msgid "Renamed resource {old_resource_link} to {new_resource_link} in {pkg_link}"
+msgstr "Nanova ny anaran'ny ressource {old_resource_link} ho {new_resource_link} ao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/tags.html
+msgid "Removed tag {tag_link} from {pkg_link}"
+msgstr "Nanala ny teny fanalahidy {tag_link} tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/tags.html
+msgid "Removed the following tags from {pkg_link}"
+msgstr "Nanala ireto teny fanalahidy manaraka ireto tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/tags.html
+msgid "{tag_link}"
+msgstr "{tag_link}"
+
+#: ckanext/activity/templates/snippets/changes/tags.html
+msgid "Added tag {tag_link} to {pkg_link}"
+msgstr "Nanampy ny teny fanalahidy {tag_link} tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/tags.html
+msgid "Added the following tags to {pkg_link}"
+msgstr "Nanampy ireto teny fanalahidy manaraka ireto tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/title.html
+#: ckanext/activity/templates/snippets/group_changes/title.html
+#: ckanext/activity/templates/snippets/organization_changes/title.html
+msgid "Changed title to {title_link} (previously {old_title})"
+msgstr "Nanova ny lohateny ho {title_link} (teo aloha: {old_title})"
+
+#: ckanext/activity/templates/snippets/changes/url.html
+msgid "Changed the source URL of"
+msgstr "Nanova ny URL loharanon'ny"
+
+#: ckanext/activity/templates/snippets/changes/url.html
+msgid "Removed the source URL from"
+msgstr "Nanala ny URL loharano tao amin'ny"
+
+#: ckanext/activity/templates/snippets/changes/version.html
+msgid "Changed the version of {pkg_link} to {new_version} (previously {old_version})"
+msgstr "Nanova ho {new_version} ny dikan-tenin'ny {pkg_link} (teo aloha: {old_version})"
+
+#: ckanext/activity/templates/snippets/changes/version.html
+msgid "Removed the version from {pkg_link}"
+msgstr "Nanala ny dikan-teny tao amin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/changes/version.html
+msgid "Changed the version of {pkg_link} to {new_version}"
+msgstr "Nanova ho {new_version} ny dikan-tenin'ny {pkg_link}"
+
+#: ckanext/activity/templates/snippets/group_changes/description.html
+msgid "Updated description of {group_link} from <br class=\"line-height2\"><blockquote>{old_description}</blockquote> to <br class=\"line-height2\"><blockquote>{new_description}</blockquote>"
+msgstr "Nanavao ny famaritana ny {group_link} avy amin'ny <br class=\"line-height2\"><blockquote>{old_description}</blockquote> ho <br class=\"line-height2\"><blockquote>{new_description}</blockquote>"
+
+#: ckanext/activity/templates/snippets/group_changes/description.html
+msgid "Updated description of {group_link} to <br class=\"line-height2\"><blockquote>{new_description}</blockquote>"
+msgstr "Nanavao ny famaritana ny {group_link} ho <br class=\"line-height2\"><blockquote>{new_description}</blockquote>"
+
+#: ckanext/activity/templates/snippets/group_changes/description.html
+msgid "Removed description from {group_link}"
+msgstr "Nanala ny famaritana tao amin'ny {group_link}"
+
+#: ckanext/activity/templates/snippets/group_changes/image_url.html
+#: ckanext/activity/templates/snippets/organization_changes/image_url.html
+msgid "Changed the image URL of"
+msgstr "Nanova ny URL sarin'ny"
+
+#: ckanext/activity/templates/snippets/group_changes/image_url.html
+#: ckanext/activity/templates/snippets/organization_changes/image_url.html
+msgid "Removed the image URL from"
+msgstr "Nanala ny URL sary tao amin'ny"
+
+#: ckanext/activity/templates/snippets/organization_changes/description.html
+msgid "Updated description of {org_link} from <br class=\"line-height2\"><blockquote>{old_description}</blockquote> to <br class=\"line-height2\"><blockquote>{new_description}</blockquote>"
+msgstr "Nanavao ny famaritana ny {org_link} avy amin'ny <br class=\"line-height2\"><blockquote>{old_description}</blockquote> ho <br class=\"line-height2\"><blockquote>{new_description}</blockquote>"
+
+#: ckanext/activity/templates/snippets/organization_changes/description.html
+msgid "Updated description of {org_link} to <br class=\"line-height2\"><blockquote>{new_description}</blockquote>"
+msgstr "Nanavao ny famaritana ny {org_link} ho <br class=\"line-height2\"><blockquote>{new_description}</blockquote>"
+
+#: ckanext/activity/templates/snippets/organization_changes/description.html
+msgid "Removed description from {org_link}"
+msgstr "Nanala ny famaritana tao amin'ny {org_link}"
+
+#: ckanext/activity/templates/user/dashboard.html
+msgid "News feed"
+msgstr "Vaovao"
+
+#: ckanext/activity/templates/user/dashboard.html
+msgid "Activity from items that I'm following"
+msgstr "Hetsika avy amin'ireo zavatra arahiko"
+
+#: ckanext/activity/templates/user/edit_user_form.html
+msgid "Subscribe to notification emails"
+msgstr "Hisoratra hahazo mailaka fampandrenesana"
+
+#: ckanext/activity/templates/user/snippets/followee_dropdown.html
+msgid "Activity from:"
+msgstr "Hetsika avy amin'ny:"
+
+#: ckanext/activity/templates/user/snippets/followee_dropdown.html
+msgid "Search list..."
+msgstr "Hitady ao anaty lisitra..."
+
+#: ckanext/activity/templates/user/snippets/followee_dropdown.html
+msgid "Search followee"
+msgstr "Hitady izay arahina"
+
+#: ckanext/activity/templates/user/snippets/followee_dropdown.html
+msgid "You are not following anything"
+msgstr "Tsy manaraka na inona na inona ianao"
+
+#: ckanext/audioview/plugin.py
+msgid "Audio"
+msgstr "Feo"
+
+#: ckanext/audioview/theme/templates/audio_form.html
+msgid "Audio url"
+msgstr "URL feo"
+
+#: ckanext/audioview/theme/templates/audio_form.html
+msgid "eg. http://example.com/audio.mp3  (if blank uses resource url)"
+msgstr "ohatra: http://example.com/audio.mp3  (raha foana dia ampiasaina ny URL an'ny ressource)"
+
+#: ckanext/audioview/theme/templates/audio_view.html
+#, python-format
+msgid "Your browser doesn't support <code>HTML5 audio</code>. Here is a <a href=\"%(res_url)s\" alt=\"audio url\">link to the audio</a> instead."
+msgstr "Tsy mahazaka <code>HTML5 audio</code> ny mpitety tranonkala anao. Ity kosa misy <a href=\"%(res_url)s\" alt=\"audio url\">rohy mankany amin'ny feo</a>."
+
+#: ckanext/datapusher/helpers.py ckanext/xloader/helpers.py
+msgid "Complete"
+msgstr "Vita"
+
+#: ckanext/datapusher/helpers.py ckanext/xloader/helpers.py
+msgid "Pending"
+msgstr "Miandry"
+
+#: ckanext/datapusher/helpers.py ckanext/xloader/helpers.py
+msgid "Submitting"
+msgstr "Eo am-pandefasana"
+
+#: ckanext/datapusher/helpers.py ckanext/xloader/helpers.py
+msgid "Not Uploaded Yet"
+msgstr "Mbola tsy nalefa"
+
+#: ckanext/datapusher/views.py
+msgid "DataStore and Data Dictionary "
+msgstr "DataStore sy rakibolan'ny angona "
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/confirm_datastore_delete.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Are you sure you want to delete the DataStore and Data Dictionary?"
+msgstr "Tena hofafanao ve ny DataStore sy ny rakibolan'ny angona?"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Delete from DataStore"
+msgstr "Hamafa ao amin'ny DataStore"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Upload to DataStore"
+msgstr "Handefa any amin'ny DataStore"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Upload error:"
+msgstr "Hadisoana tamin'ny fandefasana:"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Error:"
+msgstr "Hadisoana:"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Error traceback:"
+msgstr "Traceback an'ny hadisoana:"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Status"
+msgstr "Toe-javatra"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Last updated"
+msgstr "Nohavaozina farany"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Upload Log"
+msgstr "Diarin'ny fandefasana"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "Details"
+msgstr "Antsipiriany"
+
+#: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/xloader/templates/xloader/resource_data.html
+msgid "End of log"
+msgstr "Faran'ny diary"
+
+#: ckanext/datapusher/templates/package/resource_edit_base.html
+#: ckanext/xloader/templates/package/resource_edit_base.html
+#: ckanext/xloader/templates/package/resource_read.html
+#: ckanext/xloader/templates/package/snippets/resource_item.html
+#: ckanext/xloader/templates/package/snippets/resources.html
+msgid "DataStore"
+msgstr "DataStore"
+
+#: ckanext/datastore/blueprint.py
+msgid "DataStore resource not found"
+msgstr "Tsy hita ny ressource DataStore"
+
+#: ckanext/datastore/blueprint.py
+msgid "Unsupported format"
+msgstr "Endrika tsy tohanana"
+
+#: ckanext/datastore/blueprint.py ckanext/tabledesigner/views.py
+#, python-format
+msgid "Field %d"
+msgstr "Saha %d"
+
+#: ckanext/datastore/blueprint.py
+msgid "Data Dictionary saved. Any type overrides will take effect when the resource is next uploaded to DataStore"
+msgstr "Voatahiry ny rakibolan'ny angona. Hihatra ny karazana soloina rehefa halefa indray any amin'ny DataStore ny ressource"
+
+#: ckanext/datastore/assets/js/api-info.js
+msgid "There is no API data to load for this resource"
+msgstr "Tsy misy angona API hakana ho an'ity ressource ity"
+
+#: ckanext/datastore/assets/js/api-info.js
+msgid "Failed to load data API information"
+msgstr "Tsy nahomby ny fakana ny fampahalalana momba ny API angona"
+
+#: ckanext/datastore/logic/action.py
+msgid "Resource \"{0}\" was not found."
+msgstr "Tsy hita ny ressource \"{0}\"."
+
+#: ckanext/datastore/logic/action.py
+msgid "Resource/Alias \"{0}\" was not found."
+msgstr "Tsy hita ny ressource/alias \"{0}\"."
+
+#: ckanext/datastore/logic/auth.py
+msgid "User {0} not authorized to update resource {1}"
+msgstr "Tsy nahazo alalana hanavao ny ressource {1} ny mpampiasa {0}"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+msgid "CKAN Data API"
+msgstr "API angona CKAN"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+msgid "Access resource data via a web API with powerful query support"
+msgstr "Midira amin'ny angon'ny ressource amin'ny alalan'ny API web mahazaka fanontaniana matanjaka"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+#, python-format
+msgid "Further information in the <a href=\"%(url)s\" target=\"_blank\">main CKAN Data API and DataStore documentation</a>.</p>"
+msgstr "Fanazavana fanampiny ao amin'ny <a href=\"%(url)s\" target=\"_blank\">torolalana fototra momba ny API angona CKAN sy ny DataStore</a>.</p>"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+msgid "Code examples:"
+msgstr "Ohatra kaody:"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+msgid "Querying"
+msgstr "Fanontaniana"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+msgid "Get 5 results containing \"jones\" in any field:"
+msgstr "Haka valiny 5 misy \"jones\" amin'ny saha rehetra:"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+msgid "Get results with either \"watershed\" or \"survey\" as subject and \"active\" as its stage:"
+msgstr "Haka valiny manana \"watershed\" na \"survey\" ho lohahevitra ary \"active\" ho dingana:"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+msgid "SQL query example:"
+msgstr "Ohatra fanontaniana SQL:"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+msgid "Using the API with this Web Browser"
+msgstr "Fampiasana ny API amin'ity mpitety tranonkala ity"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+msgid "Some API endpoints may be accessed using a GET query string."
+msgstr "Misy points d'accès API azo idirana amin'ny alalan'ny query string GET."
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+msgid "Query example (first 5 results)"
+msgstr "Ohatra fanontaniana (valiny 5 voalohany)"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+msgid "Query example (results containing 'jones')"
+msgstr "Ohatra fanontaniana (valiny misy 'jones')"
+
+#: ckanext/datastore/templates/ajax_snippets/api_info.html
+msgid "Query example (via SQL statement)"
+msgstr "Ohatra fanontaniana (amin'ny alalan'ny fanambarana SQL)"
+
+#: ckanext/datastore/templates/datastore/api_examples/python.html
+#, python-format
+msgid "(using the <a href=\"%(url)s\">ckanapi</a> client library)"
+msgstr "(mampiasa ny tranombokin'ny client <a href=\"%(url)s\">ckanapi</a>)"
+
+#: ckanext/datastore/templates/datastore/snippets/dictionary_form.html
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_form.html
+msgid "Field {num}."
+msgstr "Saha {num}."
+
+#: ckanext/datastore/templates/datastore/snippets/dictionary_form.html
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_form.html
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_view.html
+msgid "Primary key"
+msgstr "Fanalahidy fototra"
+
+#: ckanext/datastore/templates/datastore/snippets/dictionary_form.html
+msgid "Type Override"
+msgstr "Karazana soloina"
+
+#: ckanext/datastore/templates/datastore/snippets/dictionary_form.html
+#: ckanext/datastore/templates/datastore/snippets/dictionary_view.html
+#: ckanext/datatablesview/templates/datatables/datatables_form.html
+msgid "Label"
+msgstr "Marika"
+
+#: ckanext/datastore/templates/datastore/snippets/dictionary_view.html
+#: ckanext/datastore/templates/package/resource_edit_base.html
+#: ckanext/datastore/templates/package/resource_read.html
+#: ckanext/datastore/templates/package/snippets/resource_item.html
+#: ckanext/datastore/templates/package/snippets/resources.html
+msgid "Data Dictionary"
+msgstr "Rakibolan'ny angona"
+
+#: ckanext/datastore/templates/datastore/snippets/dictionary_view.html
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_form.html
+msgid "ID"
+msgstr "ID"
+
+#: ckanext/datastore/templates/datastore/snippets/dictionary_view.html
+msgid "Type"
+msgstr "Karazana"
+
+#: ckanext/datastore/templates/package/snippets/data_api_button.html
+msgid "Data API"
+msgstr "API angona"
+
+#: ckanext/datatablesview/plugin.py
+msgid "Table"
+msgstr "Tabilao"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Print"
+msgstr "Hanonta"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "seconds"
+msgstr "segondra"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Double-click to reset filters"
+msgstr "Tsindrio indroa haverina ny sivana"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Table/List toggle"
+msgstr "Hifandimby tabilao/lisitra"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Copy to clipboard"
+msgstr "Handika ao amin'ny presse-papiers"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Toggle column visibility"
+msgstr "Aseho na afeno ny tsanganana"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Restore visibility"
+msgstr "Haverina ny fahitana"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Show all"
+msgstr "Aseho ny rehetra"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Show none"
+msgstr "Afeno ny rehetra"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Filtered"
+msgstr "Voasivana"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Filtered download"
+msgstr "Fisintonana voasivana"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Share current view"
+msgstr "Hizara ny fijery ankehitriny"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Copied deeplink to clipboard"
+msgstr "Nadika tao amin'ny presse-papiers ny rohy mivantana"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid "Sort"
+msgstr "Alahatra"
+
+#: ckanext/datatablesview/assets/datatablesview.js
+msgid ""
+"Press SHIFT key while clicking on\n"
+"sort control for multi-column sort"
+msgstr ""
+"Tsindrio ny SHIFT rehefa manindry ny\n"
+"fanaraha-mason'ny filaharana raha handahatra tsanganana maro"
+
+#: ckanext/datatablesview/templates/datatables/datatables_form.html
+msgid "List view/Responsive display"
+msgstr "Fijery lisitra/Fampisehoana mifanaraka amin'ny efijery"
+
+#: ckanext/datatablesview/templates/datatables/datatables_form.html
+msgid "Ellipsis length"
+msgstr "Halavana alohan'ny teboka telo"
+
+#: ckanext/datatablesview/templates/datatables/datatables_form.html
+msgid "Length at which data will be truncated with an ellipsis for display. Set to zero for no truncation, and for data to be wrapped at column name width instead."
+msgstr "Halavana ahapahana ny angona miaraka amin'ny teboka telo rehefa aseho. Apetraho ho aotra raha tsy tianao hapahana, ka haforona araka ny sakan'ny anaran'ny tsanganana kosa ny angona."
+
+#: ckanext/datatablesview/templates/datatables/datatables_form.html
+msgid "Date format"
+msgstr "Endriky ny daty"
+
+#: ckanext/datatablesview/templates/datatables/datatables_form.html
+msgid "Moment.js date format to use for displaying dates (see <a href=\"https://devhints.io/moment#formatting-1\" target=\"_blank\">Moment.js cheatsheet</a>). If <b>NONE</b>, the raw timestamp value will be shown."
+msgstr "Endriky ny daty Moment.js ampiasaina hanehoana ny daty (jereo ny <a href=\"https://devhints.io/moment#formatting-1\" target=\"_blank\">Moment.js cheatsheet</a>). Raha <b>NONE</b>, dia aseho ny sanda timestamp tsy voahodina."
+
+#: ckanext/datatablesview/templates/datatables/datatables_form.html
+msgid "Show Columns"
+msgstr "Aseho ny tsanganana"
+
+#: ckanext/datatablesview/templates/datatables/datatables_form.html
+msgid "Column"
+msgstr "Tsanganana"
+
+#: ckanext/datatablesview/templates/datatables/datatables_view.html
+msgid "Refit"
+msgstr "Amboary indray ny habe"
+
+#: ckanext/example_humanizer/plugin.py
+msgid "Create new {object_type}"
+msgstr "Hamorona {object_type} vaovao"
+
+#: ckanext/example_icolumnconstraints/plugin.py
+msgid "This field may not be changed"
+msgstr "Tsy azo ovaina ity saha ity"
+
+#: ckanext/example_icolumnconstraints/templates/tabledesigner/constraint_snippets/immutable.html
+#: ckanext/example_icolumnconstraints/templates/tabledesigner/view_snippets/immutable.html
+msgid "Immutable"
+msgstr "Tsy azo ovaina"
+
+#: ckanext/example_icolumnconstraints/templates/tabledesigner/constraint_snippets/immutable.html
+msgid "The value may be set once then not changed afterwards"
+msgstr "Azo apetraka indray mandeha ny sanda ary tsy azo ovaina intsony avy eo"
+
+#: ckanext/example_icolumnconstraints/templates/tabledesigner/view_snippets/immutable.html
+msgid "This field may not be modified once set"
+msgstr "Tsy azo ovaina intsony ity saha ity rehefa voapetraka"
+
+#: ckanext/example_icolumntypes/plugin.py
+msgid "Star Rating"
+msgstr "Naoty kintana"
+
+#: ckanext/example_icolumntypes/plugin.py
+msgid "Rating between 1-5 stars"
+msgstr "Naoty eo anelanelan'ny kintana 1-5"
+
+#: ckanext/example_icolumntypes/plugin.py
+msgid "Rating must be between 1 and 5"
+msgstr "Tsy maintsy eo anelanelan'ny 1 sy 5 ny naoty"
+
+#: ckanext/example_iconfigurer/templates/admin/base.html
+msgid "My First Custom Config Tab"
+msgstr "Tabilao fikirana manokana voalohany"
+
+#: ckanext/example_iconfigurer/templates/admin/base.html
+msgid "My Second Custom Config Tab"
+msgstr "Tabilao fikirana manokana faharoa"
+
+#: ckanext/example_iconfigurer/templates/admin/config.html
+msgid "Datasets per page"
+msgstr "Jeux de données isaky ny pejy"
+
+#: ckanext/example_iconfigurer/templates/admin/config.html
+msgid "Test conf"
+msgstr "Fikirana fitsapana"
+
+#: ckanext/example_idatadictionaryform/plugin.py
+msgid "Not a JSON object"
+msgstr "Tsy objet JSON"
+
+#: ckanext/example_idatadictionaryform/plugin.py
+#, python-format
+msgid "Value must be larger than %d"
+msgstr "Tsy maintsy lehibe noho %d ny sanda"
+
+#: ckanext/example_idatadictionaryform/templates/datastore/snippets/dictionary_form.html
+#: ckanext/example_idatadictionaryform/templates/datastore/snippets/dictionary_view.html
+msgid "An integer"
+msgstr "Isa manontolo"
+
+#: ckanext/example_idatadictionaryform/templates/datastore/snippets/dictionary_form.html
+#: ckanext/example_idatadictionaryform/templates/datastore/snippets/dictionary_view.html
+msgid "JSON object"
+msgstr "Objet JSON"
+
+#: ckanext/example_idatadictionaryform/templates/datastore/snippets/dictionary_form.html
+#: ckanext/example_idatadictionaryform/templates/datastore/snippets/dictionary_view.html
+msgid "Always increasing"
+msgstr "Mitombo foana"
+
+#: ckanext/example_idatadictionaryform/templates/datastore/snippets/dictionary_form.html
+#: ckanext/example_idatadictionaryform/templates/datastore/snippets/dictionary_view.html
+msgid "Sticky input"
+msgstr "Fampidirana raikitra"
+
+#: ckanext/example_idatadictionaryform/templates/datastore/snippets/dictionary_form.html
+msgid "Secret (write-only)"
+msgstr "Tsiambaratelo (fanoratana ihany)"
+
+#: ckanext/example_idatasetform/templates/package/search.html
+msgid "Custom Field Ascending"
+msgstr "Saha manokana (miakatra)"
+
+#: ckanext/example_idatasetform/templates/package/search.html
+msgid "Custom Field Descending"
+msgstr "Saha manokana (midina)"
+
+#: ckanext/example_idatasetform/templates/package/snippets/additional_info.html
+#: ckanext/example_idatasetform/templates/package/snippets/package_basic_fields.html
+#: ckanext/example_idatasetform/templates/package/snippets/resource_form.html
+msgid "Custom Text"
+msgstr "Lahatsoratra manokana"
+
+#: ckanext/example_idatasetform/templates/package/snippets/package_basic_fields.html
+msgid "custom text"
+msgstr "lahatsoratra manokana"
+
+#: ckanext/example_idatasetform/templates/package/snippets/package_metadata_fields.html
+msgid "Country Code"
+msgstr "Kaodin'ny firenena"
+
+#: ckanext/example_idatasetform/templates/package/snippets/resource_form.html
+msgid "custom resource text"
+msgstr "lahatsoratra ressource manokana"
+
+#: ckanext/example_itranslation/templates/home/index.html
+msgid "This is an untranslated string"
+msgstr "Ity dia tady tsy voadika"
+
+#: ckanext/example_theme_docs/v10_custom_snippet/templates/snippets/example_theme_most_popular_groups.html
+#: ckanext/example_theme_docs/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html
+msgid "This group has no description"
+msgstr "Tsy misy famaritana ity vondrona ity"
+
+#: ckanext/example_theme_docs/v12_extra_public_dir/templates/home/snippets/promoted.html
+msgid "CKAN's data previewing tool has many powerful features"
+msgstr "Manana fahafahana matanjaka maro ny fitaovana topimason'angona an'ny CKAN"
+
+#: ckanext/expire_api_token/templates/user/api_tokens.html
+msgid "Second"
+msgstr "Segondra"
+
+#: ckanext/expire_api_token/templates/user/api_tokens.html
+msgid "Minute"
+msgstr "Minitra"
+
+#: ckanext/expire_api_token/templates/user/api_tokens.html
+msgid "Hour"
+msgstr "Ora"
+
+#: ckanext/expire_api_token/templates/user/api_tokens.html
+msgid "Day"
+msgstr "Andro"
+
+#: ckanext/expire_api_token/templates/user/api_tokens.html
+msgid "Expires in"
+msgstr "Lany daty afaka"
+
+#: ckanext/expire_api_token/templates/user/api_tokens.html
+msgid "Units"
+msgstr "Refy"
+
+#: ckanext/expire_api_token/templates/user/snippets/api_token_list.html
+msgid "Expires at"
+msgstr "Lany daty amin'ny"
+
+#: ckanext/imageview/theme/templates/image_form.html
+msgid "Image url"
+msgstr "URL sary"
+
+#: ckanext/imageview/theme/templates/image_form.html
+msgid "eg. http://example.com/image.jpg (if blank uses resource url)"
+msgstr "ohatra: http://example.com/image.jpg (raha foana dia ampiasaina ny URL an'ny ressource)"
+
+#: ckanext/resourceproxy/blueprint.py
+msgid "Invalid URL."
+msgstr "URL tsy mety."
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Total number of Datasets"
+msgstr "Isan'ny jeux de données rehetra"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+#: ckanext/tabledesigner/column_types.py
+msgid "Date"
+msgstr "Daty"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Total datasets"
+msgstr "Jeux de données rehetra"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Dataset Revisions per Week"
+msgstr "Fanitsiana jeux de données isan-kerinandro"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "All dataset revisions"
+msgstr "Fanitsiana jeux de données rehetra"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "New datasets"
+msgstr "Jeux de données vaovao"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Most Edited Datasets"
+msgstr "Jeux de données novaina indrindra"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Number of edits"
+msgstr "Isan'ny fanovana"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "No edited datasets"
+msgstr "Tsy misy jeu de données novaina"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Largest Groups"
+msgstr "Vondrona lehibe indrindra"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Number of datasets"
+msgstr "Isan'ny jeux de données"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "No groups"
+msgstr "Tsy misy vondrona"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Top Tags"
+msgstr "Teny fanalahidy be mpampiasa indrindra"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Tag Name"
+msgstr "Teny fanalahidy"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Number of Datasets"
+msgstr "Isan'ny jeux de données"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Users Creating Most Datasets"
+msgstr "Mpampiasa namorona jeux de données betsaka indrindra"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Statistics Menu"
+msgstr "Lisitry ny statistika"
+
+#: ckanext/stats/templates/ckanext/stats/index.html
+msgid "Total Number of Datasets"
+msgstr "Isan'ny jeux de données rehetra"
+
+#: ckanext/tabledesigner/column_constraints.py
+msgid "Below minimum"
+msgstr "Ambany noho ny kely indrindra"
+
+#: ckanext/tabledesigner/column_constraints.py
+msgid "Above maximum"
+msgstr "Ambony noho ny lehibe indrindra"
+
+#: ckanext/tabledesigner/column_constraints.py
+msgid "Does not match pattern"
+msgstr "Tsy mifanaraka amin'ny modely"
+
+#: ckanext/tabledesigner/column_types.py ckanext/textview/plugin.py
+msgid "Text"
+msgstr "Lahatsoratra"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Unicode text of any length"
+msgstr "Lahatsoratra Unicode amin'ny halavana rehetra"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "free-form text"
+msgstr "lahatsoratra malalaka"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Choice"
+msgstr "Safidy"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Choose one option from a fixed list"
+msgstr "Mifidiana safidy iray avy amin'ny lisitra raikitra"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Email Address"
+msgstr "Adiresy mailaka"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "A single email address"
+msgstr "Adiresy mailaka tokana"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Invalid email"
+msgstr "Mailaka tsy mety"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "URI"
+msgstr "URI"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Uniform resource identifier (URL or URN)"
+msgstr "Famantarana ressource iraisana (URL na URN)"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Universally unique identifier (UUID)"
+msgstr "Famantarana tokana eran-tany (UUID)"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "A universally unique identifier as hexadecimal"
+msgstr "Famantarana tokana eran-tany amin'ny endrika hexadécimal"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Numeric"
+msgstr "Isa"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Number with arbitrary precision (any number of digits before and after the decimal)"
+msgstr "Isa manana fahamarinana tsy voafetra (tarehimarika firy na firy alohan'ny sy aorian'ny faingo)"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Integer"
+msgstr "Isa manontolo"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Whole numbers with no decimal"
+msgstr "Isa manontolo tsy misy faingo"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Boolean"
+msgstr "Booléen"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "True or false values"
+msgstr "Sanda marina na diso"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "FALSE"
+msgstr "DISO"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "TRUE"
+msgstr "MARINA"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "JSON"
+msgstr "JSON"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "A JSON object"
+msgstr "Objet JSON"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Date without time of day"
+msgstr "Daty tsy misy ora"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Timestamp"
+msgstr "Horodatage"
+
+#: ckanext/tabledesigner/column_types.py
+msgid "Date and time without time zone"
+msgstr "Daty sy ora tsy misy faritra ora"
+
+#: ckanext/tabledesigner/validators.py
+msgid "Must be a list or newline-separated string"
+msgstr "Tsy maintsy lisitra na tady misaraka amin'ny andalana vaovao"
+
+#: ckanext/tabledesigner/validators.py
+msgid "Invalid regular expression"
+msgstr "Expression régulière tsy mety"
+
+#: ckanext/tabledesigner/validators.py
+#, python-format
+msgid "Invalid constraint for type: %s"
+msgstr "Fepetra tsy mety ho an'ny karazana: %s"
+
+#: ckanext/tabledesigner/validators.py
+msgid "Less than minumum"
+msgstr "Kely noho ny kely indrindra"
+
+#: ckanext/tabledesigner/views.py
+msgid "Required fields missing"
+msgstr "Tsy ampy ireo saha tsy maintsy fenoina"
+
+#: ckanext/tabledesigner/views.py
+msgid "Table Designer fields updated."
+msgstr "Nohavaozina ireo sahan'ny mpandrafitra tabilao."
+
+#: ckanext/tabledesigner/views.py
+msgid "Duplicate primary key exists"
+msgstr "Misy fanalahidy fototra mitovy"
+
+#: ckanext/tabledesigner/views.py
+msgid "Invalid input"
+msgstr "Fampidirana tsy mety"
+
+#: ckanext/tabledesigner/views.py
+msgid "Row not found"
+msgstr "Tsy hita ny andalana"
+
+#: ckanext/tabledesigner/views.py
+msgid "Row(s) not found"
+msgstr "Tsy hita ny andalana"
+
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+msgid "Get results filtered by the contents of specific fields:"
+msgstr "Haka valiny voasivana araka ny votoatin'ny saha voafaritra:"
+
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+msgid "Inserting and Updating"
+msgstr "Fampidirana sy fanavaozana"
+
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+msgid "Insert a new record:"
+msgstr "Hampiditra firaketana vaovao:"
+
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+msgid "Update an existing record:"
+msgstr "Hanavao firaketana efa misy:"
+
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+#, python-format
+msgid "\"%(method)s\" defaults to \"%(upsert)s\" i.e. records will be inserted or updated based on the primary key values passed"
+msgstr "Raha tsy voafaritra dia \"%(upsert)s\" ny \"%(method)s\", izany hoe hampidirina na havaozina ny firaketana araka ny sandan'ny fanalahidy fototra nalefa"
+
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+msgid "Deleting"
+msgstr "Famafana"
+
+#: ckanext/tabledesigner/templates/ajax_snippets/api_info.html
+msgid "Delete a record:"
+msgstr "Hamafa firaketana:"
+
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_form.html
+msgid "Remove field"
+msgstr "Hanala ny saha"
+
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_form.html
+msgid "Field identifier or column heading when exported to CSV"
+msgstr "Famantarana ny saha na lohatenin'ny tsanganana rehefa aondrana amin'ny CSV"
+
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_form.html
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_view.html
+msgid "Obligation"
+msgstr "Fepetra"
+
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_form.html
+msgid "Optional"
+msgstr "Tsy voatery"
+
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_form.html
+#: ckanext/tabledesigner/templates/datastore/snippets/dictionary_view.html
+msgid "Required"
+msgstr "Tsy maintsy"
+
+#: ckanext/tabledesigner/templates/datatables/datatables_view.html
+msgid "Delete rows"
+msgstr "Hamafa andalana"
+
+#: ckanext/tabledesigner/templates/datatables/datatables_view.html
+#: ckanext/tabledesigner/templates/tabledesigner/edit_row.html
+msgid "Edit row"
+msgstr "Hanova andalana"
+
+#: ckanext/tabledesigner/templates/datatables/datatables_view.html
+#: ckanext/tabledesigner/templates/tabledesigner/add_row.html
+msgid "Add row"
+msgstr "Hanampy andalana"
+
+#: ckanext/tabledesigner/templates/package/resource_read.html
+msgid "<b>No fields defined:</b> click the Data Dictionary button above to customize this table"
+msgstr "<b>Tsy misy saha voafaritra:</b> tsindrio ny bokotra Rakibolan'ny angona etsy ambony hanamboarana ity tabilao ity"
+
+#: ckanext/tabledesigner/templates/package/resource_read.html
+msgid "<b>No table view defined:</b> click the Views button and add a Table view to view and edit data"
+msgstr "<b>Tsy misy fijery tabilao voafaritra:</b> tsindrio ny bokotra Fijery ary manampia fijery Tabilao hijerena sy hanovana ny angona"
+
+#: ckanext/tabledesigner/templates/package/snippets/resource_upload_field.html
+msgid "Create a custom table for your data"
+msgstr "Hamorona tabilao manokana ho an'ny angonao"
+
+#: ckanext/tabledesigner/templates/package/snippets/resource_upload_field.html
+msgid "Table Designer"
+msgstr "Mpandrafitra tabilao"
+
+#: ckanext/tabledesigner/templates/package/snippets/resource_upload_field.html
+msgid "Save this resource, then customize the table from the Data Dictionary tab"
+msgstr "Tehirizo ity ressource ity, avy eo amboary ny tabilao ao amin'ny onglet Rakibolan'ny angona"
+
+#: ckanext/tabledesigner/templates/package/snippets/resource_upload_field.html
+#, python-format
+msgid "Use the <a href=\"%(url)s\">Data Dictionary</a> tab to customize this table."
+msgstr "Ampiasao ny onglet <a href=\"%(url)s\">Rakibolan'ny angona</a> hanamboarana ity tabilao ity."
+
+#: ckanext/tabledesigner/templates/tabledesigner/delete_rows.html
+msgid "Delete row"
+msgid_plural "Delete rows"
+msgstr[0] "Hamafa andalana"
+msgstr[1] "Hamafa andalana"
+
+#: ckanext/tabledesigner/templates/tabledesigner/delete_rows.html
+msgid "Delete {num} row?"
+msgid_plural "Delete {num} rows?"
+msgstr[0] "Hamafa andalana {num}?"
+msgstr[1] "Hamafa andalana {num}?"
+
+#: ckanext/tabledesigner/templates/tabledesigner/constraint_snippets/pattern.html
+#: ckanext/tabledesigner/templates/tabledesigner/view_snippets/pattern.html
+msgid "Pattern"
+msgstr "Modely"
+
+#: ckanext/tabledesigner/templates/tabledesigner/constraint_snippets/pattern.html
+msgid "Regular expression to match against the field, e.g. <code>AB-\\d{6}</code> for text starting with <code>AB-</code> and ending with 6 digits"
+msgstr "Expression régulière hampifanarahina amin'ny saha, ohatra <code>AB-\\d{6}</code> ho an'ny lahatsoratra manomboka amin'ny <code>AB-</code> ary mifarana amin'ny isa 6"
+
+#: ckanext/tabledesigner/templates/tabledesigner/constraint_snippets/range.html
+#: ckanext/tabledesigner/templates/tabledesigner/view_snippets/range.html
+msgid "Minimum"
+msgstr "Kely indrindra"
+
+#: ckanext/tabledesigner/templates/tabledesigner/constraint_snippets/range.html
+msgid "Minimum permitted value for data in this column"
+msgstr "Sanda kely indrindra azo ekena ho an'ny angona ao amin'ity tsanganana ity"
+
+#: ckanext/tabledesigner/templates/tabledesigner/constraint_snippets/range.html
+#: ckanext/tabledesigner/templates/tabledesigner/view_snippets/range.html
+msgid "Maximum"
+msgstr "Lehibe indrindra"
+
+#: ckanext/tabledesigner/templates/tabledesigner/constraint_snippets/range.html
+msgid "Maximum permitted value for data in this column"
+msgstr "Sanda lehibe indrindra azo ekena ho an'ny angona ao amin'ity tsanganana ity"
+
+#: ckanext/tabledesigner/templates/tabledesigner/design_snippets/choice.html
+#: ckanext/tabledesigner/templates/tabledesigner/view_snippets/choice.html
+msgid "Choices"
+msgstr "Safidy"
+
+#: ckanext/tabledesigner/templates/tabledesigner/design_snippets/choice.html
+msgid "Add one option per line (press enter after each option is entered)"
+msgstr "Ampidiro safidy iray isaky ny andalana (tsindrio enter isaky ny safidy ampidirina)"
+
+#: ckanext/tabledesigner/templates/tabledesigner/form_snippets/choice.html
+msgid "(invalid choice)"
+msgstr "(safidy tsy mety)"
+
+#: ckanext/tabledesigner/templates/tabledesigner/form_snippets/choice.html
+#: ckanext/tabledesigner/templates/tabledesigner/form_snippets/text.html
+msgid " (Primary key)"
+msgstr " (Fanalahidy fototra)"
+
+#: ckanext/tabledesigner/templates/tabledesigner/snippets/design_fields.html
+msgid "Field {num} removed. Click Save below to save your changes and delete all data in this field."
+msgstr "Nesorina ny saha {num}. Tsindrio Hitahiry eto ambany hitahirizana ny fanovana sy hamafana ny angona rehetra ao amin'ity saha ity."
+
+#: ckanext/tabledesigner/templates/tabledesigner/snippets/design_fields.html
+msgid "Add field"
+msgstr "Hanampy saha"
+
+#: ckanext/textview/assets/text_view.js
+msgid "An error occured during AJAX request. Could not load view."
+msgstr "Nisy hadisoana nandritra ny fangatahana AJAX. Tsy afaka naka ny fijery."
+
+#: ckanext/tracking/helpers.py
+msgid "{number} view"
+msgid_plural "{number} views"
+msgstr[0] "Fijerena {number}"
+msgstr[1] "Fijerena {number}"
+
+#: ckanext/tracking/helpers.py
+msgid "{number} recent view"
+msgid_plural "{number} recent views"
+msgstr[0] "Fijerena vao haingana {number}"
+msgstr[1] "Fijerena vao haingana {number}"
+
+#: ckanext/tracking/templates/group/read.html
+#: ckanext/tracking/templates/organization/read.html
+#: ckanext/tracking/templates/package/search.html
+#: ckanext/tracking/templates/snippets/popular.html
+msgid "Popular"
+msgstr "Malaza"
+
+#: ckanext/videoview/plugin.py
+msgid "Video"
+msgstr "Horonan-tsary"
+
+#: ckanext/videoview/theme/templates/video_form.html
+msgid "Video url"
+msgstr "URL horonan-tsary"
+
+#: ckanext/videoview/theme/templates/video_form.html
+msgid "eg. http://example.com/video.mpeg  (if blank uses resource url)"
+msgstr "ohatra: http://example.com/video.mpeg  (raha foana dia ampiasaina ny URL an'ny ressource)"
+
+#: ckanext/videoview/theme/templates/video_form.html
+msgid "Poster url"
+msgstr "URL sary fampisehoana"
+
+#: ckanext/videoview/theme/templates/video_form.html
+msgid "eg. http://example.com/poster.jpg"
+msgstr "ohatra: http://example.com/poster.jpg"
+
+#: ckanext/videoview/theme/templates/video_view.html
+#, python-format
+msgid "Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href=\"%(res_url)s\" alt=\"video url\">download it</a> and watch it with your favorite video player!"
+msgstr "Miala tsiny, tsy mahazaka horonan-tsary ampidirina ny mpitety tranonkala anao, fa aza manahy, azonao atao ny <a href=\"%(res_url)s\" alt=\"video url\">misintona azy</a> ary mijery azy amin'ny mpamaky horonan-tsary tianao!"
+
+#: ckanext/webpageview/plugin.py
+msgid "Website"
+msgstr "Tranonkala"
+
+#: ckanext/webpageview/theme/templates/webpage_form.html
+msgid "Web Page url"
+msgstr "URL pejy web"
+
+#: ckanext/webpageview/theme/templates/webpage_form.html
+msgid "eg. http://example.com  (if blank uses resource url)"
+msgstr "ohatra: http://example.com  (raha foana dia ampiasaina ny URL an'ny ressource)"
+
+#: ckanext/xloader/helpers.py
+msgid "Running"
+msgstr "Mandeha"
+
+#: ckanext/xloader/helpers.py
+msgid "Inactive"
+msgstr "Tsy mandeha"
+
+#: ckanext/xloader/helpers.py
+msgid "Data awaiting load to DataStore"
+msgstr "Angona miandry halefa any amin'ny DataStore"
+
+#: ckanext/xloader/helpers.py
+msgid "Loading data into DataStore"
+msgstr "Eo am-pampidirana angona ao amin'ny DataStore"
+
+#: ckanext/xloader/helpers.py
+msgid "Failed to load data into DataStore"
+msgstr "Tsy nahomby ny fampidirana angona ao amin'ny DataStore"
+
+#: ckanext/xloader/helpers.py
+msgid "Data loaded into DataStore"
+msgstr "Tafiditra ao amin'ny DataStore ny angona"
+
+#: ckanext/xloader/helpers.py
+msgid "Data available in DataStore"
+msgstr "Misy ao amin'ny DataStore ny angona"
+
+#: ckanext/xloader/helpers.py
+msgid "Resource not active in DataStore"
+msgstr "Tsy mavitrika ao amin'ny DataStore ny ressource"
+
+#: ckanext/xloader/helpers.py
+msgid "DataStore status unknown"
+msgstr "Tsy fantatra ny toe-javatry ny DataStore"
+
+#: ckanext/xloader/helpers.py
+msgid "Last Updated Not Available"
+msgstr "Tsy misy ny fanavaozana farany"
+
+#: ckanext/xloader/helpers.py
+msgid "datastore"
+msgstr "datastore"
+
+#: ckanext/xloader/utils.py
+#, python-format
+msgid "Cannot upload resource %s to the DataStore because the resource did not pass validation yet."
+msgstr "Tsy afaka mandefa ny ressource %s any amin'ny DataStore satria mbola tsy nandalo fanamarinana ny ressource."
+
+#: ckanext/xloader/views.py
+#, python-format
+msgid "DataStore and Data Dictionary deleted for resource %s"
+msgstr "Voafafa ny DataStore sy ny rakibolan'ny angona ho an'ny ressource %s"
+
+#: ckanext/xloader/templates/datastore/snippets/dictionary_form.html
+msgid "Strip Extra Leading and Trailing White Space"
+msgstr "Esory ny elanelana banga fanampiny eo am-piandohana sy amin'ny farany"
+
+#: ckanext/xloader/templates/datastore/snippets/dictionary_form.html
+msgid "Yes"
+msgstr "Eny"
+
+#: ckanext/xloader/templates/datastore/snippets/dictionary_form.html
+msgid "No"
+msgstr "Tsia"
+
