@@ -1046,6 +1046,7 @@ msgstr "Mifidiana indray ny rakitra halefa azafady"
 #: ckan/templates/macros/form/custom.html
 #: ckan/templates/package/snippets/resource_upload_field.html
 #: ckan/templates/snippets/search_form.html
+#: ckanext/nice_ui/templates/snippets/custom_form_fields.html
 msgid "Remove"
 msgstr "Hanala"
 
@@ -1884,6 +1885,7 @@ msgid "This field is required"
 msgstr "Tsy maintsy fenoina ity saha ity"
 
 #: ckan/templates/macros/form/custom.html
+#: ckanext/nice_ui/templates/snippets/custom_form_fields.html
 msgid "Key"
 msgstr "Fanalahidy"
 
@@ -1891,6 +1893,7 @@ msgstr "Fanalahidy"
 #: ckan/templates/package/resource_read.html
 #: ckan/templates/package/snippets/additional_info.html
 #: ckan/templates/snippets/additional_info.html
+#: ckanext/nice_ui/templates/snippets/custom_form_fields.html
 msgid "Value"
 msgstr "Sanda"
 
@@ -5089,6 +5092,7 @@ msgstr " (Fanalahidy fototra)"
 msgid "Field {num} removed. Click Save below to save your changes and delete all data in this field."
 msgstr "Nesorina ny saha {num}. Tsindrio Hitahiry eto ambany hitahirizana ny fanovana sy hamafana ny angona rehetra ao amin'ity saha ity."
 
+#: ckanext/nice_ui/templates/snippets/custom_form_fields.html
 #: ckanext/tabledesigner/templates/tabledesigner/snippets/design_fields.html
 msgid "Add field"
 msgstr "Hanampy saha"
@@ -5530,6 +5534,14 @@ msgstr "Ny fikambanana dia ahafahana mamorona, mitantana ary mamoaka fanangonana
 #: ckanext/nice_ui/templates/package/base_form_page.html
 msgid "A dataset is a collection of data resources (such as files), together with a description and other information, at a fixed URL. Datasets are what users see when searching for data."
 msgstr "Ny angon-drakitra dia fitambaran'ny ressources misy angona (toy ny rakitra), miaraka amin'ny famaritana sy fampahalalana hafa, azo jerena amin'ny URL raikitra iray. Ireo angon-drakitra ireo no hitan'ny mpampiasa rehefa mikaroka angona."
+
+#: ckanext/nice_ui/templates/snippets/custom_form_fields.html
+msgid "Custom fields"
+msgstr "Saha manokana"
+
+#: ckanext/nice_ui/templates/snippets/custom_form_fields.html
+msgid "Any other information, as a key and a value."
+msgstr "Fampahalalana hafa rehetra, amin'ny endrika fanalahidy sy sanda."
 
 #: ckanext/nice_ui/templates/user/edit.html
 msgid "Your profile lets other users know about who you are and what you do."
