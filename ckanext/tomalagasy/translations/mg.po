@@ -5559,6 +5559,30 @@ msgstr "Miafina ny {hidden} amin'ireo andalana {total} ao amin'ny diary"
 msgid "Verify your email address with the link Auth0 sent you, then log in again."
 msgstr "Hamarino ny adiresy mailakao amin'ny rohy nalefan'i Auth0, dia midira indray."
 
+#: ckanext/academy/auth0.py
+msgid "This login has expired or did not start on this site. Log in again."
+msgstr "Lany daty io fidirana io na tsy natomboka teto amin'ity tranonkala ity. Midira indray."
+
+#: ckanext/academy/auth0.py
+msgid "Auth0 did not send an email address."
+msgstr "Tsy nandefa adiresy mailaka i Auth0."
+
+#: ckanext/academy/auth0.py
+msgid "This account has been disabled."
+msgstr "Najanona ity kaonty ity."
+
+#: ckanext/academy/auth0.py
+msgid "This email address belongs to an account that logs in another way. Log in the way you did the first time."
+msgstr "An'ny kaonty miditra amin'ny fomba hafa io adiresy mailaka io. Midira amin'ny fomba nampiasainao tamin'ny voalohany."
+
+#: ckanext/academy/auth0.py
+msgid "This email address belongs to an administrator account, which can't log in with Auth0. Use another address."
+msgstr "An'ny kaontin'ny mpitantana io adiresy mailaka io, ka tsy afaka miditra amin'ny Auth0. Mampiasà adiresy hafa."
+
+#: ckanext/academy/auth0.py
+msgid "Only administrators can change email addresses."
+msgstr "Ny mpitantana ihany no afaka manova ny adiresy mailaka."
+
 #: ckanext/s3filestore/views/resource.py
 msgid "Resource data not found"
 msgstr "Tsy hita ny angon'ny ressource"
