@@ -1124,6 +1124,7 @@ msgid "Edit"
 msgstr "Hanova"
 
 #: ckan/public/base/javascript/modules/table-toggle-more.js
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 msgid "Show more"
 msgstr "Haneho bebe kokoa"
 
@@ -3122,6 +3123,7 @@ msgstr "Asa"
 
 #: ckan/templates/user/snippets/api_token_list.html
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Never"
 msgstr "Tsy mbola nisy"
@@ -4217,57 +4219,68 @@ msgid "DataStore and Data Dictionary "
 msgstr "DataStore sy rakibolan'ny angona "
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/confirm_datastore_delete.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Are you sure you want to delete the DataStore and Data Dictionary?"
 msgstr "Tena hofafanao ve ny DataStore sy ny rakibolan'ny angona?"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Delete from DataStore"
 msgstr "Hamafa ao amin'ny DataStore"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Upload to DataStore"
 msgstr "Handefa any amin'ny DataStore"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Upload error:"
 msgstr "Hadisoana tamin'ny fandefasana:"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Error:"
 msgstr "Hadisoana:"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Error traceback:"
 msgstr "Antsipirian'ny hadisoana (traceback):"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Status"
 msgstr "Toe-javatra"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Last updated"
 msgstr "Nohavaozina farany"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Upload Log"
 msgstr "Diarin'ny fandefasana rakitra"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Details"
 msgstr "Antsipiriany"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "End of log"
 msgstr "Faran'ny diary"
@@ -4453,6 +4466,7 @@ msgid "Restore visibility"
 msgstr "Hamerina ny fampisehoana ny tsanganana"
 
 #: ckanext/datatablesview/assets/datatablesview.js
+#: ckanext/nice_ui/templates/xloader/resource_data.html
 msgid "Show all"
 msgstr "Haneho ny rehetra"
 
@@ -5419,6 +5433,10 @@ msgstr "Ny angon-drakitra dia fitambaran'ny ressources misy angona (toy ny rakit
 #: ckanext/nice_ui/templates/user/edit.html
 msgid "Your profile lets other users know about who you are and what you do."
 msgstr "Ny mombamomba anao dia mampahafantatra ireo mpampiasa hafa hoe iza ianao ary inona no ataonao."
+
+#: ckanext/nice_ui/templates/xloader/resource_data.html
+msgid "{hidden} of {total} log entries hidden"
+msgstr "Miafina ny {hidden} amin'ireo andalana {total} ao amin'ny diary"
 
 #: ckanext/pages/actions.py
 msgid "Page name already exists in database"
