@@ -5153,6 +5153,10 @@ msgstr "URL-n'ny pejin-tranonkala"
 msgid "eg. http://example.com  (if blank uses resource url)"
 msgstr "ohatra: http://example.com  (raha foana dia ampiasaina ny URL an'ny ressource)"
 
+#: ckanext/nice_ui/plugin.py
+msgid "Open data for agriculture"
+msgstr "Angona misokatra ho an'ny fambolena"
+
 #: ckanext/nice_ui/templates/ckanext_pages/page.html
 #: ckanext/nice_ui/templates/ckanext_pages/page_edit.html
 #: ckanext/nice_ui/templates/ckanext_pages/pages_list.html
