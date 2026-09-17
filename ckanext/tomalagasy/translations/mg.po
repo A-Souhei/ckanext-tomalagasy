@@ -2609,6 +2609,7 @@ msgstr "Hisintona ny ressource"
 
 #: ckan/templates/package/snippets/resource_view.html
 #: ckanext/pages/controller.py
+#: ckanext/s3filestore/theme/templates/webpage_view.html
 #: ckanext/webpageview/theme/templates/webpage_view.html
 msgid "Your browser does not support iframes."
 msgstr "Tsy mahazaka iframes ny mpitety tranonkalanao."
@@ -3340,8 +3341,8 @@ msgstr "Nampidirina ho mpiara-miasa ny mpampiasa"
 
 #: ckan/views/dataset.py ckan/views/resource.py ckanext/activity/views.py
 #: ckanext/datapusher/views.py ckanext/datastore/blueprint.py
-#: ckanext/resourceproxy/blueprint.py ckanext/xloader/utils.py
-#: ckanext/xloader/views.py
+#: ckanext/resourceproxy/blueprint.py ckanext/s3filestore/views/resource.py
+#: ckanext/xloader/utils.py ckanext/xloader/views.py
 msgid "Resource not found"
 msgstr "Tsy hita ny ressource"
 
@@ -3434,7 +3435,7 @@ msgstr "<a href=\"%s\">Havaozy ny mombamomba anao</a> ary ampidiro ny adiresy ma
 msgid "%s uses your email address if you need to reset your password."
 msgstr "Mampiasa ny adiresy mailakao ny %s raha mila manova ny tenimiafinao ianao."
 
-#: ckan/views/resource.py
+#: ckan/views/resource.py ckanext/s3filestore/views/resource.py
 #, python-format
 msgid "Unauthorized to read resource %s"
 msgstr "Tsy manana alalana hamaky ny ressource %s"
@@ -3447,7 +3448,7 @@ msgstr "Tsy hita ny fijery ressource"
 msgid "Not authorized to download resource"
 msgstr "Tsy manana alalana hisintona ny ressource"
 
-#: ckan/views/resource.py
+#: ckan/views/resource.py ckanext/s3filestore/views/resource.py
 msgid "No download is available"
 msgstr "Tsy misy azo sintonina"
 
@@ -5550,6 +5551,14 @@ msgstr "Ny mombamomba anao dia mampahafantatra ireo mpampiasa hafa hoe iza ianao
 #: ckanext/nice_ui/templates/xloader/resource_data.html
 msgid "{hidden} of {total} log entries hidden"
 msgstr "Miafina ny {hidden} amin'ireo andalana {total} ao amin'ny diary"
+
+#: ckanext/s3filestore/views/resource.py
+msgid "Resource data not found"
+msgstr "Tsy hita ny angon'ny ressource"
+
+#: ckanext/s3filestore/views/uploads.py
+msgid "Keys not found on S3"
+msgstr "Tsy hita ao amin'ny S3 ny rakitra"
 
 #: ckanext/pages/actions.py
 msgid "Page name already exists in database"
