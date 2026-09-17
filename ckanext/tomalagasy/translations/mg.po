@@ -1195,10 +1195,12 @@ msgid "Account"
 msgstr "Kaonty"
 
 #: ckan/templates/header.html ckan/templates/user/logout_first.html
+#: ckanext/saml2auth/templates/header.html
 msgid "Log in"
 msgstr "Hiditra"
 
 #: ckan/templates/header.html ckan/templates/user/new.html
+#: ckanext/saml2auth/templates/header.html
 msgid "Register"
 msgstr "Hisoratra anarana"
 
@@ -2987,6 +2989,7 @@ msgid "All Users"
 msgstr "Mpampiasa rehetra"
 
 #: ckan/templates/user/login.html ckan/templates/user/snippets/login_form.html
+#: ckanext/saml2auth/templates/user/snippets/login_form.html
 msgid "Login"
 msgstr "Fidirana"
 
@@ -5551,6 +5554,10 @@ msgstr "Ny mombamomba anao dia mampahafantatra ireo mpampiasa hafa hoe iza ianao
 #: ckanext/nice_ui/templates/xloader/resource_data.html
 msgid "{hidden} of {total} log entries hidden"
 msgstr "Miafina ny {hidden} amin'ireo andalana {total} ao amin'ny diary"
+
+#: ckanext/academy/auth0.py
+msgid "Verify your email address with the link Auth0 sent you, then log in again."
+msgstr "Hamarino ny adiresy mailakao amin'ny rohy nalefan'i Auth0, dia midira indray."
 
 #: ckanext/s3filestore/views/resource.py
 msgid "Resource data not found"
