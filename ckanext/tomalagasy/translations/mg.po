@@ -1793,6 +1793,8 @@ msgstr "Tsy misy angon-drakitra"
 
 #: ckan/templates/group/snippets/group_item.html
 #: ckan/templates/organization/snippets/organization_item.html
+#: ckanext/nice_ui/templates/group/snippets/group_item.html
+#: ckanext/nice_ui/templates/organization/snippets/organization_item.html
 msgid "{num} Member"
 msgid_plural "{num} Members"
 msgstr[0] "Mpikambana {num}"
@@ -1800,6 +1802,8 @@ msgstr[1] "Mpikambana {num}"
 
 #: ckan/templates/group/snippets/group_item.html
 #: ckan/templates/organization/snippets/organization_item.html
+#: ckanext/nice_ui/templates/group/snippets/group_item.html
+#: ckanext/nice_ui/templates/organization/snippets/organization_item.html
 msgid "0 Members"
 msgstr "Tsy misy mpikambana"
 
