@@ -1807,6 +1807,7 @@ msgid "Remove dataset from this group"
 msgstr "Esory ao amin'ity vondrona ity ny angon-drakitra"
 
 #: ckan/templates/group/snippets/helper.html
+#: ckanext/nice_ui/templates/group/snippets/helper.html
 msgid "What are Groups?"
 msgstr "Inona no atao hoe vondrona?"
 
@@ -2022,6 +2023,7 @@ msgid "Datasets in organization: {group}"
 msgstr "Angon-drakitra ao amin'ny fikambanana: {group}"
 
 #: ckan/templates/organization/snippets/helper.html
+#: ckanext/nice_ui/templates/organization/snippets/helper.html
 msgid "What are Organizations?"
 msgstr "Inona no atao hoe fikambanana?"
 
@@ -2060,6 +2062,7 @@ msgid "Create Dataset"
 msgstr "Hamorona angon-drakitra"
 
 #: ckan/templates/package/base_form_page.html
+#: ckanext/nice_ui/templates/package/base_form_page.html
 msgid "What are datasets?"
 msgstr "Inona no atao hoe angon-drakitra?"
 
@@ -2867,7 +2870,7 @@ msgstr "Tsy mpikambana ao amin'ny fikambanana na iray aza ianao."
 msgid "Users"
 msgstr "Mpampiasa"
 
-#: ckan/templates/user/edit.html
+#: ckan/templates/user/edit.html ckanext/nice_ui/templates/user/edit.html
 msgid "Account Info"
 msgstr "Mombamomba ny kaonty"
 
@@ -5137,6 +5140,36 @@ msgstr "ohatra: http://example.com  (raha foana dia ampiasaina ny URL an'ny ress
 msgid "Pages"
 msgstr "Pejy"
 
+#: ckanext/nice_ui/templates/admin/config.html
+msgid "Config options"
+msgstr "Safidy fikirana"
+
+#: ckanext/nice_ui/templates/admin/config.html
+#, python-format
+msgid "<p><strong>Site Title:</strong> This is the title of this site. It appears in various places throughout the site.</p> <p><strong>Custom Stylesheet:</strong> Define an alternative main CSS file.</p> <p><strong>Site Tag Logo:</strong> This is the logo that appears in the header of every page.</p> <p><strong>About:</strong> This text will appear on this site's <a href=\"%(about_url)s\">about page</a>.</p> <p><strong>Intro Text:</strong> This text will appear on this site's <a href=\"%(home_url)s\">home page</a> as a welcome to visitors.</p> <p><strong>Custom CSS:</strong> This is a block of CSS that appears in <code>&lt;head&gt;</code> tag of every page. If you wish to customize the templates more fully we recommend <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">reading the documentation</a>.</p>"
+msgstr "<p><strong>Lohatenin'ny tranonkala:</strong> Io no lohatenin'ity tranonkala ity. Miseho amin'ny toerana maro ao amin'ny tranonkala izy io.</p> <p><strong>Feuille de style manokana:</strong> Mamaritra rakitra CSS fototra hafa hampiasaina.</p> <p><strong>Logon'ny tranonkala:</strong> Io no logo miseho eo amin'ny lohan'ny pejy rehetra.</p> <p><strong>Mombamomba:</strong> Hiseho ao amin'ny <a href=\"%(about_url)s\">pejy mombamomba</a> an'ity tranonkala ity ity lahatsoratra ity.</p> <p><strong>Lahatsoratra fampahafantarana:</strong> Hiseho ao amin'ny <a href=\"%(home_url)s\">pejy fandraisana</a> an'ity tranonkala ity ity lahatsoratra ity, ho fandraisana ireo mpitsidika.</p> <p><strong>CSS manokana:</strong> Ampahan-kaody CSS ampidirina ao amin'ny tag <code>&lt;head&gt;</code> amin'ny pejy rehetra. Raha te hanamboatra amin'ny antsipiriany kokoa ireo modelin'ny pejy ianao, dia manoro hevitra anao izahay <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">hamaky ny torolalana</a>.</p>"
+
+#: ckanext/nice_ui/templates/admin/index.html
+msgid "Site administration"
+msgstr "Fitantanana ny tranonkala"
+
+#: ckanext/nice_ui/templates/admin/index.html
+#, python-format
+msgid "<p>As a sysadmin user you have full control over this site. Proceed with care!</p> <p>For guidance on using sysadmin features, see the <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">sysadmin guide</a>.</p>"
+msgstr "<p>Amin'ny maha mpitantana ny rafitra anao dia manana fahefana feno amin'ity tranonkala ity ianao. Mitandrema!</p> <p>Raha mila torolalana momba ny fampiasana ireo fitaovan'ny mpitantana ny rafitra, jereo ny <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">torolalana ho an'ny mpitantana ny rafitra</a>.</p>"
+
+#: ckanext/nice_ui/templates/ckanext_pages/blog_edit_base.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/blog.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/blog_edit_base.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/blog_list.html
+#: ckanext/pages/theme/templates_main/header.html
+msgid "Blog"
+msgstr "Blog"
+
+#: ckanext/nice_ui/templates/ckanext_pages/blog_edit_base.html
+msgid "<p>Add blog articles here.</p>"
+msgstr "<p>Ampio eto ireo lahatsoratra blog.</p>"
+
 #: ckanext/nice_ui/templates/ckanext_pages/page.html
 msgid "Revisions"
 msgstr "Fanavaozana"
@@ -5158,6 +5191,10 @@ msgstr "Hamaky bebe kokoa"
 #: ckanext/pages/theme/templates_main/ckanext_pages/snippets/pages_list.html
 msgid "There are currently no pages here"
 msgstr "Mbola tsy misy pejy eto"
+
+#: ckanext/nice_ui/templates/group/snippets/helper.html
+msgid "You can use Groups to create and manage collections of datasets. This could be to catalogue datasets for a particular project or team, or on a particular theme, or as a very simple way to help people find and search your own published datasets."
+msgstr "Azonao ampiasaina ny vondrona hamoronana sy hitantanana fanangonana angon-drakitra. Azo angonina ao ireo angon-drakitra mifandraika amin'ny tetikasa, ekipa na lohahevitra iray. Manamora ny fitadiavan'ny olona ireo angon-drakitra navoakanao koa izany."
 
 #: ckanext/nice_ui/templates/home/about.html
 msgid "Open data on agroecology in Madagascar, shared by Sahan'Aina."
@@ -5308,8 +5345,8 @@ msgid "Preview tables and maps in your browser, or download the files."
 msgstr "Topazo maso ao amin'ny navigateur-nao ny tabilao sy sarintany, na sintony ny rakitra."
 
 #: ckanext/nice_ui/templates/home/about.html
-msgid "Automate downloads and updates with the CKAN API."
-msgstr "Ataovy mandeha ho azy ny fisintonana sy fanavaozana amin'ny API CKAN."
+msgid "Automate downloads and updates with the API."
+msgstr "Ataovy mandeha ho azy ny fisintonana sy fanavaozana amin'ny API."
 
 #: ckanext/nice_ui/templates/home/about.html
 msgid "API documentation"
@@ -5371,6 +5408,18 @@ msgstr "Agroécologie"
 msgid "Nothing is lost. Every resource feeds the next."
 msgstr "Tsy misy very. Ny akora tsirairay dia mamelona ny dingana manaraka."
 
+#: ckanext/nice_ui/templates/organization/snippets/helper.html
+msgid "Organizations are used to create, manage and publish collections of datasets. Users can have different roles within an Organization, depending on their level of authorisation to create, edit and publish."
+msgstr "Ny fikambanana dia ahafahana mamorona, mitantana ary mamoaka fanangonana angon-drakitra. Samy afaka manana ny andraikiny ao amin'ny fikambanana ny mpampiasa, arakaraka ny alalana nomena azy hamorona, hanova ary hamoaka angon-drakitra."
+
+#: ckanext/nice_ui/templates/package/base_form_page.html
+msgid "A dataset is a collection of data resources (such as files), together with a description and other information, at a fixed URL. Datasets are what users see when searching for data."
+msgstr "Ny angon-drakitra dia fitambaran'ny ressources misy angona (toy ny rakitra), miaraka amin'ny famaritana sy fampahalalana hafa, azo jerena amin'ny URL raikitra iray. Ireo angon-drakitra ireo no hitan'ny mpampiasa rehefa mikaroka angona."
+
+#: ckanext/nice_ui/templates/user/edit.html
+msgid "Your profile lets other users know about who you are and what you do."
+msgstr "Ny mombamomba anao dia mampahafantatra ireo mpampiasa hafa hoe iza ianao ary inona no ataonao."
+
 #: ckanext/pages/actions.py
 msgid "Page name already exists in database"
 msgstr "Efa misy ao amin'ny tahiry angona ny anaran'ny pejy"
@@ -5414,13 +5463,6 @@ msgstr "Ny fandefasana ihany no azo atao"
 #, python-format
 msgid "Unauthorized to upload file %s"
 msgstr "Tsy manana alalana handefa ny rakitra %s"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/blog.html
-#: ckanext/pages/theme/templates_main/ckanext_pages/blog_edit_base.html
-#: ckanext/pages/theme/templates_main/ckanext_pages/blog_list.html
-#: ckanext/pages/theme/templates_main/header.html
-msgid "Blog"
-msgstr "Blog"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base.html
 msgid "What are Pages?"
