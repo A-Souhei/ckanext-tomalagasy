@@ -80,7 +80,7 @@ at render time and take the page down.
 
 | English | Used | |
 |---|---|---|
-| Dataset | jeu de données / jeux de données | FR |
+| Dataset | angon-drakitra | |
 | Resource | ressource | FR |
 | Dashboard | tableau de bord | FR |
 | Metadata | métadonnées | FR |
