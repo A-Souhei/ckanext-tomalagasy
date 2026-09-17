@@ -1015,6 +1015,7 @@ msgstr "Hanamafy"
 #: ckan/templates/package/confirm_delete.html
 #: ckan/templates/package/confirm_delete_resource.html
 #: ckan/templates/user/confirm_delete.html
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/confirm_delete.html
 #: ckanext/xloader/templates/xloader/confirm_datastore_delete.html
@@ -1065,6 +1066,7 @@ msgstr "Handefa rakitra avy amin'ny solosainao"
 #: ckan/templates/package/snippets/package_basic_fields.html
 #: ckan/templates/package/snippets/resource_form.html
 #: ckan/templates/package/snippets/resource_upload_field.html
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 msgid "URL"
 msgstr "URL"
@@ -1643,6 +1645,7 @@ msgstr "Tena hesorinao ve ity mpikambana ity?"
 #: ckan/templates/package/snippets/package_form.html
 #: ckan/templates/package/snippets/resource_form.html
 #: ckan/templates/user/edit_user_form.html
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 #: ckanext/tabledesigner/templates/tabledesigner/delete_rows.html
 msgid "Delete"
@@ -1687,6 +1690,7 @@ msgstr "Raha te hanasa mpampiasa vaovao ianao, ampidiro ny adiresy mailakany."
 
 #: ckan/templates/group/member_new.html
 #: ckanext/datastore/templates/datastore/dictionary.html
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 #: ckanext/tabledesigner/templates/tabledesigner/add_row.html
 #: ckanext/tabledesigner/templates/tabledesigner/edit_row.html
@@ -1950,6 +1954,7 @@ msgstr "Drafitra"
 #: ckan/templates/package/snippets/package_basic_fields.html
 #: ckan/templates/snippets/package_item.html
 #: ckan/templates/snippets/private.html ckan/templates/user/snippets/info.html
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 msgid "Private"
 msgstr "Manokana"
@@ -2144,6 +2149,7 @@ msgstr "Hanampy fijery"
 
 #: ckan/templates/package/new_view.html
 #: ckan/templates/package/snippets/resource_form.html
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 msgid "Add"
 msgstr "Hanampy"
@@ -2405,6 +2411,7 @@ msgstr "Angataho ny mpitantana ny rafitra hamorona fikambanana alohan'ny hanohiz
 
 #: ckan/templates/package/snippets/package_basic_fields.html
 #: ckan/templates/package/snippets/view_form.html
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 msgid "Title"
 msgstr "Lohateny"
@@ -2442,11 +2449,13 @@ msgid "No Organization"
 msgstr "Tsy misy fikambanana"
 
 #: ckan/templates/package/snippets/package_basic_fields.html
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 msgid "Visibility"
 msgstr "Ireo afaka mijery"
 
 #: ckan/templates/package/snippets/package_basic_fields.html
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 msgid "Public"
 msgstr "Ho an'ny rehetra"
@@ -2684,10 +2693,12 @@ msgid "There are no {facet_type} that match this search"
 msgstr "Tsy misy {facet_type} mifanaraka amin'ity fikarohana ity"
 
 #: ckan/templates/snippets/follow_button.html
+#: ckanext/nice_ui/templates/snippets/follow_button.html
 msgid "Unfollow"
 msgstr "Tsy hanaraka intsony"
 
 #: ckan/templates/snippets/follow_button.html
+#: ckanext/nice_ui/templates/snippets/follow_button.html
 msgid "Follow"
 msgstr "Hanaraka"
 
@@ -2696,6 +2707,7 @@ msgid "Home"
 msgstr "Fandraisana"
 
 #: ckan/templates/snippets/language_selector.html
+#: ckanext/nice_ui/templates/snippets/language_selector.html
 msgid "Language"
 msgstr "Fiteny"
 
@@ -5138,6 +5150,7 @@ msgid "eg. http://example.com  (if blank uses resource url)"
 msgstr "ohatra: http://example.com  (raha foana dia ampiasaina ny URL an'ny ressource)"
 
 #: ckanext/nice_ui/templates/ckanext_pages/page.html
+#: ckanext/nice_ui/templates/ckanext_pages/page_edit.html
 #: ckanext/nice_ui/templates/ckanext_pages/pages_list.html
 #: ckanext/nice_ui/templates/header.html
 #: ckanext/pages/theme/templates_group/group/read_base.html
@@ -5171,6 +5184,86 @@ msgstr "Fitantanana ny tranonkala"
 #, python-format
 msgid "<p>As a sysadmin user you have full control over this site. Proceed with care!</p> <p>For guidance on using sysadmin features, see the <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">sysadmin guide</a>.</p>"
 msgstr "<p>Amin'ny maha mpitantana ny rafitra anao dia manana fahefana feno amin'ity tranonkala ity ianao. Mitandrema!</p> <p>Raha mila torolalana momba ny fampiasana ireo fitaovan'ny mpitantana ny rafitra, jereo ny <a href=\"%(docs_url)s\" target=\"_blank\" rel=\"noreferrer\">torolalana ho an'ny mpitantana ny rafitra</a>.</p>"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "Edit Blog Article"
+msgstr "Hanova lahatsoratra blog"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "Add Blog Article"
+msgstr "Hanampy lahatsoratra blog"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "eg. Blog Article Title"
+msgstr "ohatra: Lohatenin'ny lahatsoratra blog"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/nice_ui/templates/ckanext_pages/page_edit.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/group_page.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/organization_page.html
+msgid "Edit page"
+msgstr "Hanova pejy"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/nice_ui/templates/ckanext_pages/page_edit.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/group_page_list.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/organization_page_list.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/pages_list.html
+msgid "Add page"
+msgstr "Hanampy pejy"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "eg. Page Title"
+msgstr "ohatra: Lohatenin'ny pejy"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "Content"
+msgstr "Votoatiny"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "Enter content here"
+msgstr "Soraty eto ny votoatiny"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "My content"
+msgstr "Ny votoatiko"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+msgid "Publishing"
+msgstr "Famoahana"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "Menu Order"
+msgstr "Laharana ao amin'ny menio"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "Not in Menu"
+msgstr "Tsy ao amin'ny menio"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+msgid "Public pages with a menu order are linked from the main menu."
+msgstr "Ireo pejy ho an'ny rehetra manana laharana ao amin'ny menio dia hisy rohy mankany aminy ao amin'ny menio lehibe."
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "Publish Date"
+msgstr "Daty namoahana"
+
+#: ckanext/nice_ui/templates/ckanext_pages/base_form.html
+#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
+msgid "Are you sure you want to delete this Page?"
+msgstr "Tena hofafanao ve ity pejy ity?"
 
 #: ckanext/nice_ui/templates/ckanext_pages/blog_edit_base.html
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog.html
@@ -5491,65 +5584,8 @@ msgid " <p>Pages are are simple way to add extra pages to your ckan instance. Yo
 msgstr " <p>Ny Pejy dia fomba tsotra hanampiana pejy fanampiny amin'ny CKAN-nao. Azonao omena laharana izy ireo.</p> "
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "Add Blog Article"
-msgstr "Hanampy lahatsoratra blog"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "Edit Blog Article"
-msgstr "Hanova lahatsoratra blog"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "eg. Blog Article Title"
-msgstr "ohatra: Lohatenin'ny lahatsoratra blog"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-#: ckanext/pages/theme/templates_main/ckanext_pages/group_page_list.html
-#: ckanext/pages/theme/templates_main/ckanext_pages/organization_page_list.html
-#: ckanext/pages/theme/templates_main/ckanext_pages/pages_list.html
-msgid "Add page"
-msgstr "Hanampy pejy"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-#: ckanext/pages/theme/templates_main/ckanext_pages/group_page.html
-#: ckanext/pages/theme/templates_main/ckanext_pages/organization_page.html
-msgid "Edit page"
-msgstr "Hanova pejy"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "eg. Page Title"
-msgstr "ohatra: Lohatenin'ny pejy"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "Publish Date"
-msgstr "Daty namoahana"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
 msgid "2005-01-01"
 msgstr "2005-01-01"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "Menu Order"
-msgstr "Laharana ao amin'ny menio"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "Not in Menu"
-msgstr "Tsy ao amin'ny menio"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "Content"
-msgstr "Votoatiny"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "Enter content here"
-msgstr "Soraty eto ny votoatiny"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "My content"
-msgstr "Ny votoatiko"
-
-#: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html
-msgid "Are you sure you want to delete this Page?"
-msgstr "Tena hofafanao ve ity pejy ity?"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog.html
 msgid "More"
