@@ -5583,6 +5583,14 @@ msgstr "An'ny kaontin'ny mpitantana io adiresy mailaka io, ka tsy afaka miditra 
 msgid "Only administrators can change email addresses."
 msgstr "Ny mpitantana ihany no afaka manova ny adiresy mailaka."
 
+#: ckanext/academy/auth0.py
+msgid "Logging in is unavailable right now. Please try again in a few minutes."
+msgstr "Tsy azo atao ny miditra amin'izao fotoana izao. Andramo indray afaka minitra vitsy."
+
+#: ckanext/academy/auth0.py
+msgid "This portal is open to active Sah-Anai accounts only. Log in with the email of your Sah-Anai account, or ask an administrator to enable it."
+msgstr "Ho an'ny kaonty Sah-Anai mavitrika ihany ity vavahadin-tserasera ity. Midira amin'ny mailaky ny kaontinao Sah-Anai, na angataho amin'ny mpitantana ny hampandeha azy."
+
 #: ckanext/s3filestore/views/resource.py
 msgid "Resource data not found"
 msgstr "Tsy hita ny angon'ny ressource"
