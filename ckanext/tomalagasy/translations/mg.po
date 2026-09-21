@@ -195,7 +195,7 @@ msgstr "vondrona"
 
 #: ckan/lib/navl/dictization_functions.py ckan/lib/navl/validators.py
 #: ckan/logic/action/get.py ckan/logic/action/update.py
-#: ckan/logic/validators.py
+#: ckan/logic/validators.py ckanext/sahanai/views.py
 msgid "Missing value"
 msgstr "Tsy misy sanda"
 
@@ -2450,6 +2450,7 @@ msgid "License definitions and additional information can be found at <a href=\"
 msgstr "Ny famaritana ireo fahazoan-dalana sy fampahalalana fanampiny dia hita ao amin'ny <a href=\"http://opendefinition.org/licenses/\">opendefinition.org</a>"
 
 #: ckan/templates/package/snippets/package_basic_fields.html
+#: ckanext/sahanai/templates/sahanai/import.html
 msgid "Organization"
 msgstr "Fikambanana"
 
@@ -3254,8 +3255,8 @@ msgstr "Tsy manana alalana"
 
 #: ckan/views/dashboard.py ckan/views/feed.py ckan/views/group.py
 #: ckan/views/user.py ckanext/activity/views.py ckanext/datapusher/views.py
-#: ckanext/pages/actions.py ckanext/tabledesigner/views.py
-#: ckanext/xloader/utils.py
+#: ckanext/pages/actions.py ckanext/sahanai/views.py
+#: ckanext/tabledesigner/views.py ckanext/xloader/utils.py
 msgid "Not authorized to see this page"
 msgstr "Tsy manana alalana hijery ity pejy ity"
 
@@ -4280,6 +4281,7 @@ msgstr "Antsipirian'ny hadisoana (traceback):"
 
 #: ckanext/datapusher/templates/datapusher/resource_data.html
 #: ckanext/nice_ui/templates/xloader/resource_data.html
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
 #: ckanext/xloader/templates/xloader/resource_data.html
 msgid "Status"
 msgstr "Toe-javatra"
@@ -5161,6 +5163,192 @@ msgstr "URL-n'ny pejin-tranonkala"
 msgid "eg. http://example.com  (if blank uses resource url)"
 msgstr "ohatra: http://example.com  (raha foana dia ampiasaina ny URL an'ny ressource)"
 
+#: ckanext/sahanai/helpers.py
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+#: ckanext/sahanai/templates/sahanai/import.html
+msgid "Sah-Anai"
+msgstr "Sah-Anai"
+
+#: ckanext/sahanai/helpers.py ckanext/sahanai/templates/sahanai/import.html
+msgid "Import from Sah-Anai"
+msgstr "Hampiditra avy amin'ny Sah-Anai"
+
+#: ckanext/sahanai/helpers.py
+msgid "Search Sah-Anai datasets..."
+msgstr "Hitady angon-drakitra Sah-Anai..."
+
+#: ckanext/sahanai/helpers.py
+msgid "My Sah-Anai datasets"
+msgstr "Ny angon-drakitra Sah-Anai ahy"
+
+#: ckanext/sahanai/helpers.py
+msgid "There are no Sah-Anai datasets yet"
+msgstr "Mbola tsy misy angon-drakitra Sah-Anai"
+
+#: ckanext/sahanai/helpers.py
+msgid "No Sah-Anai datasets found"
+msgstr "Tsy nahitana angon-drakitra Sah-Anai"
+
+#: ckanext/sahanai/helpers.py
+msgid "No Sah-Anai datasets found for \"{query}\""
+msgstr "Tsy nahitana angon-drakitra Sah-Anai tamin'ny fikarohana \"{query}\""
+
+#: ckanext/sahanai/helpers.py
+msgid "{number} Sah-Anai dataset found"
+msgid_plural "{number} Sah-Anai datasets found"
+msgstr[0] "{number} angon-drakitra Sah-Anai hita"
+msgstr[1] "{number} angon-drakitra Sah-Anai hita"
+
+#: ckanext/sahanai/helpers.py
+msgid "{number} Sah-Anai dataset found for \"{query}\""
+msgid_plural "{number} Sah-Anai datasets found for \"{query}\""
+msgstr[0] "{number} angon-drakitra Sah-Anai hita tamin'ny fikarohana \"{query}\""
+msgstr[1] "{number} angon-drakitra Sah-Anai hita tamin'ny fikarohana \"{query}\""
+
+#: ckanext/sahanai/views.py
+msgid "This farm and year are already imported into a dataset you cannot edit."
+msgstr "Efa nampidirina tao amin'ny angon-drakitra tsy azonao ovaina io toeram-pambolena sy taona io."
+
+#: ckanext/sahanai/views.py
+msgid "Sah-Anai import started; this dataset's resources will update shortly."
+msgstr "Nanomboka ny fampidirana avy amin'ny Sah-Anai; havaozina tsy ho ela ny ressources an'ity angon-drakitra ity."
+
+#: ckanext/sahanai/views.py
+msgid "A farm ID is a UUID, as in the farm's Sah-Anai address"
+msgstr "UUID ny famantarana ny toeram-pambolena, toy ny ao amin'ny adiresy Sah-Anai an'ilay toeram-pambolena"
+
+#: ckanext/sahanai/views.py
+#, python-format
+msgid "Must be a year between %(first)s and %(last)s"
+msgstr "Tsy maintsy taona eo anelanelan'ny %(first)s sy %(last)s"
+
+#: ckanext/sahanai/views.py
+msgid "Not one of the organizations you can publish to"
+msgstr "Tsy anisan'ny fikambanana ahafahanao mamoaka io"
+
+#: ckanext/sahanai/views.py
+msgid "Sah-Anai is not configured on this site; contact an administrator."
+msgstr "Tsy voarindra amin'ity tranokala ity ny Sah-Anai; mifandraisa amin'ny mpitantana."
+
+#: ckanext/sahanai/views.py
+msgid "Sah-Anai rejected this API token"
+msgstr "Nolavin'ny Sah-Anai ity jeton API ity"
+
+#: ckanext/sahanai/views.py
+msgid "No Sah-Anai farm has this ID"
+msgstr "Tsy misy toeram-pambolena Sah-Anai manana io famantarana io"
+
+#: ckanext/sahanai/views.py
+msgid "This token's owner is not this farm's original owner"
+msgstr "Tsy ny tompon'ity toeram-pambolena tany am-boalohany no tompon'ity jeton ity"
+
+#: ckanext/sahanai/views.py
+msgid "Sah-Anai could not be reached; try again later."
+msgstr "Tsy tratra ny Sah-Anai; andramo indray any aoriana."
+
+#: ckanext/sahanai/views.py
+#, python-format
+msgid "Sah-Anai data for %(farm)s, %(year)s."
+msgstr "Angona Sah-Anai ho an'ny %(farm)s, %(year)s."
+
+#: ckanext/sahanai/views.py
+msgid "This dataset has no Sah-Anai farm link."
+msgstr "Tsy mifandray amin'ny toeram-pambolena Sah-Anai ity angon-drakitra ity."
+
+#: ckanext/sahanai/views.py
+msgid "A fetch is already queued or running for this dataset."
+msgstr "Efa miandry na efa mandeha ny fakana angona ho an'ity angon-drakitra ity."
+
+#: ckanext/sahanai/views.py
+msgid "Refetch started; this dataset's resources will update shortly."
+msgstr "Nanomboka indray ny fakana angona; havaozina tsy ho ela ny ressources an'ity angon-drakitra ity."
+
+#: ckanext/sahanai/logic/action.py
+msgid "Sah-Anai datasets can only come from an import."
+msgstr "Avy amin'ny fampidirana ihany no ahazoana angon-drakitra Sah-Anai."
+
+#: ckanext/sahanai/logic/auth.py
+msgid "You must be logged in."
+msgstr "Tsy maintsy miditra ianao."
+
+#: ckanext/sahanai/logic/auth.py
+msgid "You need to be able to create a dataset in at least one organization."
+msgstr "Tsy maintsy afaka mamorona angon-drakitra ao amin'ny fikambanana iray farafahakeliny ianao."
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+#: ckanext/sahanai/templates/sahanai/import.html
+msgid "Farm ID"
+msgstr "Famantarana ny toeram-pambolena"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+#: ckanext/sahanai/templates/sahanai/import.html
+msgid "Year"
+msgstr "Taona"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "Up to date"
+msgstr "Efa nohavaozina"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "Fetching…"
+msgstr "Maka angona…"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "Token no longer works"
+msgstr "Tsy mandeha intsony ny jeton"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "Failed"
+msgstr "Tsy nahomby"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "Last fetched"
+msgstr "Fakana farany"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "Last error"
+msgstr "Hadisoana farany"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "Rows imported"
+msgstr "Andalana nampidirina"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "Replace the stored Sah-Anai API token"
+msgstr "Soloy ny jeton API Sah-Anai voatahiry"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "New API token"
+msgstr "Jeton API vaovao"
+
+#: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
+msgid "Refetch"
+msgstr "Haka indray"
+
+#: ckanext/sahanai/templates/sahanai/import.html
+msgid "Import one Sah-Anai farm's data for a year into a new, private dataset. Importing the same farm and year again refetches into that same dataset."
+msgstr "Ampidiro ao anaty angon-drakitra vaovao sy manokana ny angon'ny toeram-pambolena Sah-Anai iray mandritra ny taona iray. Raha ampidirina indray ny toeram-pambolena sy taona mitovy, dia io angon-drakitra io ihany no havaozina."
+
+#: ckanext/sahanai/templates/sahanai/import.html
+msgid "Farm name"
+msgstr "Anaran'ny toeram-pambolena"
+
+#: ckanext/sahanai/templates/sahanai/import.html
+msgid "used as the dataset title"
+msgstr "ampiasaina ho lohatenin'ny angon-drakitra"
+
+#: ckanext/sahanai/templates/sahanai/import.html
+msgid "the farm's UUID in Sah-Anai"
+msgstr "ny UUID-n'ny toeram-pambolena ao amin'ny Sah-Anai"
+
+#: ckanext/sahanai/templates/sahanai/import.html
+msgid "Sah-Anai API token"
+msgstr "Jeton API Sah-Anai"
+
+#: ckanext/sahanai/templates/sahanai/import.html
+msgid "Import"
+msgstr "Hampiditra"
+
 #: ckanext/nice_ui/plugin.py
 msgid "Open data for agriculture"
 msgstr "Angona misokatra ho an'ny fambolena"
@@ -5560,12 +5748,24 @@ msgid "Verify your email address with the link Auth0 sent you, then log in again
 msgstr "Hamarino ny adiresy mailakao amin'ny rohy nalefan'i Auth0, dia midira indray."
 
 #: ckanext/academy/auth0.py
+msgid "Logging in is unavailable right now. Please try again in a few minutes."
+msgstr "Tsy azo atao ny miditra amin'izao fotoana izao. Andramo indray afaka minitra vitsy."
+
+#: ckanext/academy/auth0.py
+msgid "This portal is open to active Sah-Anai accounts only. Log in with the email of your Sah-Anai account, or ask an administrator to enable it."
+msgstr "Ho an'ny kaonty Sah-Anai mavitrika ihany ity vavahadin-tserasera ity. Midira amin'ny mailaky ny kaontinao Sah-Anai, na angataho amin'ny mpitantana ny hampandeha azy."
+
+#: ckanext/academy/auth0.py
 msgid "This login has expired or did not start on this site. Log in again."
 msgstr "Lany daty io fidirana io na tsy natomboka teto amin'ity tranonkala ity. Midira indray."
 
 #: ckanext/academy/auth0.py
 msgid "Auth0 did not send an email address."
 msgstr "Tsy nandefa adiresy mailaka i Auth0."
+
+#: ckanext/academy/auth0.py
+msgid "Sign in with a different account"
+msgstr "Midira amina kaonty hafa"
 
 #: ckanext/academy/auth0.py
 msgid "This account has been disabled."
@@ -5582,18 +5782,6 @@ msgstr "An'ny kaontin'ny mpitantana io adiresy mailaka io, ka tsy afaka miditra 
 #: ckanext/academy/auth0.py
 msgid "Only administrators can change email addresses."
 msgstr "Ny mpitantana ihany no afaka manova ny adiresy mailaka."
-
-#: ckanext/academy/auth0.py
-msgid "Logging in is unavailable right now. Please try again in a few minutes."
-msgstr "Tsy azo atao ny miditra amin'izao fotoana izao. Andramo indray afaka minitra vitsy."
-
-#: ckanext/academy/auth0.py
-msgid "Sign in with a different account"
-msgstr "Midira amina kaonty hafa"
-
-#: ckanext/academy/auth0.py
-msgid "This portal is open to active Sah-Anai accounts only. Log in with the email of your Sah-Anai account, or ask an administrator to enable it."
-msgstr "Ho an'ny kaonty Sah-Anai mavitrika ihany ity vavahadin-tserasera ity. Midira amin'ny mailaky ny kaontinao Sah-Anai, na angataho amin'ny mpitantana ny hampandeha azy."
 
 #: ckanext/s3filestore/views/resource.py
 msgid "Resource data not found"
