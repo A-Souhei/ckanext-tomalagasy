@@ -5227,12 +5227,21 @@ msgid "Not one of the organizations you can publish to"
 msgstr "Tsy anisan'ny fikambanana ahafahanao mamoaka io"
 
 #: ckanext/sahanai/views.py
+#, python-format
+msgid "Sah-Anai data for %(farm)s, %(year)s."
+msgstr "Angona Sah-Anai ho an'ny %(farm)s, %(year)s."
+
+#: ckanext/sahanai/views.py
 msgid "Sah-Anai is not configured on this site; contact an administrator."
 msgstr "Tsy voarindra amin'ity tranokala ity ny Sah-Anai; mifandraisa amin'ny mpitantana."
 
 #: ckanext/sahanai/views.py
 msgid "Sah-Anai rejected this API token"
 msgstr "Nolavin'ny Sah-Anai ity jeton API ity"
+
+#: ckanext/sahanai/views.py
+msgid "This token belongs to a Sah-Anai administrator account. Use the farm owner's ordinary account token instead."
+msgstr "An'ny kaonty mpitantana Sah-Anai ity jeton ity. Ampiasao kosa ny jeton'ny kaonty tsotra an'ny tompon'ny toeram-pambolena."
 
 #: ckanext/sahanai/views.py
 msgid "No Sah-Anai farm has this ID"
@@ -5245,11 +5254,6 @@ msgstr "Tsy ny tompon'ity toeram-pambolena tany am-boalohany no tompon'ity jeton
 #: ckanext/sahanai/views.py
 msgid "Sah-Anai could not be reached; try again later."
 msgstr "Tsy tratra ny Sah-Anai; andramo indray any aoriana."
-
-#: ckanext/sahanai/views.py
-#, python-format
-msgid "Sah-Anai data for %(farm)s, %(year)s."
-msgstr "Angona Sah-Anai ho an'ny %(farm)s, %(year)s."
 
 #: ckanext/sahanai/views.py
 msgid "This dataset has no Sah-Anai farm link."
