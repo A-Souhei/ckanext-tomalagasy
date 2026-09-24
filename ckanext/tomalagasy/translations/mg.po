@@ -195,8 +195,8 @@ msgstr "vondrona"
 
 #: ckan/lib/navl/dictization_functions.py ckan/lib/navl/validators.py
 #: ckan/logic/action/get.py ckan/logic/action/update.py
-#: ckan/logic/validators.py ckanext/chat/logic/action.py
-#: ckanext/sahanai/views.py
+#: ckan/logic/validators.py ckanext/academy/dataset_types.py
+#: ckanext/chat/logic/action.py ckanext/sahanai/views.py
 msgid "Missing value"
 msgstr "Tsy misy sanda"
 
@@ -2720,6 +2720,10 @@ msgid "Home"
 msgstr "Fandraisana"
 
 #: ckan/templates/snippets/language_selector.html
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+#: ckanext/academy/templates/package/snippets/publication_panel.html
+#: ckanext/academy/templates/package/snippets/tutorial_fields.html
+#: ckanext/academy/templates/package/snippets/tutorial_panel.html
 #: ckanext/nice_ui/templates/snippets/language_selector.html
 msgid "Language"
 msgstr "Fiteny"
@@ -4452,6 +4456,8 @@ msgstr "Rakibolan'ny angona"
 msgid "ID"
 msgstr "ID"
 
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+#: ckanext/academy/templates/package/snippets/publication_panel.html
 #: ckanext/datastore/templates/datastore/snippets/dictionary_view.html
 msgid "Type"
 msgstr "Karazana"
@@ -5419,6 +5425,8 @@ msgstr "Tsy maintsy afaka mamorona angon-drakitra ao amin'ny fikambanana iray fa
 msgid "Farm ID"
 msgstr "Famantarana ny toeram-pambolena"
 
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+#: ckanext/academy/templates/package/snippets/publication_panel.html
 #: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
 #: ckanext/sahanai/templates/sahanai/import.html
 msgid "Year"
@@ -5921,6 +5929,230 @@ msgstr "An'ny kaontin'ny mpitantana io adiresy mailaka io, ka tsy afaka miditra 
 #: ckanext/academy/auth0.py
 msgid "Only administrators can change email addresses."
 msgstr "Ny mpitantana ihany no afaka manova ny adiresy mailaka."
+
+#: ckanext/academy/dataset_types.py
+msgid "French"
+msgstr "Frantsay"
+
+#: ckanext/academy/dataset_types.py
+msgid "Malagasy"
+msgstr "Malagasy"
+
+#: ckanext/academy/dataset_types.py
+msgid "English"
+msgstr "Anglisy"
+
+#: ckanext/academy/dataset_types.py
+msgid "Other"
+msgstr "Hafa"
+
+#: ckanext/academy/dataset_types.py
+msgid "Article"
+msgstr "Lahatsoratra"
+
+#: ckanext/academy/dataset_types.py
+msgid "Report"
+msgstr "Tatitra"
+
+#: ckanext/academy/dataset_types.py
+msgid "Thesis"
+msgstr "Tezy"
+
+#: ckanext/academy/dataset_types.py
+msgid "Book"
+msgstr "Boky"
+
+#: ckanext/academy/dataset_types.py
+msgid "Beginner"
+msgstr "Vao manomboka"
+
+#: ckanext/academy/dataset_types.py
+msgid "Intermediate"
+msgstr "Antonony"
+
+#: ckanext/academy/dataset_types.py
+msgid "Advanced"
+msgstr "Efa mandroso"
+
+#: ckanext/academy/dataset_types.py
+msgid "\"{orcid}\" is not a valid ORCID iD (expected 0000-0000-0000-0000, or an orcid.org link)."
+msgstr "Tsy famantarana ORCID mety ny \"{orcid}\" (0000-0000-0000-0000 na rohy orcid.org no andrasana)."
+
+#: ckanext/academy/dataset_types.py
+msgid "\"{doi}\" is not a valid DOI (expected 10.xxxx/...)."
+msgstr "Tsy DOI mety ny \"{doi}\" (10.xxxx/... no andrasana)."
+
+#: ckanext/academy/dataset_types.py
+msgid "Enter a 4-digit year, not in the future."
+msgstr "Ampidiro taona misy tarehimarika 4, tsy amin'ny ho avy azafady."
+
+#: ckanext/academy/dataset_types.py
+msgid "Enter a positive number of minutes."
+msgstr "Ampidiro isa minitra mihoatra ny aotra azafady."
+
+#: ckanext/academy/dataset_types.py
+msgid "Not a valid option."
+msgstr "Safidy tsy mety."
+
+#: ckanext/academy/dataset_types.py
+msgid "Name is required for each author."
+msgstr "Ilaina ny anaran'ny mpanoratra tsirairay."
+
+#: ckanext/academy/dataset_types.py
+msgid "At least one author is required."
+msgstr "Mila mpanoratra iray farafahakeliny."
+
+#: ckanext/academy/dataset_types.py
+msgid "Publications"
+msgstr "Famoahana"
+
+#: ckanext/academy/dataset_types.py
+msgid "Add Publication"
+msgstr "Hanampy famoahana"
+
+#: ckanext/academy/dataset_types.py
+msgid "Search publications..."
+msgstr "Hitady famoahana..."
+
+#: ckanext/academy/dataset_types.py
+msgid "My publications"
+msgstr "Ny famoahana ahy"
+
+#: ckanext/academy/dataset_types.py
+msgid "There are no publications yet"
+msgstr "Mbola tsy misy famoahana"
+
+#: ckanext/academy/dataset_types.py
+msgid "Tutorials"
+msgstr "Torolalana"
+
+#: ckanext/academy/dataset_types.py
+msgid "Add Tutorial"
+msgstr "Hanampy torolalana"
+
+#: ckanext/academy/dataset_types.py
+msgid "Search tutorials..."
+msgstr "Hitady torolalana..."
+
+#: ckanext/academy/dataset_types.py
+msgid "My tutorials"
+msgstr "Ny torolalana ahy"
+
+#: ckanext/academy/dataset_types.py
+msgid "There are no tutorials yet"
+msgstr "Mbola tsy misy torolalana"
+
+#: ckanext/academy/dataset_types.py
+msgid "No publications found"
+msgstr "Tsy nahitana famoahana"
+
+#: ckanext/academy/dataset_types.py
+msgid "No publications found for \"{query}\""
+msgstr "Tsy nahitana famoahana tamin'ny fikarohana \"{query}\""
+
+#: ckanext/academy/dataset_types.py
+msgid "{number} publication found"
+msgid_plural "{number} publications found"
+msgstr[0] "{number} famoahana hita"
+msgstr[1] "{number} famoahana hita"
+
+#: ckanext/academy/dataset_types.py
+msgid "{number} publication found for \"{query}\""
+msgid_plural "{number} publications found for \"{query}\""
+msgstr[0] "{number} famoahana hita tamin'ny fikarohana \"{query}\""
+msgstr[1] "{number} famoahana hita tamin'ny fikarohana \"{query}\""
+
+#: ckanext/academy/dataset_types.py
+msgid "No tutorials found"
+msgstr "Tsy nahitana torolalana"
+
+#: ckanext/academy/dataset_types.py
+msgid "No tutorials found for \"{query}\""
+msgstr "Tsy nahitana torolalana tamin'ny fikarohana \"{query}\""
+
+#: ckanext/academy/dataset_types.py
+msgid "{number} tutorial found"
+msgid_plural "{number} tutorials found"
+msgstr[0] "{number} torolalana hita"
+msgstr[1] "{number} torolalana hita"
+
+#: ckanext/academy/dataset_types.py
+msgid "{number} tutorial found for \"{query}\""
+msgid_plural "{number} tutorials found for \"{query}\""
+msgstr[0] "{number} torolalana hita tamin'ny fikarohana \"{query}\""
+msgstr[1] "{number} torolalana hita tamin'ny fikarohana \"{query}\""
+
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+#: ckanext/academy/templates/package/snippets/tutorial_fields.html
+msgid "Not specified"
+msgstr "Tsy voafaritra"
+
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+#: ckanext/academy/templates/package/snippets/publication_panel.html
+msgid "Authors"
+msgstr "Mpanoratra"
+
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+msgid "At least one author, with an optional ORCID iD."
+msgstr "Mpanoratra iray farafahakeliny, miaraka amin'ny famantarana ORCID raha tiana."
+
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+msgid "Author name"
+msgstr "Anaran'ny mpanoratra"
+
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+#: ckanext/academy/templates/package/snippets/publication_panel.html
+msgid "ORCID iD"
+msgstr "Famantarana ORCID"
+
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+msgid "ORCID iD (optional)"
+msgstr "Famantarana ORCID (tsy voatery)"
+
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+#: ckanext/academy/templates/package/snippets/publication_panel.html
+msgid "Publisher / journal"
+msgstr "Mpamoaka / gazety"
+
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+#: ckanext/academy/templates/package/snippets/publication_panel.html
+msgid "DOI"
+msgstr "DOI"
+
+#: ckanext/academy/templates/package/snippets/publication_fields.html
+msgid "e.g. 10.1234/example"
+msgstr "ohatra: 10.1234/ohatra"
+
+#: ckanext/academy/templates/package/snippets/publication_panel.html
+msgid "Publication details"
+msgstr "Antsipirian'ny famoahana"
+
+#: ckanext/academy/templates/package/snippets/tutorial_fields.html
+#: ckanext/academy/templates/package/snippets/tutorial_panel.html
+msgid "Level"
+msgstr "Ambaratonga"
+
+#: ckanext/academy/templates/package/snippets/tutorial_fields.html
+msgid "Duration (minutes)"
+msgstr "Faharetana (minitra)"
+
+#: ckanext/academy/templates/package/snippets/tutorial_fields.html
+#: ckanext/academy/templates/package/snippets/tutorial_panel.html
+msgid "Topic"
+msgstr "Lohahevitra"
+
+#: ckanext/academy/templates/package/snippets/tutorial_fields.html
+#: ckanext/academy/templates/package/snippets/tutorial_panel.html
+msgid "Prerequisites"
+msgstr "Fepetra takiana mialoha"
+
+#: ckanext/academy/templates/package/snippets/tutorial_panel.html
+msgid "Tutorial details"
+msgstr "Antsipirian'ny torolalana"
+
+#: ckanext/academy/templates/package/snippets/tutorial_panel.html
+msgid "Duration"
+msgstr "Faharetana"
 
 #: ckanext/s3filestore/views/resource.py
 msgid "Resource data not found"
