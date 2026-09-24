@@ -195,7 +195,8 @@ msgstr "vondrona"
 
 #: ckan/lib/navl/dictization_functions.py ckan/lib/navl/validators.py
 #: ckan/logic/action/get.py ckan/logic/action/update.py
-#: ckan/logic/validators.py ckanext/sahanai/views.py
+#: ckan/logic/validators.py ckanext/chat/logic/action.py
+#: ckanext/sahanai/views.py
 msgid "Missing value"
 msgstr "Tsy misy sanda"
 
@@ -1230,7 +1231,8 @@ msgstr "Angon-drakitra"
 #: ckan/templates/user/read_base.html
 #: ckan/templates/user/read_organizations.html
 #: ckan/templates/user/snippets/info.html ckan/views/dataset.py
-#: ckan/views/group.py ckan/views/home.py ckanext/nice_ui/templates/header.html
+#: ckan/views/group.py ckan/views/home.py ckanext/chat/assets/chat.js
+#: ckanext/nice_ui/templates/header.html
 #: ckanext/nice_ui/templates/home/index.html
 msgid "Organizations"
 msgstr "Fikambanana"
@@ -5163,6 +5165,143 @@ msgstr "URL-n'ny pejin-tranonkala"
 msgid "eg. http://example.com  (if blank uses resource url)"
 msgstr "ohatra: http://example.com  (raha foana dia ampiasaina ny URL an'ny ressource)"
 
+#: ckanext/chat/assets/chat.js
+msgid "Something went wrong. Please try again."
+msgstr "Nisy olana. Andramo indray azafady."
+
+#: ckanext/chat/assets/chat.js ckanext/chat/templates/chat/snippets/widget.html
+msgid "Chat"
+msgstr "Resaka"
+
+#: ckanext/chat/assets/chat.js
+msgid "New messages"
+msgstr "Misy hafatra vaovao"
+
+#: ckanext/chat/assets/chat.js ckanext/chat/templates/chat/snippets/widget.html
+msgid "New message"
+msgstr "Hafatra vaovao"
+
+#: ckanext/chat/assets/chat.js
+msgid "Search people"
+msgstr "Hitady olona"
+
+#: ckanext/chat/assets/chat.js
+msgid "Search people…"
+msgstr "Hitady olona…"
+
+#: ckanext/chat/assets/chat.js
+msgid "Direct messages"
+msgstr "Hafatra mivantana"
+
+#: ckanext/chat/assets/chat.js
+msgid "You"
+msgstr "Ianao"
+
+#: ckanext/chat/assets/chat.js
+msgid "No messages yet."
+msgstr "Mbola tsy misy hafatra."
+
+#: ckanext/chat/assets/chat.js
+msgid "Could not send your message. Please try again."
+msgstr "Tsy afaka nandefa ny hafatrao. Andramo indray azafady."
+
+#: ckanext/chat/assets/chat.js
+msgid "No matching people."
+msgstr "Tsy misy olona mifanaraka."
+
+#: ckanext/chat/assets/chat.js
+msgid "Could not open this conversation."
+msgstr "Tsy afaka nanokatra ity resaka ity."
+
+#: ckanext/chat/logic/access.py
+msgid "Conversation not found."
+msgstr "Tsy hita ny resaka."
+
+#: ckanext/chat/logic/access.py
+msgid "You are not a member of this organization."
+msgstr "Tsy mpikambana ao amin'ity fikambanana ity ianao."
+
+#: ckanext/chat/logic/access.py
+msgid "This is not your conversation."
+msgstr "Tsy resaka anao ity."
+
+#: ckanext/chat/logic/action.py ckanext/sahanai/logic/auth.py
+msgid "You must be logged in."
+msgstr "Tsy maintsy miditra ianao."
+
+#: ckanext/chat/logic/action.py
+msgid "Must be a string"
+msgstr "Tsy maintsy soratra"
+
+#: ckanext/chat/logic/action.py
+msgid "Contains unsupported characters"
+msgstr "Misy tarehintsoratra tsy ekena"
+
+#: ckanext/chat/logic/action.py
+msgid "Must be a whole number"
+msgstr "Tsy maintsy isa manontolo"
+
+#: ckanext/chat/logic/action.py
+msgid "Deleted user"
+msgstr "Mpampiasa voafafa"
+
+#: ckanext/chat/logic/action.py ckanext/chat/logic/auth.py
+msgid "You can no longer post in this conversation."
+msgstr "Tsy afaka mandefa hafatra amin'ity resaka ity intsony ianao."
+
+#: ckanext/chat/logic/action.py
+#, python-format
+msgid "A message can be at most %(max)s characters long."
+msgstr "Tsy mahazo mihoatra ny tarehintsoratra %(max)s ny hafatra iray."
+
+#: ckanext/chat/logic/action.py
+msgid "You are sending messages too fast. Please wait a moment."
+msgstr "Mandefa hafatra haingana loatra ianao. Andraso kely azafady."
+
+#: ckanext/chat/logic/action.py
+msgid "User not found."
+msgstr "Tsy hita ny mpampiasa."
+
+#: ckanext/chat/logic/action.py
+msgid "You cannot start a conversation with yourself."
+msgstr "Tsy afaka manomboka resaka amin'ny tenanao ianao."
+
+#: ckanext/chat/logic/action.py
+msgid "You do not share an organization with this user."
+msgstr "Tsy misy fikambanana iombonanao amin'ity mpampiasa ity."
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Open chat"
+msgstr "Hanokatra ny resaka"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Back to conversations"
+msgstr "Hiverina amin'ny resaka"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Close chat"
+msgstr "Hanakatona ny resaka"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Loading…"
+msgstr "Eo am-pampisehoana…"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Join an organization to chat with its members."
+msgstr "Midira amin'ny fikambanana iray mba hiresaka amin'ny mpikambana ao."
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Message"
+msgstr "Hafatra"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Send"
+msgstr "Alefa"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "You can't send messages here anymore."
+msgstr "Tsy afaka mandefa hafatra eto intsony ianao."
+
 #: ckanext/sahanai/helpers.py
 #: ckanext/sahanai/templates/package/snippets/sahanai_panel.html
 #: ckanext/sahanai/templates/sahanai/import.html
@@ -5270,10 +5409,6 @@ msgstr "Nanomboka indray ny fakana angona; havaozina tsy ho ela ny ressources an
 #: ckanext/sahanai/logic/action.py
 msgid "Sah-Anai datasets can only come from an import."
 msgstr "Avy amin'ny fampidirana ihany no ahazoana angon-drakitra Sah-Anai."
-
-#: ckanext/sahanai/logic/auth.py
-msgid "You must be logged in."
-msgstr "Tsy maintsy miditra ianao."
 
 #: ckanext/sahanai/logic/auth.py
 msgid "You need to be able to create a dataset in at least one organization."
