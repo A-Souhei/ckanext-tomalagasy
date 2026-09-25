@@ -1224,6 +1224,10 @@ msgstr "Haneho na hanafina ny lisitry ny fitetezana"
 msgid "Datasets"
 msgstr "Angon-drakitra"
 
+#: ckanext/nice_ui/templates/header.html
+msgid "All datasets"
+msgstr "Ny angon-drakitra rehetra"
+
 #: ckan/templates/header.html ckan/templates/organization/edit.html
 #: ckan/templates/organization/edit_base.html
 #: ckan/templates/organization/index.html ckan/templates/organization/new.html
