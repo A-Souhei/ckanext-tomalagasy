@@ -5597,6 +5597,83 @@ msgstr "Mitady amin'ny zonao i Sophie. Mety ho anisan'izay hitany ireo angona ts
 msgid "I understand"
 msgstr "Azoko"
 
+#: ckanext/chat
+msgid "The attachment is no longer available."
+msgstr "Tsy misy intsony ilay rakitra miaraka."
+
+#: ckanext/chat
+#, python-format
+msgid "%(count)s file(s) could not be added."
+msgstr "Rakitra %(count)s no tsy afaka nampidirina."
+
+#: ckanext/chat
+msgid "Create a dataset"
+msgstr "Hamorona angona"
+
+#: ckanext/chat
+msgid "Add a file to a dataset"
+msgstr "Hanampy rakitra amin'ny angona"
+
+#: ckanext/chat
+msgid "Create an organization"
+msgstr "Hamorona fikambanana"
+
+#: ckanext/chat
+msgid "Create a group"
+msgstr "Hamorona vondrona"
+
+#: ckanext/chat
+msgid "written by Sophie"
+msgstr "nosoratan'i Sophie"
+
+#: ckanext/chat
+msgid "your attachment"
+msgstr "ny rakitra nalefanao"
+
+#: ckanext/chat
+msgid "Confirm and create"
+msgstr "Hamafisina sy hamorona"
+
+#: ckanext/chat
+msgid "Created:"
+msgstr "Noforonina:"
+
+#: ckanext/chat
+msgid "Being created…"
+msgstr "Eo am-pamoronana…"
+
+#: ckanext/chat
+msgid "Cancelled."
+msgstr "Nofoanana."
+
+#: ckanext/chat
+msgid "Expired: ask Sophie again if you still want it."
+msgstr "Lany daty: anontanio indray i Sophie raha mbola tianao."
+
+#: ckanext/chat
+msgid "Not created:"
+msgstr "Tsy noforonina:"
+
+#: ckanext/chat
+msgid "Proposal not found."
+msgstr "Tsy hita ny tolo-kevitra."
+
+#: ckanext/chat
+msgid "This proposal can no longer be confirmed."
+msgstr "Tsy azo hamafisina intsony ity tolo-kevitra ity."
+
+#: ckanext/chat
+msgid "You are not allowed to do this, or something it needs is gone."
+msgstr "Tsy mahazo manao izany ianao, na tsy misy intsony ny zavatra ilainy."
+
+#: ckanext/chat
+msgid "This proposal can no longer be cancelled."
+msgstr "Tsy azo foanana intsony ity tolo-kevitra ity."
+
+#: ckanext/chat
+msgid "The portal refused it."
+msgstr "Nolavin'ny vavahadin-tserasera izany."
+
 #: ckanext/chat/assets/chat.js
 msgid "Sophie is an AI assistant: what you write here, and what she finds for you on the portal (private datasets you can see included), is sent to an AI service to be answered. She can be wrong."
 msgstr "Mpanampy IA i Sophie: alefa any amin'ny sampan-draharaha IA ny zavatra soratanao eto sy izay hitany ho anao ao amin'ny vavahadin-tserasera (anisan'izany ny angona tsy miankina azonao jerena) mba hovaliana. Mety ho diso izy."
