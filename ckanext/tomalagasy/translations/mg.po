@@ -5384,6 +5384,78 @@ msgstr "Hampiditra emoji"
 msgid "Write a message…"
 msgstr "Manorata hafatra…"
 
+#: ckanext/chat/views.py
+msgid "Attachment not found."
+msgstr "Tsy hita ny rakitra miaraka."
+
+#: ckanext/chat/assets/chat.js
+#, python-format
+msgid "Show image %(name)s"
+msgstr "Hijery ny sary %(name)s"
+
+#: ckanext/chat/assets/chat.js
+msgid "file"
+msgstr "rakitra"
+
+#: ckanext/chat/assets/chat.js ckanext/chat/logic/action.py
+#, python-format
+msgid "A file can be at most %(max)s MB."
+msgstr "Tsy mihoatra ny %(max)s MB ny rakitra iray."
+
+#: ckanext/chat/assets/chat.js
+msgid "Could not upload this file. Please try again."
+msgstr "Tsy afaka nandefa ity rakitra ity. Andramo indray azafady."
+
+#: ckanext/chat/assets/chat.js
+msgid "Uploading…"
+msgstr "Eo am-pandefasana…"
+
+#: ckanext/chat/assets/chat.js
+#, python-format
+msgid "Remove %(name)s"
+msgstr "Hanala %(name)s"
+
+#: ckanext/chat/logic/action.py
+msgid "Images can't be attached on this server yet."
+msgstr "Tsy mbola azo ampiarahina amin'ny hafatra eto ny sary."
+
+#: ckanext/chat/logic/action.py
+msgid "Only images (PNG, JPEG, GIF, WebP), PDF, Excel (.xlsx) and CSV files can be attached."
+msgstr "Sary (PNG, JPEG, GIF, WebP), PDF, Excel (.xlsx) ary CSV ihany no azo ampiarahina."
+
+#: ckanext/chat/logic/action.py
+msgid "You have reached today's limit for attachments. Please try again tomorrow."
+msgstr "Tratranao ny fetran'ny rakitra azo alefa anio. Andramo indray rahampitso azafady."
+
+#: ckanext/chat/logic/action.py
+msgid "Must be a list of attachment ids"
+msgstr "Tsy maintsy lisitry ny mari-pamantarana rakitra"
+
+#: ckanext/chat/logic/action.py
+#, python-format
+msgid "A message can carry at most %(max)s attachments."
+msgstr "Tsy mihoatra ny rakitra %(max)s no azo ampiarahina amin'ny hafatra iray."
+
+#: ckanext/chat/logic/action.py
+msgid "An attachment was not found. Please upload it again."
+msgstr "Tsy hita ny rakitra iray. Alefaso indray azafady."
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Files to send"
+msgstr "Rakitra halefa"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Drop files to attach them"
+msgstr "Apetraho eto ny rakitra hampiarahina"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Attach files"
+msgstr "Hampiaraka rakitra"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Attach files: images, PDF, Excel, CSV"
+msgstr "Hampiaraka rakitra: sary, PDF, Excel, CSV"
+
 #: ckanext/chat/templates/chat/snippets/widget.html
 msgid "Message"
 msgstr "Hafatra"
