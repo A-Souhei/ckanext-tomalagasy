@@ -5444,6 +5444,135 @@ msgstr "Tsy hita ny rakitra iray. Alefaso indray azafady."
 msgid "You are sending files too fast. Please wait a moment."
 msgstr "Mandefa rakitra haingana loatra ianao. Andraso kely azafady."
 
+#: ckanext/chat/sophie.py
+msgid "Sophie is still answering. Please wait for her reply."
+msgstr "Mbola mamaly i Sophie. Andraso ny valiny azafady."
+
+#: ckanext/chat/sophie.py
+#, python-format
+msgid "You have asked Sophie %(max)s questions today. Please come back tomorrow."
+msgstr "Nametraka fanontaniana %(max)s tamin'i Sophie ianao anio. Miverena rahampitso azafady."
+
+#: ckanext/chat/views.py
+msgid "No active user has this name."
+msgstr "Tsy misy mpampiasa mavitrika mitondra io anarana io."
+
+#: ckanext/chat/views.py
+#, python-format
+msgid "%(name)s may already talk to Sophie."
+msgstr "Efa afaka miresaka amin'i Sophie i %(name)s."
+
+#: ckanext/chat/views.py
+#, python-format
+msgid "%(name)s may now talk to Sophie."
+msgstr "Afaka miresaka amin'i Sophie izao i %(name)s."
+
+#: ckanext/chat/views.py
+msgid "Removed. Their conversation with Sophie stays readable to them."
+msgstr "Voaesotra. Mbola hitany ny resaka nifanaovany tamin'i Sophie."
+
+#: ckanext/chat/views.py
+msgid "Choose a model."
+msgstr "Misafidiana modely iray."
+
+#: ckanext/chat/views.py
+msgid "Saved."
+msgstr "Voatahiry."
+
+#: ckanext/chat/views.py
+msgid "Only a sysadmin may choose this."
+msgstr "Mpandrindra rafitra ihany no afaka misafidy izany."
+
+#: ckanext/chat/assets/chat.js
+msgid "AI assistant"
+msgstr "Mpanampy IA"
+
+#: ckanext/chat/assets/chat.js
+msgid "Sophie is an AI assistant: what you write here is sent to an AI service to be answered, and she can be wrong."
+msgstr "Mpanampy IA i Sophie: alefa any amin'ny sampan-draharaha IA ny zavatra soratanao eto mba hovaliana, ary mety ho diso izy."
+
+#: ckanext/chat/assets/chat.js
+msgid "Assistant"
+msgstr "Mpanampy"
+
+#: ckanext/chat/assets/chat.js
+msgid "Sophie is writing…"
+msgstr "Manoratra i Sophie…"
+
+#: ckanext/chat/assets/chat.js
+msgid "Sophie couldn't answer this time. Please ask again."
+msgstr "Tsy afaka namaly i Sophie tamin'ity indray mitoraka ity. Apetraho indray ny fanontanianao azafady."
+
+#: ckanext/chat/logic/action.py
+msgid "Sophie can't read attachments yet."
+msgstr "Tsy mahay mamaky rakitra miaraka mbola i Sophie."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Sophie"
+msgstr "Sophie"
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "The assistant in the chat. She answers questions about the portal; she cannot search or change data yet."
+msgstr "Ny mpanampy ao amin'ny resaka. Mamaly fanontaniana momba ny vavahadin-tserasera izy; tsy mahavita mitady na manova angona mbola izy."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Sophie needs the AI models extension (ml_view), which is not enabled."
+msgstr "Mila ny fanitarana modely IA (ml_view) i Sophie, izay tsy alefa."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "No key is set for the AI service (OPENAI_API_KEY), so Sophie cannot answer."
+msgstr "Tsy misy lakile ho an'ny sampan-draharaha IA (OPENAI_API_KEY), ka tsy afaka mamaly i Sophie."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Messages written to Sophie are sent to the AI service to be answered. Add only people who may do that."
+msgstr "Alefa any amin'ny sampan-draharaha IA ny hafatra soratana ho an'i Sophie mba hovaliana. Ampio ireo olona mahazo manao izany ihany."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Model"
+msgstr "Modely"
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+#, python-format
+msgid "Empty: the default model of AI models (%(model)s)."
+msgstr "Foana: ny modely mahazatra amin'ny modely IA (%(model)s)."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Sophie's model"
+msgstr "Modelin'i Sophie"
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Save the model"
+msgstr "Tehirizo ny modely"
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Who may talk to Sophie"
+msgstr "Iza no afaka miresaka amin'i Sophie"
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+#, python-format
+msgid "Only the people listed here, sysadmins included. Each may ask %(max)s questions a day."
+msgstr "Ireo olona voatanisa eto ihany, anisan'izany ny mpandrindra rafitra. Samy afaka mametraka fanontaniana %(max)s isan'andro."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Add a user"
+msgstr "Hanampy mpampiasa"
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Added"
+msgstr "Nampidirina"
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Nobody may talk to Sophie yet."
+msgstr "Mbola tsy misy afaka miresaka amin'i Sophie."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Listed users find Sophie at the top of their chat. Her answers are written by a background job, so the jobs worker must be running."
+msgstr "Hitan'ireo mpampiasa voatanisa eo an-tampon'ny resany i Sophie. Asa atao ao ambadika no manoratra ny valiny, ka tsy maintsy mandeha ny mpiasa manatanteraka asa."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Removing someone stops their questions; their conversation stays readable to them."
+msgstr "Ny fanesorana olona dia manakana ny fanontaniany; mbola hitany ihany ny resany."
+
 #: ckanext/chat/templates/chat/snippets/widget.html
 msgid "Files to send"
 msgstr "Rakitra halefa"
