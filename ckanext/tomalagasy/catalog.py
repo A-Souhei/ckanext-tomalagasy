@@ -28,6 +28,8 @@ from babel.messages.pofile import read_po, write_po
 
 HERE = Path(__file__).parent
 SOURCE_PO = HERE / "translations" / "mg.po"
+# French for the core strings CKAN's own French catalog leaves empty.
+FRENCH_PO = HERE / "translations" / "fr.po"
 OUTPUT_DIR = HERE / "i18n"
 CORE_I18N = Path(ckan.__file__).parent / "i18n"
 CORE_EXTENSIONS = Path(ckan.__file__).parent.parent / "ckanext"
@@ -120,10 +122,11 @@ def _add_all(target: Catalog, source: Iterable[Message]) -> None:
 
 
 def fallback() -> Catalog:
-    """French strings from core and extensions; an extension's own wins over core."""
+    """French strings from core, extensions and FRENCH_PO; each one wins over the ones before."""
     paths = [CORE_I18N / FALLBACK_LOCALE / "LC_MESSAGES" / "ckan.po"]
     for package in extension_dirs():
         paths += sorted((package / "i18n" / FALLBACK_LOCALE / "LC_MESSAGES").glob("*.po"))
+    paths.append(FRENCH_PO)
     merged = Catalog(locale=FALLBACK_LOCALE, domain=DOMAIN)
     for path in paths:
         if path.is_file():
@@ -186,12 +189,13 @@ def update() -> None:
 def build() -> None:
     tpl, source, fr = template(), _read(SOURCE_PO, locale="mg"), fallback()
 
-    problems = [p for m in source if _is_translated(m) for p in placeholder_problems(m)]
-    if problems:
-        print(f"{len(problems)} broken translation(s) in {SOURCE_PO}:", file=sys.stderr)
-        for problem in problems:
-            print(f"  - {problem}", file=sys.stderr)
-        sys.exit(1)
+    for path, catalog in ((SOURCE_PO, source), (FRENCH_PO, _read(FRENCH_PO, locale=FALLBACK_LOCALE))):
+        problems = [p for m in catalog if _is_translated(m) for p in placeholder_problems(m)]
+        if problems:
+            print(f"{len(problems)} broken translation(s) in {path}:", file=sys.stderr)
+            for problem in problems:
+                print(f"  - {problem}", file=sys.stderr)
+            sys.exit(1)
 
     mg = Catalog(locale="mg", domain=DOMAIN, fuzzy=False)
     for entry in tpl:
