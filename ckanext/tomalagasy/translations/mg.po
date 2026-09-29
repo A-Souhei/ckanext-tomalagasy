@@ -5440,6 +5440,10 @@ msgstr "Tsy mihoatra ny rakitra %(max)s no azo ampiarahina amin'ny hafatra iray.
 msgid "An attachment was not found. Please upload it again."
 msgstr "Tsy hita ny rakitra iray. Alefaso indray azafady."
 
+#: ckanext/chat/logic/action.py
+msgid "You are sending files too fast. Please wait a moment."
+msgstr "Mandefa rakitra haingana loatra ianao. Andraso kely azafady."
+
 #: ckanext/chat/templates/chat/snippets/widget.html
 msgid "Files to send"
 msgstr "Rakitra halefa"
