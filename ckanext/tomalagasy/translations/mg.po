@@ -5300,6 +5300,90 @@ msgstr "Eo am-pampisehoana…"
 msgid "Join an organization to chat with its members."
 msgstr "Midira amin'ny fikambanana iray mba hiresaka amin'ny mpikambana ao."
 
+#: ckanext/chat/assets/chat.js
+msgid "Organization room"
+msgstr "Efitranon'ny fikambanana"
+
+#: ckanext/chat/assets/chat.js
+msgid "Direct message"
+msgstr "Hafatra mivantana"
+
+#: ckanext/chat/assets/chat.js
+msgid "Message deleted"
+msgstr "Voafafa ny hafatra"
+
+#: ckanext/chat/assets/chat.js
+msgid "(edited)"
+msgstr "(novaina)"
+
+#: ckanext/chat/assets/chat.js
+msgid "Edit message"
+msgstr "Hanova ny hafatra"
+
+#: ckanext/chat/assets/chat.js
+msgid "Delete message"
+msgstr "Hamafa ny hafatra"
+
+#: ckanext/chat/assets/chat.js
+msgid "Delete this message?"
+msgstr "Hofafana ve ity hafatra ity?"
+
+#: ckanext/chat/assets/chat.js
+msgid "Could not delete your message. Please try again."
+msgstr "Tsy afaka namafa ny hafatrao. Andramo indray azafady."
+
+#: ckanext/chat/assets/chat.js
+msgid "Could not save your changes. Please try again."
+msgstr "Tsy afaka nitahiry ny fanovana nataonao. Andramo indray azafady."
+
+#: ckanext/chat/logic/access.py
+msgid "Message not found."
+msgstr "Tsy hita ny hafatra."
+
+#: ckanext/chat/logic/access.py
+msgid "You can only change your own messages."
+msgstr "Ny hafatrao ihany no azonao ovaina."
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Expand chat"
+msgstr "Hanitatra ny resaka"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Shrink chat"
+msgstr "Hanakely ny resaka"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Search conversations"
+msgstr "Hitady resaka"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Search conversations…"
+msgstr "Hitady resaka…"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "No conversation matches your search."
+msgstr "Tsy misy resaka mifanaraka amin'ny fikarohanao."
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Choose a conversation, or start a new one."
+msgstr "Misafidiana resaka iray, na manomboka vaovao."
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Editing message"
+msgstr "Eo am-panovana ny hafatra"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Emojis"
+msgstr "Emoji"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Insert an emoji"
+msgstr "Hampiditra emoji"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "Write a message…"
+msgstr "Manorata hafatra…"
+
 #: ckanext/chat/templates/chat/snippets/widget.html
 msgid "Message"
 msgstr "Hafatra"
