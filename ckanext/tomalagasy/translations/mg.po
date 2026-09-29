@@ -5573,6 +5573,38 @@ msgstr "Hitan'ireo mpampiasa voatanisa eo an-tampon'ny resany i Sophie. Asa atao
 msgid "Removing someone stops their questions; their conversation stays readable to them."
 msgstr "Ny fanesorana olona dia manakana ny fanontaniany; mbola hitany ihany ny resany."
 
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "Sophie searches the portal as the person asking: the private datasets they can see can be among her results, and their titles and descriptions are then sent to the AI service. Each user accepts this in the chat before their first question."
+msgstr "Mitady amin'ny zon'ny olona manontany i Sophie: mety ho anisan'ny valiny ireo angona tsy miankina hitan'io olona io, ary alefa any amin'ny sampan-draharaha IA ny lohateny sy ny famaritana. Samy manaiky izany ao amin'ny resaka ny mpampiasa tsirairay alohan'ny fanontaniany voalohany."
+
+#: ckanext/chat/sophie.py
+msgid "Please read and accept Sophie's notice first."
+msgstr "Vakio sy ekeo aloha ny fampitandreman'i Sophie azafady."
+
+#: ckanext/chat/logic/action.py
+msgid "You may not talk to Sophie."
+msgstr "Tsy afaka miresaka amin'i Sophie ianao."
+
+#: ckanext/chat/assets/chat.js
+msgid "Before you ask Sophie"
+msgstr "Alohan'ny hanontanianao an'i Sophie"
+
+#: ckanext/chat/assets/chat.js
+msgid "Sophie searches the portal with your rights. The private datasets you can see may be among what she finds, and their titles and descriptions are then sent to the AI service, like your messages."
+msgstr "Mitady amin'ny zonao i Sophie. Mety ho anisan'izay hitany ireo angona tsy miankina azonao jerena, ary alefa any amin'ny sampan-draharaha IA ny lohateny sy ny famaritana, toy ny hafatrao."
+
+#: ckanext/chat/assets/chat.js
+msgid "I understand"
+msgstr "Azoko"
+
+#: ckanext/chat/assets/chat.js
+msgid "Sophie is an AI assistant: what you write here, and what she finds for you on the portal (private datasets you can see included), is sent to an AI service to be answered. She can be wrong."
+msgstr "Mpanampy IA i Sophie: alefa any amin'ny sampan-draharaha IA ny zavatra soratanao eto sy izay hitany ho anao ao amin'ny vavahadin-tserasera (anisan'izany ny angona tsy miankina azonao jerena) mba hovaliana. Mety ho diso izy."
+
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "The assistant in the chat. She answers questions about the portal and searches its datasets, organisations and groups; she cannot change data yet."
+msgstr "Ny mpanampy ao amin'ny resaka. Mamaly fanontaniana momba ny vavahadin-tserasera izy ary mitady ny angona, fikambanana ary vondrona ao; tsy mahavita manova angona mbola izy."
+
 #: ckanext/chat/templates/chat/snippets/widget.html
 msgid "Files to send"
 msgstr "Rakitra halefa"
