@@ -5598,6 +5598,26 @@ msgid "I understand"
 msgstr "Azoko"
 
 #: ckanext/chat
+msgid "Written by Sophie, shown in full below."
+msgstr "Nosoratan'i Sophie, aseho manontolo eto ambany."
+
+#: ckanext/chat
+msgid "From your attachment:"
+msgstr "Avy amin'ny rakitra nalefanao:"
+
+#: ckanext/chat
+msgid "Public: the file will be visible to everyone"
+msgstr "Ho an'ny rehetra: ho hitan'ny olona rehetra ny rakitra"
+
+#: ckanext/chat
+msgid "Interrupted: check the portal before asking again."
+msgstr "Tapaka: jereo ny vavahadin-tserasera alohan'ny hanontaniana indray."
+
+#: ckanext/chat
+msgid "Something went wrong. Check the portal before asking again: part of it may have been created."
+msgstr "Nisy olana. Jereo ny vavahadin-tserasera alohan'ny hanontaniana indray: mety efa noforonina ny ampahany."
+
+#: ckanext/chat
 msgid "The attachment is no longer available."
 msgstr "Tsy misy intsony ilay rakitra miaraka."
 
@@ -5621,14 +5641,6 @@ msgstr "Hamorona fikambanana"
 #: ckanext/chat
 msgid "Create a group"
 msgstr "Hamorona vondrona"
-
-#: ckanext/chat
-msgid "written by Sophie"
-msgstr "nosoratan'i Sophie"
-
-#: ckanext/chat
-msgid "your attachment"
-msgstr "ny rakitra nalefanao"
 
 #: ckanext/chat
 msgid "Confirm and create"
