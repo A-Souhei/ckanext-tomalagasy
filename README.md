@@ -62,8 +62,10 @@ names on Malagasy pages.
 
 ## Translating
 
-`ckanext/tomalagasy/translations/mg.po` is the only source of truth; the
+`ckanext/tomalagasy/translations/mg.po` is the only source of Malagasy; the
 compiled `i18n/` folder is generated and not committed.
+`translations/fr.po` holds French for core strings CKAN's own French catalog
+leaves empty; it wins over every other French source.
 
 ```sh
 python -m ckanext.tomalagasy.catalog update           # add strings from new CKAN/extension versions

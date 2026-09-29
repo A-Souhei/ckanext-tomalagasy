@@ -1,0 +1,14 @@
+# French for CKAN core strings its own French catalog leaves untranslated.
+# Merged last into the fr catalog, and used by mg as its French fallback.
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-tomalagasy 0.1.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ckan/templates/package/resource_read.html
+msgid "Dataset description:"
+msgstr "Description du jeu de données :"
