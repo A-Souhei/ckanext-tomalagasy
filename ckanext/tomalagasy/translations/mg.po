@@ -5597,6 +5597,10 @@ msgstr "Mitady amin'ny zonao i Sophie. Mety ho anisan'izay hitany ireo angona ts
 msgid "I understand"
 msgstr "Azoko"
 
+#: ckanext/chat/sophie_actions.py
+msgid "The dataset's visibility changed since Sophie proposed this. Ask her again."
+msgstr "Niova ny fahitana ny angona hatramin'ny nanolorana azy nataon'i Sophie. Anontanio indray izy."
+
 #: ckanext/chat
 msgid "Written by Sophie, shown in full below."
 msgstr "Nosoratan'i Sophie, aseho manontolo eto ambany."
