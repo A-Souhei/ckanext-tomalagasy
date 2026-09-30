@@ -6776,3 +6776,271 @@ msgstr "Eny"
 msgid "No"
 msgstr "Tsia"
 
+#: ckanext/contributors/helpers.py
+msgid "Theses"
+msgstr "Tezy"
+
+#: ckanext/contributors/helpers.py
+msgid "Books"
+msgstr "Boky"
+
+#: ckanext/contributors/helpers.py
+msgid "Articles"
+msgstr "Lahatsoratra"
+
+#: ckanext/contributors/helpers.py
+msgid "Reports"
+msgstr "Tatitra"
+
+#: ckanext/contributors/helpers.py
+msgid "Other publications"
+msgstr "Famoahana hafa"
+
+#: ckanext/contributors/helpers.py
+msgid "{number} thesis"
+msgid_plural "{number} theses"
+msgstr[0] "{number} tezy"
+msgstr[1] "{number} tezy"
+
+#: ckanext/contributors/helpers.py
+msgid "{number} book"
+msgid_plural "{number} books"
+msgstr[0] "{number} boky"
+msgstr[1] "{number} boky"
+
+#: ckanext/contributors/helpers.py
+msgid "{number} article"
+msgid_plural "{number} articles"
+msgstr[0] "{number} lahatsoratra"
+msgstr[1] "{number} lahatsoratra"
+
+#: ckanext/contributors/helpers.py
+msgid "{number} report"
+msgid_plural "{number} reports"
+msgstr[0] "{number} tatitra"
+msgstr[1] "{number} tatitra"
+
+#: ckanext/contributors/helpers.py
+msgid "{number} publication"
+msgid_plural "{number} publications"
+msgstr[0] "{number} famoahana"
+msgstr[1] "{number} famoahana"
+
+#: ckanext/contributors/helpers.py
+msgid "{number} tutorial"
+msgid_plural "{number} tutorials"
+msgstr[0] "{number} torolalana"
+msgstr[1] "{number} torolalana"
+
+#: ckanext/contributors/helpers.py
+msgid "{number} dataset"
+msgid_plural "{number} datasets"
+msgstr[0] "{number} angon-drakitra"
+msgstr[1] "{number} angon-drakitra"
+
+#: ckanext/contributors/helpers.py
+#: ckanext/contributors/templates/contributors/index.html
+#: ckanext/contributors/templates/contributors/read.html
+msgid "Contributors"
+msgstr "Mpandray anjara"
+
+#: ckanext/contributors/logic.py
+msgid "Invalid search query"
+msgstr "Fikarohana tsy mety"
+
+#: ckanext/contributors/logic.py
+msgid "Only the person who uploaded it can mark it as their own work."
+msgstr "Ilay nampiditra azy ihany no afaka manamarika azy ho asany manokana."
+
+#: ckanext/contributors/views.py
+msgid "That search could not be understood."
+msgstr "Tsy azo ilay fikarohana."
+
+#: ckanext/contributors/views.py
+msgid "Contributor not found"
+msgstr "Tsy hita ilay mpandray anjara"
+
+#: ckanext/contributors/views.py
+msgid "You need to log in."
+msgstr "Mila miditra ianao."
+
+#: ckanext/contributors/views.py
+msgid "Your contributions page is now public."
+msgstr "Hitan'ny rehetra izao ny pejin'ny anjara asanao."
+
+#: ckanext/contributors/views.py
+msgid "Your contributions page is hidden again."
+msgstr "Miafina indray ny pejin'ny anjara asanao."
+
+#: ckanext/contributors/views.py
+msgid "Marked as your own work."
+msgstr "Voamarika ho asanao manokana."
+
+#: ckanext/contributors/views.py
+msgid "No longer counted as your own work."
+msgstr "Tsy isaina ho asanao manokana intsony."
+
+#: ckanext/contributors/views.py
+msgid "Unauthorized"
+msgstr "Tsy nahazo alalana"
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "The people behind the theses, books, articles, tutorials and data shared here: their own work, shown because they chose to share it."
+msgstr "Ireo olona ao ambadiky ny tezy, boky, lahatsoratra, torolalana ary angon-drakitra zaraina eto: ny asany manokana, aseho satria nisafidy ny hizara azy izy ireo."
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "Search contributors or their work"
+msgstr "Hitady mpandray anjara na ny asany"
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "A name or a subject, e.g. rice"
+msgstr "Anarana na lohahevitra, ohatra: vary"
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "Your own work can appear here too, only if you choose to."
+msgstr "Afaka miseho eto koa ny asanao manokana, raha misafidy izany ianao ihany."
+
+#: ckanext/contributors/templates/contributors/index.html
+#: ckanext/contributors/templates/contributors/snippets/claim_module.html
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Your contributions page"
+msgstr "Ny pejin'ny anjara asanao"
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "Kind of work"
+msgstr "Karazana asa"
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "All"
+msgstr "Rehetra"
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "{number} contributor"
+msgid_plural "{number} contributors"
+msgstr[0] "{number} mpandray anjara"
+msgstr[1] "{number} mpandray anjara"
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "Next"
+msgstr "Manaraka"
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "No contributor matches this search."
+msgstr "Tsy nisy mpandray anjara nifanaraka tamin'ity fikarohana ity."
+
+#: ckanext/contributors/templates/contributors/index.html
+msgid "No one is shown here yet."
+msgstr "Mbola tsy misy olona aseho eto."
+
+#: ckanext/contributors/templates/contributors/read.html
+msgid "Contributor"
+msgstr "Mpandray anjara"
+
+#: ckanext/contributors/templates/contributors/read.html
+#: ckanext/contributors/templates/contributors/snippets/card.html
+msgid "Member since {date}"
+msgstr "Mpikambana nanomboka ny {date}"
+
+#: ckanext/contributors/templates/contributors/read.html
+msgid "{number} work"
+msgid_plural "{number} works"
+msgstr[0] "{number} asa"
+msgstr[1] "{number} asa"
+
+#: ckanext/contributors/templates/contributors/read.html
+msgid "This person has not chosen to be shown: only you, as a sysadmin, can see this page."
+msgstr "Tsy nisafidy ny haseho ity olona ity: ireo mpitantana ny rafitra, toa anao, ihany no mahita ity pejy ity."
+
+#: ckanext/contributors/templates/contributors/read.html
+msgid "Authors: {names}"
+msgstr "Mpanoratra: {names}"
+
+#: ckanext/contributors/templates/contributors/read.html
+#: ckanext/contributors/templates/contributors/snippets/claim_module.html
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Not my own work"
+msgstr "Tsy asako manokana"
+
+#: ckanext/contributors/templates/contributors/read.html
+msgid "No public work counted yet."
+msgstr "Mbola tsy misy asa hitan'ny rehetra voaisa."
+
+#: ckanext/contributors/templates/contributors/snippets/card.html
+msgid "work"
+msgid_plural "works"
+msgstr[0] "asa"
+msgstr[1] "asa"
+
+#: ckanext/contributors/templates/contributors/snippets/card.html
+msgid "Latest"
+msgstr "Farany"
+
+#: ckanext/contributors/templates/contributors/snippets/claim_module.html
+msgid "Your own work?"
+msgstr "Asanao manokana ve?"
+
+#: ckanext/contributors/templates/contributors/snippets/claim_module.html
+msgid "Marked as your own work"
+msgstr "Voamarika ho asanao manokana"
+
+#: ckanext/contributors/templates/contributors/snippets/claim_module.html
+msgid "It will count on your contributions page once it is public."
+msgstr "Hisaina ao amin'ny pejin'ny anjara asanao izy rehefa hitan'ny rehetra."
+
+#: ckanext/contributors/templates/contributors/snippets/claim_module.html
+msgid "It counts on your contributions page, which is hidden for now."
+msgstr "Voaisa ao amin'ny pejin'ny anjara asanao izy, izay mbola miafina aloha."
+
+#: ckanext/contributors/templates/contributors/snippets/claim_module.html
+msgid "It counts on your public contributions page."
+msgstr "Voaisa ao amin'ny pejin'ny anjara asanao hitan'ny rehetra izy."
+
+#: ckanext/contributors/templates/contributors/snippets/claim_module.html
+msgid "Mark it only if you wrote or produced it yourself, alone or with co-authors. Work by someone else or by another institution does not count, even if you uploaded it."
+msgstr "Mariho fotsiny raha ianao no nanoratra na namokatra azy, irery na niaraka tamin'ny mpiara-manoratra. Tsy isaina ny asan'olon-kafa na fikambanana na andrim-panjakana hafa, na dia ianao aza no nampiditra azy."
+
+#: ckanext/contributors/templates/contributors/snippets/claim_module.html
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Mark as my own work"
+msgstr "Mariho ho asako manokana"
+
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Anyone can see this page, find you on the Contributors page, and Sophie can point people to your work."
+msgstr "Afaka mahita ity pejy ity sy mahita anao ao amin'ny pejy Mpandray anjara ny rehetra, ary afaka mitarika olona any amin'ny asanao i Sophie."
+
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Hidden"
+msgstr "Miafina"
+
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Only you can see this page. Make it public to appear on the Contributors page."
+msgstr "Ianao irery no mahita ity pejy ity. Ataovy hitan'ny rehetra mba hiseho ao amin'ny pejy Mpandray anjara."
+
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Hide my contributions"
+msgstr "Afeno ny anjara asako"
+
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Make my contributions public"
+msgstr "Ataovy hitan'ny rehetra ny anjara asako"
+
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Your uploads not marked as your own work"
+msgstr "Ireo nampidirinao tsy voamarika ho asanao manokana"
+
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Mark only what you wrote or produced yourself, alone or with co-authors. Work by someone else or by another institution does not count, even if you uploaded it."
+msgstr "Mariho fotsiny izay nosoratanao na novokarinao, irery na niaraka tamin'ny mpiara-manoratra. Tsy isaina ny asan'olon-kafa na fikambanana na andrim-panjakana hafa, na dia ianao aza no nampiditra azy."
+
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Marked, but not counted yet"
+msgstr "Voamarika, fa mbola tsy voaisa"
+
+#: ckanext/contributors/templates/contributors/snippets/owner_panel.html
+msgid "Only public datasets count. These will once they are public."
+msgstr "Ny angon-drakitra hitan'ny rehetra ihany no isaina. Hisaina ireto rehefa hitan'ny rehetra."
+
+#: ckanext/contributors/templates/user/read_base.html
+msgid "Contributions"
+msgstr "Anjara asa"
+
