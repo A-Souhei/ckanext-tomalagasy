@@ -6850,7 +6850,7 @@ msgstr "Fikarohana tsy mety"
 
 #: ckanext/contributors/logic.py
 msgid "Only the person who uploaded it can mark it as their own work."
-msgstr "Ilay nampiditra azy ihany no afaka manamarika azy ho asany manokana."
+msgstr "Ilay nampiditra azy ihany no afaka manamarika azy ho asa nataony."
 
 #: ckanext/contributors/views.py
 msgid "That search could not be understood."
@@ -6874,11 +6874,11 @@ msgstr "Miafina indray ny pejin'ny anjara asanao."
 
 #: ckanext/contributors/views.py
 msgid "Marked as your own work."
-msgstr "Voamarika ho asanao manokana."
+msgstr "Voamarika ho asa nataonao."
 
 #: ckanext/contributors/views.py
 msgid "No longer counted as your own work."
-msgstr "Tsy isaina ho asanao manokana intsony."
+msgstr "Tsy isaina ho asa nataonao intsony."
 
 #: ckanext/contributors/views.py
 msgid "Unauthorized"
@@ -6886,7 +6886,7 @@ msgstr "Tsy nahazo alalana"
 
 #: ckanext/contributors/templates/contributors/index.html
 msgid "The people behind the theses, books, articles, tutorials and data shared here: their own work, shown because they chose to share it."
-msgstr "Ireo olona ao ambadiky ny tezy, boky, lahatsoratra, torolalana ary angon-drakitra zaraina eto: ny asany manokana, aseho satria nisafidy ny hizara azy izy ireo."
+msgstr "Ireo olona ao ambadiky ny tezy, boky, lahatsoratra, torolalana ary angon-drakitra zaraina eto: ny asa nataony, aseho satria nisafidy ny hizara azy izy ireo."
 
 #: ckanext/contributors/templates/contributors/index.html
 msgid "Search contributors or their work"
@@ -6898,7 +6898,7 @@ msgstr "Anarana na lohahevitra, ohatra: vary"
 
 #: ckanext/contributors/templates/contributors/index.html
 msgid "Your own work can appear here too, only if you choose to."
-msgstr "Afaka miseho eto koa ny asanao manokana, raha misafidy izany ianao ihany."
+msgstr "Afaka miseho eto koa ny asa nataonao, raha misafidy izany ianao ihany."
 
 #: ckanext/contributors/templates/contributors/index.html
 #: ckanext/contributors/templates/contributors/snippets/claim_module.html
@@ -6959,7 +6959,7 @@ msgstr "Mpanoratra: {names}"
 #: ckanext/contributors/templates/contributors/snippets/claim_module.html
 #: ckanext/contributors/templates/contributors/snippets/owner_panel.html
 msgid "Not my own work"
-msgstr "Tsy asako manokana"
+msgstr "Tsy asa nataoko"
 
 #: ckanext/contributors/templates/contributors/read.html
 msgid "No public work counted yet."
@@ -6977,11 +6977,11 @@ msgstr "Farany"
 
 #: ckanext/contributors/templates/contributors/snippets/claim_module.html
 msgid "Your own work?"
-msgstr "Asanao manokana ve?"
+msgstr "Asa nataonao ve?"
 
 #: ckanext/contributors/templates/contributors/snippets/claim_module.html
 msgid "Marked as your own work"
-msgstr "Voamarika ho asanao manokana"
+msgstr "Voamarika ho asa nataonao"
 
 #: ckanext/contributors/templates/contributors/snippets/claim_module.html
 msgid "It will count on your contributions page once it is public."
@@ -7002,7 +7002,7 @@ msgstr "Mariho fotsiny raha ianao no nanoratra na namokatra azy, irery na niarak
 #: ckanext/contributors/templates/contributors/snippets/claim_module.html
 #: ckanext/contributors/templates/contributors/snippets/owner_panel.html
 msgid "Mark as my own work"
-msgstr "Mariho ho asako manokana"
+msgstr "Mariho ho asa nataoko"
 
 #: ckanext/contributors/templates/contributors/snippets/owner_panel.html
 msgid "Anyone can see this page, find you on the Contributors page, and Sophie can point people to your work."
@@ -7026,7 +7026,7 @@ msgstr "Ataovy hitan'ny rehetra ny anjara asako"
 
 #: ckanext/contributors/templates/contributors/snippets/owner_panel.html
 msgid "Your uploads not marked as your own work"
-msgstr "Ireo nampidirinao tsy voamarika ho asanao manokana"
+msgstr "Ireo nampidirinao tsy voamarika ho asa nataonao"
 
 #: ckanext/contributors/templates/contributors/snippets/owner_panel.html
 msgid "Mark only what you wrote or produced yourself, alone or with co-authors. Work by someone else or by another institution does not count, even if you uploaded it."
