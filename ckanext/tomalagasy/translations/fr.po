@@ -12,3 +12,7 @@ msgstr ""
 #: ckan/templates/package/resource_read.html
 msgid "Dataset description:"
 msgstr "Description du jeu de données :"
+
+#: ckan/templates/snippets/package_item.html
+msgid "There is no description for this dataset"
+msgstr "Il n'y a pas de description pour ce jeu de données"
