@@ -5597,6 +5597,10 @@ msgstr "Mitady amin'ny zonao i Sophie. Mety ho anisan'izay hitany ireo angona ts
 msgid "I understand"
 msgstr "Azoko"
 
+#: ckanext/chat/templates/chat/sophie_admin.html
+msgid "The assistant in the chat. She answers questions about the portal, searches its datasets, organisations and groups, and proposes to create datasets, files, organisations and groups, which the user confirms."
+msgstr "Ny mpanampy ao amin'ny resaka. Mamaly fanontaniana momba ny vavahadin-tserasera izy, mitady ny angona, fikambanana ary vondrona ao, ary manolotra hamorona angona, rakitra, fikambanana ary vondrona, izay hamafisin'ny mpampiasa."
+
 #: ckanext/chat/sophie_actions.py
 msgid "The dataset's visibility changed since Sophie proposed this. Ask her again."
 msgstr "Niova ny fahitana ny angona hatramin'ny nanolorana azy nataon'i Sophie. Anontanio indray izy."
@@ -5693,10 +5697,6 @@ msgstr "Nolavin'ny vavahadin-tserasera izany."
 #: ckanext/chat/assets/chat.js
 msgid "Sophie is an AI assistant: what you write here, and what she finds for you on the portal (private datasets you can see included), is sent to an AI service to be answered. She can be wrong."
 msgstr "Mpanampy IA i Sophie: alefa any amin'ny sampan-draharaha IA ny zavatra soratanao eto sy izay hitany ho anao ao amin'ny vavahadin-tserasera (anisan'izany ny angona tsy miankina azonao jerena) mba hovaliana. Mety ho diso izy."
-
-#: ckanext/chat/templates/chat/sophie_admin.html
-msgid "The assistant in the chat. She answers questions about the portal and searches its datasets, organisations and groups; she cannot change data yet."
-msgstr "Ny mpanampy ao amin'ny resaka. Mamaly fanontaniana momba ny vavahadin-tserasera izy ary mitady ny angona, fikambanana ary vondrona ao; tsy mahavita manova angona mbola izy."
 
 #: ckanext/chat/templates/chat/snippets/widget.html
 msgid "Files to send"
