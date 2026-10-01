@@ -5445,6 +5445,26 @@ msgid "You are sending files too fast. Please wait a moment."
 msgstr "Mandefa rakitra haingana loatra ianao. Andraso kely azafady."
 
 #: ckanext/chat/sophie.py
+msgid "This is an earlier chat with Sophie. Open it again from her history to continue it."
+msgstr "Resaka taloha amin'i Sophie ity. Sokafy indray avy amin'ny tantarany raha hanohy azy."
+
+#: ckanext/chat/assets/chat.js
+msgid "Earlier chats with Sophie"
+msgstr "Resaka teo aloha tamin'i Sophie"
+
+#: ckanext/chat/assets/chat.js
+msgid "No earlier chats yet."
+msgstr "Mbola tsy misy resaka teo aloha."
+
+#: ckanext/chat/assets/chat.js
+msgid "Files only"
+msgstr "Rakitra ihany"
+
+#: ckanext/chat/templates/chat/snippets/widget.html
+msgid "New chat with Sophie"
+msgstr "Resaka vaovao amin'i Sophie"
+
+#: ckanext/chat/sophie.py
 msgid "Sophie is still answering. Please wait for her reply."
 msgstr "Mbola mamaly i Sophie. Andraso ny valiny azafady."
 
