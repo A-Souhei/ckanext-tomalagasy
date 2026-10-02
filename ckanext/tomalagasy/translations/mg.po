@@ -5512,6 +5512,14 @@ msgstr "Sokafy ny tabilao raha hahita ny antsipiriany rehetra"
 msgid "Too many results on this page to show this one here."
 msgstr "Be loatra ny vokatra eto amin'ity pejy ity ka tsy azo aseho eto ity iray ity."
 
+#: ckanext/chat/assets/chat.js
+msgid "From the document library:"
+msgstr "Avy amin'ny tranomboky antontan-taratasy:"
+
+#: ckanext/chat/sophie_actions.py
+msgid "The library document is no longer available as it was proposed."
+msgstr "Tsy misy intsony araka ny naroso azy ilay antontan-taratasy ao amin'ny tranomboky."
+
 #: ckanext/chat/sophie.py
 msgid "Sophie is still answering. Please wait for her reply."
 msgstr "Mbola mamaly i Sophie. Andraso ny valiny azafady."
