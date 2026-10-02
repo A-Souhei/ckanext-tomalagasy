@@ -5460,6 +5460,54 @@ msgstr "Mamafa…"
 msgid "Clear"
 msgstr "Fafao"
 
+#: ckanext/chat/assets/chat.js
+msgid "She can also run statistics on the tables you can see: their rows go only to the portal's statistics service, and the resulting figures and column names are sent to the AI service."
+msgstr "Afaka manao antontan'isa amin'ireo tabilao hitanao ihany koa izy: ny andalan'ireo dia mankany amin'ny sampan-draharahan'ny antontan'isa ao amin'ny vavahadin-tserasera ihany, ary ny isa azo sy ny anaran'ny tsanganana no alefa any amin'ny sampan-draharaha AI."
+
+#: ckanext/chat/assets/chat.js
+msgid "Summary statistics"
+msgstr "Antontan'isa famintinana"
+
+#: ckanext/chat/assets/chat.js
+msgid "Correlation"
+msgstr "Fifandraisana"
+
+#: ckanext/chat/assets/chat.js
+msgid "Normality test"
+msgstr "Fitsapana ny fizarana ara-dalàna"
+
+#: ckanext/chat/assets/chat.js
+msgid "t-test"
+msgstr "Fitsapana t"
+
+#: ckanext/chat/assets/chat.js
+msgid "Analysis of variance"
+msgstr "Fanadihadiana ny fiovaovana"
+
+#: ckanext/chat/assets/chat.js
+msgid "Chi-square test"
+msgstr "Fitsapana khi²"
+
+#: ckanext/chat/assets/chat.js
+msgid "Non-parametric test"
+msgstr "Fitsapana tsy parametrika"
+
+#: ckanext/chat/assets/chat.js
+msgid "Forecast"
+msgstr "Vinavina"
+
+#: ckanext/chat/assets/chat.js
+msgid "Clustering"
+msgstr "Fanasokajiana (k-means)"
+
+#: ckanext/chat/assets/chat.js
+msgid "Only the first %(rows)s of %(total)s rows were analysed."
+msgstr "Ny andalana %(rows)s voalohany amin'ny %(total)s ihany no nodinihina."
+
+#: ckanext/chat/assets/chat.js
+msgid "Open the table for the full details"
+msgstr "Sokafy ny tabilao raha hahita ny antsipiriany rehetra"
+
 #: ckanext/chat/sophie.py
 msgid "Sophie is still answering. Please wait for her reply."
 msgstr "Mbola mamaly i Sophie. Andraso ny valiny azafady."
