@@ -5453,6 +5453,10 @@ msgid "The messages so far will no longer be shown, and Sophie will forget them.
 msgstr "Tsy haseho intsony ireo hafatra hatramin'izao, ary hohadinoin'i Sophie. Foanana ireo tolo-kevitra mbola tsy voamarina."
 
 #: ckanext/chat/assets/chat.js
+msgid "Clearing…"
+msgstr "Mamafa…"
+
+#: ckanext/chat/assets/chat.js
 msgid "Clear"
 msgstr "Fafao"
 
