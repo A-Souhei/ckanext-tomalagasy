@@ -5461,8 +5461,8 @@ msgid "Clear"
 msgstr "Fafao"
 
 #: ckanext/chat/assets/chat.js
-msgid "She can also run statistics on the tables you can see: their rows go only to the portal's statistics service, and the resulting figures and column names are sent to the AI service."
-msgstr "Afaka manao antontan'isa amin'ireo tabilao hitanao ihany koa izy: ny andalan'ireo dia mankany amin'ny sampan-draharahan'ny antontan'isa ao amin'ny vavahadin-tserasera ihany, ary ny isa azo sy ny anaran'ny tsanganana no alefa any amin'ny sampan-draharaha AI."
+msgid "She can also run statistics on the tables you can see: their rows go only to the portal's statistics service, and the results are sent to the AI service: figures, column names and the values they mention, such as group names."
+msgstr "Afaka manao antontan'isa amin'ireo tabilao hitanao ihany koa izy: ny andalan'ireo dia mankany amin'ny sampan-draharahan'ny antontan'isa ao amin'ny vavahadin-tserasera ihany, ary ny vokatra no alefa any amin'ny sampan-draharaha AI: isa, anaran'ny tsanganana ary ireo sanda voatonony ao, toy ny anaran'ny vondrona."
 
 #: ckanext/chat/assets/chat.js
 msgid "Summary statistics"
@@ -5507,6 +5507,10 @@ msgstr "Ny andalana %(rows)s voalohany amin'ny %(total)s ihany no nodinihina."
 #: ckanext/chat/assets/chat.js
 msgid "Open the table for the full details"
 msgstr "Sokafy ny tabilao raha hahita ny antsipiriany rehetra"
+
+#: ckanext/chat/assets/chat.js
+msgid "Too many results on this page to show this one here."
+msgstr "Be loatra ny vokatra eto amin'ity pejy ity ka tsy azo aseho eto ity iray ity."
 
 #: ckanext/chat/sophie.py
 msgid "Sophie is still answering. Please wait for her reply."
