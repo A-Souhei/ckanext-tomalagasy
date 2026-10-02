@@ -5444,6 +5444,18 @@ msgstr "Tsy hita ny rakitra iray. Alefaso indray azafady."
 msgid "You are sending files too fast. Please wait a moment."
 msgstr "Mandefa rakitra haingana loatra ianao. Andraso kely azafady."
 
+#: ckanext/chat/assets/chat.js
+msgid "Clear the chat with Sophie"
+msgstr "Fafao ny resaka amin'i Sophie"
+
+#: ckanext/chat/assets/chat.js
+msgid "The messages so far will no longer be shown, and Sophie will forget them. Proposals not yet confirmed are cancelled."
+msgstr "Tsy haseho intsony ireo hafatra hatramin'izao, ary hohadinoin'i Sophie. Foanana ireo tolo-kevitra mbola tsy voamarina."
+
+#: ckanext/chat/assets/chat.js
+msgid "Clear"
+msgstr "Fafao"
+
 #: ckanext/chat/sophie.py
 msgid "Sophie is still answering. Please wait for her reply."
 msgstr "Mbola mamaly i Sophie. Andraso ny valiny azafady."
