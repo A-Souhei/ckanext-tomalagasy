@@ -7120,3 +7120,7 @@ msgstr "Ny angon-drakitra hitan'ny rehetra ihany no isaina. Hisaina ireto rehefa
 msgid "Contributions"
 msgstr "Anjara asa"
 
+
+#: ckanext/academy/templates/academy/video_view.html
+msgid "This video can no longer be shown here."
+msgstr "Tsy azo aseho eto intsony ity horonan-tsary ity."
