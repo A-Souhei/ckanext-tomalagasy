@@ -7127,7 +7127,7 @@ msgstr "Tsy azo aseho eto intsony ity horonan-tsary ity."
 
 #: ckanext/academy/templates/academy/pdf_view.html
 msgid "If the document does not appear, as on most phones,"
-msgstr "Raha tsy miseho ny taratasy, toy ny amin'ny ankamaroan'ny findainina,"
+msgstr "Raha tsy miseho ny antontan-taratasy, toy ny amin'ny ankamaroan'ny findainina,"
 
 #: ckanext/academy/templates/academy/pdf_view.html
 msgid "open the PDF"
@@ -7135,11 +7135,11 @@ msgstr "sokafy ny PDF"
 
 #: ckanext/academy/templates/academy/pdf_view.html
 msgid "This file can no longer be shown here. Download it to open it."
-msgstr "Tsy azo aseho eto intsony ity rakitra ity. Alaivo mba hosokafana."
+msgstr "Tsy azo aseho eto intsony ity rakitra ity. Sintony mba hosokafana."
 
 #: ckanext/academy/templates/academy/markdown_view.html
 msgid "This file could not be read. Download it to open it."
-msgstr "Tsy azo vakiana ity rakitra ity. Alaivo mba hosokafana."
+msgstr "Tsy azo vakiana ity rakitra ity. Sintony mba hosokafana."
 
 #: ckanext/academy/templates/academy/markdown_view.html
 msgid "This file is too complex to lay out here, so it is shown as plain text."
@@ -7147,4 +7147,4 @@ msgstr "Sarotra loatra ity rakitra ity ka tsy azo alamina eto, noho izany dia as
 
 #: ckanext/academy/templates/academy/markdown_view.html
 msgid "Only the beginning of this file is shown here. Download it to read the rest."
-msgstr "Ny fiandohan'ity rakitra ity ihany no aseho eto. Alaivo mba hovakiana ny sisa."
+msgstr "Ny fiandohan'ity rakitra ity ihany no aseho eto. Sintony mba hovakiana ny sisa."
