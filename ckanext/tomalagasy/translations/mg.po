@@ -7148,3 +7148,43 @@ msgstr "Sarotra loatra ity rakitra ity ka tsy azo alamina eto, noho izany dia as
 #: ckanext/academy/templates/academy/markdown_view.html
 msgid "Only the beginning of this file is shown here. Download it to read the rest."
 msgstr "Ny fiandohan'ity rakitra ity ihany no aseho eto. Sintony mba hovakiana ny sisa."
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "On your phone"
+msgstr "Amin'ny findainao"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Two apps, one ecosystem."
+msgstr "Application roa, écosysteme iray"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Farms record their work in Sah-Anai; Akademia shares what they learn with everyone."
+msgstr "Mirakitra ny asany ao amin'ny Sah-Anai ny toeram-pambolena; mizara amin'ny rehetra izay ianaran'izy ireo kosa ny Akademia."
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Farm management"
+msgstr "Fitantanana toeram-pambolena"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Sah-Anai home screen listing the farms of the signed-in user"
+msgstr "Efijery fandraisana ao amin'ny Sah-Anai mampiseho ny lisitry ny toeram-pambolen'ny mpampiasa tafiditra ao amin'ny kaontiny"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Run the farm from your phone: activities, finances, stock, harvests and the team, with Sophie, the farm assistant, always at hand. Farms can then publish their records as open data on Akademia."
+msgstr "Tantano amin'ny findainao ny toeram-pambolena: ny asa, ny ara-bola, ny tahiry, ny vokatra ary ny ekipa, miaraka amin'i Sophie, mpanampy amin'ny toeram-pambolena, vonona hanampy anao hatrany. Afaka mamoaka ny angonany ao amin'ny Akademia ho azon'ny rehetra ampiasaina malalaka avy eo ny toeram-pambolena."
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Open knowledge"
+msgstr "Fahalalana azon'ny rehetra idirana"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Akademia mobile"
+msgstr "Akademia mobile"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "Akademia mobile home screen with search and the datasets, publications, tutorials and organizations sections"
+msgstr "Efijery fandraisana ao amin'ny Akademia mobile misy fikarohana sy ireo fizarana angon-drakitra, famoahana, torolalana ary fikambanana"
+
+#: ckanext/nice_ui/templates/home/index.html
+msgid "The whole library in your pocket: datasets, publications and tutorials to search and read anywhere, and Sophie to answer your questions."
+msgstr "Ny tranomboky manontolo ao am-paosinao: angon-drakitra, famoahana ary torolalana azonao tadiavina sy vakina na aiza na aiza, miaraka amin'i Sophie hamaly ny fanontanianao."
